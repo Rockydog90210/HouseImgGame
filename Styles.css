@@ -1,0 +1,48 @@
+body{
+	background-color:#89a9b7;
+	 overflow-x: hidden;
+}
+.main {
+	text-align:center;
+}
+.inLine {
+	display:inline;
+}
+#episodeTitle{
+	font-size:25px;
+}
+#wrongOrRight{
+	font-Size:17px;
+	font-weight:bold;
+}
+.list {
+	font-size: 19px;
+	text-align:left;
+}
+#episodePNG{
+	border: solid black 5px;
+	margin-bottom: 5px;
+	width:100%;
+}
+#housePNG{
+	width:99%;
+}
+.centerPlease{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+.sideDiv{
+	background-color:#9ec2d3;
+}
+.guessDiv{
+	padding-bottom:5%;
+	background-color:#b1d3e2;
+	width:100vh;
+	margin:auto;
+}
+.footer{
+	background-color:#89a9b7;
+	width:100%;
+}
