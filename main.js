@@ -454,799 +454,799 @@ function S1E2Img(){
 	paternityArray = ['Paternity1.png','Paternity2.png','Paternity3.png','Paternity4.png','Paternity5.png','Paternity6.png','Paternity7.png','Paternity8.png','Paternity9.png','Paternity10.png','Paternity11.png','Paternity12.png','Paternity13.png','Paternity14.png','Paternity15.png','Paternity16.png','Paternity17.png','Paternity18.png','Paternity19.png','Paternity20.png','Paternity21.png','Paternity22.png','Paternity23.png','Paternity24.png','Paternity25.png','Paternity26.png','Paternity27.png','Paternity28.png','Paternity29.png','Paternity30.png','Paternity31.png','Paternity32.png','Paternity33.png','Paternity34.png','Paternity35.png','Paternity36.png','Paternity37.png','Paternity38.png','Paternity39.png','Paternity40.png','Paternity41.png','Paternity42.png','Paternity43.png','Paternity44.png','Paternity45.png','Paternity46.png','Paternity47.png','Paternity48.png','Paternity49.png','Paternity50.png','Paternity51.png','Paternity52.png','Paternity53.png','Paternity54.png','Paternity55.png','Paternity56.png','Paternity57.png','Paternity58.png','Paternity59.png','Paternity60.png','Paternity61.png','Paternity62.png','Paternity63.png','Paternity64.png','Paternity65.png','Paternity66.png','Paternity67.png','Paternity68.png','Paternity69.png','Paternity70.png','Paternity71.png','Paternity72.png','Paternity73.png','Paternity74.png','Paternity75.png','Paternity76.png','Paternity77.png','Paternity78.png','Paternity79.png','Paternity80.png','Paternity81.png','Paternity82.png','Paternity83.png','Paternity84.png','Paternity85.png','Paternity86.png','Paternity87.png','Paternity88.png','Paternity89.png','Paternity90.png','Paternity91.png','Paternity92.png','Paternity93.png','Paternity94.png','Paternity95.png','Paternity96.png','Paternity97.png','Paternity98.png','Paternity99.png','Paternity100.png','Paternity101.png','Paternity102.png','Paternity103.png','Paternity104.png','Paternity105.png','Paternity106.png','Paternity107.png','Paternity108.png','Paternity109.png','Paternity110.png','Paternity111.png','Paternity112.png','Paternity113.png','Paternity114.png','Paternity115.png','Paternity116.png','Paternity117.png','Paternity118.png','Paternity119.png','Paternity120.png','Paternity121.png','Paternity122.png','Paternity123.png',];
 	episodeImg = randomValueFromArray(paternityArray);
 	if (episodeImg == 'Paternity1.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity1.png";
+		document.getElementById('episodePNG').src = "Paternity1.png";
 	} else if (episodeImg == 'Paternity2.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity2.png";
+		document.getElementById('episodePNG').src = "Paternity2.png";
 	} else if (episodeImg == 'Paternity3.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity3.png";
+		document.getElementById('episodePNG').src = "Paternity3.png";
 	} else if (episodeImg == 'Paternity4.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity4.png";
+		document.getElementById('episodePNG').src = "Paternity4.png";
 	} else if (episodeImg == 'Paternity5.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity5.png";
+		document.getElementById('episodePNG').src = "Paternity5.png";
 	} else if (episodeImg == 'Paternity6.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity6.png";
+		document.getElementById('episodePNG').src = "Paternity6.png";
 	} else if (episodeImg == 'Paternity7.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity7.png";
+		document.getElementById('episodePNG').src = "Paternity7.png";
 	} else if (episodeImg == 'Paternity8.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity8.png";
+		document.getElementById('episodePNG').src = "Paternity8.png";
 	} else if (episodeImg == 'Paternity9.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity9.png";
+		document.getElementById('episodePNG').src = "Paternity9.png";
 	} else if (episodeImg == 'Paternity10.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity10.png";
+		document.getElementById('episodePNG').src = "Paternity10.png";
 	} else if (episodeImg == 'Paternity11.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity11.png";
+		document.getElementById('episodePNG').src = "Paternity11.png";
 	} else if (episodeImg == 'Paternity12.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity12.png";
+		document.getElementById('episodePNG').src = "Paternity12.png";
 	} else if (episodeImg == 'Paternity13.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity13.png";
+		document.getElementById('episodePNG').src = "Paternity13.png";
 	} else if (episodeImg == 'Paternity14.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity14.png";
+		document.getElementById('episodePNG').src = "Paternity14.png";
 	} else if (episodeImg == 'Paternity15.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity15.png";
+		document.getElementById('episodePNG').src = "Paternity15.png";
 	} else if (episodeImg == 'Paternity16.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity16.png";
+		document.getElementById('episodePNG').src = "Paternity16.png";
 	} else if (episodeImg == 'Paternity17.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity17.png";
+		document.getElementById('episodePNG').src = "Paternity17.png";
 	} else if (episodeImg == 'Paternity18.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity18.png";
+		document.getElementById('episodePNG').src = "Paternity18.png";
 	} else if (episodeImg == 'Paternity19.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity19.png";
+		document.getElementById('episodePNG').src = "Paternity19.png";
 	} else if (episodeImg == 'Paternity20.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity20.png";
+		document.getElementById('episodePNG').src = "Paternity20.png";
 	} else if (episodeImg == 'Paternity21.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity21.png";
+		document.getElementById('episodePNG').src = "Paternity21.png";
 	} else if (episodeImg == 'Paternity22.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity22.png";
+		document.getElementById('episodePNG').src = "Paternity22.png";
 	} else if (episodeImg == 'Paternity23.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity23.png";
+		document.getElementById('episodePNG').src = "Paternity23.png";
 	} else if (episodeImg == 'Paternity24.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity24.png";
+		document.getElementById('episodePNG').src = "Paternity24.png";
 	} else if (episodeImg == 'Paternity25.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity25.png";
+		document.getElementById('episodePNG').src = "Paternity25.png";
 	} else if (episodeImg == 'Paternity26.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity26.png";
+		document.getElementById('episodePNG').src = "Paternity26.png";
 	} else if (episodeImg == 'Paternity27.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity27.png";
+		document.getElementById('episodePNG').src = "Paternity27.png";
 	} else if (episodeImg == 'Paternity28.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity28.png";
+		document.getElementById('episodePNG').src = "Paternity28.png";
 	} else if (episodeImg == 'Paternity29.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity29.png";
+		document.getElementById('episodePNG').src = "Paternity29.png";
 	} else if (episodeImg == 'Paternity30.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity30.png";
+		document.getElementById('episodePNG').src = "Paternity30.png";
 	} else if (episodeImg == 'Paternity31.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity31.png";
+		document.getElementById('episodePNG').src = "Paternity31.png";
 	} else if (episodeImg == 'Paternity32.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity32.png";
+		document.getElementById('episodePNG').src = "Paternity32.png";
 	} else if (episodeImg == 'Paternit33.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity33.png";
+		document.getElementById('episodePNG').src = "Paternity33.png";
 	} else if (episodeImg == 'Paternity34.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity34.png";
+		document.getElementById('episodePNG').src = "Paternity34.png";
 	} else if (episodeImg == 'Paternity35.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity35.png";
+		document.getElementById('episodePNG').src = "Paternity35.png";
 	} else if (episodeImg == 'Paternity36.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity36.png";
+		document.getElementById('episodePNG').src = "Paternity36.png";
 	} else if (episodeImg == 'Paternity37.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity37.png";
+		document.getElementById('episodePNG').src = "Paternity37.png";
 	} else if (episodeImg == 'Paternity38.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity38.png";
+		document.getElementById('episodePNG').src = "Paternity38.png";
 	} else if (episodeImg == 'Paternity39.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity39.png";
+		document.getElementById('episodePNG').src = "Paternity39.png";
 	} else if (episodeImg == 'Paternity40.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity40.png";
+		document.getElementById('episodePNG').src = "Paternity40.png";
 	} else if (episodeImg == 'Paternity41.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity41.png";
+		document.getElementById('episodePNG').src = "Paternity41.png";
 	} else if (episodeImg == 'Paternity42.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity42.png";
+		document.getElementById('episodePNG').src = "Paternity42.png";
 	} else if (episodeImg == 'Paternity43.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity43.png";
+		document.getElementById('episodePNG').src = "Paternity43.png";
 	} else if (episodeImg == 'Paternity44.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity44.png";
+		document.getElementById('episodePNG').src = "Paternity44.png";
 	} else if (episodeImg == 'Paternity45.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity45.png";
+		document.getElementById('episodePNG').src = "Paternity45.png";
 	} else if (episodeImg == 'Paternity46.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity46.png";
+		document.getElementById('episodePNG').src = "Paternity46.png";
 	} else if (episodeImg == 'Paternity47.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity47.png";
+		document.getElementById('episodePNG').src = "Paternity47.png";
 	} else if (episodeImg == 'Paternity48.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity48.png";
+		document.getElementById('episodePNG').src = "Paternity48.png";
 	} else if (episodeImg == 'Paternity49.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity49.png";
+		document.getElementById('episodePNG').src = "Paternity49.png";
 	} else if (episodeImg == 'Paternity50.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity50.png";
+		document.getElementById('episodePNG').src = "Paternity50.png";
 	} else if (episodeImg == 'Paternity51.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity51.png";
+		document.getElementById('episodePNG').src = "Paternity51.png";
 	} else if (episodeImg == 'Paternity52.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity52.png";
+		document.getElementById('episodePNG').src = "Paternity52.png";
 	} else if (episodeImg == 'Paternity53.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity53.png";
+		document.getElementById('episodePNG').src = "Paternity53.png";
 	} else if (episodeImg == 'Paternity54.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity54.png";
+		document.getElementById('episodePNG').src = "Paternity54.png";
 	} else if (episodeImg == 'Paternity55.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity55.png";
+		document.getElementById('episodePNG').src = "Paternity55.png";
 	} else if (episodeImg == 'Paternity56.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity56.png";
+		document.getElementById('episodePNG').src = "Paternity56.png";
 	} else if (episodeImg == 'Paternity57.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity57.png";
+		document.getElementById('episodePNG').src = "Paternity57.png";
 	} else if (episodeImg == 'Paternity58.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity58.png";
+		document.getElementById('episodePNG').src = "Paternity58.png";
 	} else if (episodeImg == 'Paternity59.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity59.png";
+		document.getElementById('episodePNG').src = "Paternity59.png";
 	} else if (episodeImg == 'Paternity60.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity60.png";
+		document.getElementById('episodePNG').src = "Paternity60.png";
 	} else if (episodeImg == 'Paternity61.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity61.png";
+		document.getElementById('episodePNG').src = "Paternity61.png";
 	} else if (episodeImg == 'Paternity62.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity62.png";
+		document.getElementById('episodePNG').src = "Paternity62.png";
 	} else if (episodeImg == 'Paternity63.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity63.png";
+		document.getElementById('episodePNG').src = "Paternity63.png";
 	} else if (episodeImg == 'Paternity64.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity64.png";
+		document.getElementById('episodePNG').src = "Paternity64.png";
 	} else if (episodeImg == 'Paternity65.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity65.png";
+		document.getElementById('episodePNG').src = "Paternity65.png";
 	} else if (episodeImg == 'Paternity66.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity66.png";
+		document.getElementById('episodePNG').src = "Paternity66.png";
 	} else if (episodeImg == 'Paternity67.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity67.png";
+		document.getElementById('episodePNG').src = "Paternity67.png";
 	} else if (episodeImg == 'Paternity68.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity68.png";
+		document.getElementById('episodePNG').src = "Paternity68.png";
 	} else if (episodeImg == 'Paternity69.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity69.png";
+		document.getElementById('episodePNG').src = "Paternity69.png";
 	} else if (episodeImg == 'Paternity70.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity70.png";
+		document.getElementById('episodePNG').src = "Paternity70.png";
 	} else if (episodeImg == 'Paternity71.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity71.png";
+		document.getElementById('episodePNG').src = "Paternity71.png";
 	} else if (episodeImg == 'Paternity72.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity72.png";
+		document.getElementById('episodePNG').src = "Paternity72.png";
 	} else if (episodeImg == 'Paternity73.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity73.png";
+		document.getElementById('episodePNG').src = "Paternity73.png";
 	} else if (episodeImg == 'Paternity74.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity74.png";
+		document.getElementById('episodePNG').src = "Paternity74.png";
 	} else if (episodeImg == 'Paternity75.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity75.png";
+		document.getElementById('episodePNG').src = "Paternity75.png";
 	} else if (episodeImg == 'Paternity76.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity76.png";
+		document.getElementById('episodePNG').src = "Paternity76.png";
 	} else if (episodeImg == 'Paternity77.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity77.png";
+		document.getElementById('episodePNG').src = "Paternity77.png";
 	} else if (episodeImg == 'Paternity78.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity78.png";
+		document.getElementById('episodePNG').src = "Paternity78.png";
 	} else if (episodeImg == 'Paternity79.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity79.png";
+		document.getElementById('episodePNG').src = "Paternity79.png";
 	} else if (episodeImg == 'Paternity80.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity80.png";
+		document.getElementById('episodePNG').src = "Paternity80.png";
 	} else if (episodeImg == 'Paternity81.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity81.png";
+		document.getElementById('episodePNG').src = "Paternity81.png";
 	} else if (episodeImg == 'Paternity82.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity82.png";
+		document.getElementById('episodePNG').src = "Paternity82.png";
 	} else if (episodeImg == 'Paternity83.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity83.png";
+		document.getElementById('episodePNG').src = "Paternity83.png";
 	} else if (episodeImg == 'Paternity84.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity84.png";
+		document.getElementById('episodePNG').src = "Paternity84.png";
 	} else if (episodeImg == 'Paternity85.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity85.png";
+		document.getElementById('episodePNG').src = "Paternity85.png";
 	} else if (episodeImg == 'Paternity86.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity86.png";
+		document.getElementById('episodePNG').src = "Paternity86.png";
 	} else if (episodeImg == 'Paternity87.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity87.png";
+		document.getElementById('episodePNG').src = "Paternity87.png";
 	} else if (episodeImg == 'Paternity88.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity88.png";
+		document.getElementById('episodePNG').src = "Paternity88.png";
 	} else if (episodeImg == 'Paternity89.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity89.png";
+		document.getElementById('episodePNG').src = "Paternity89.png";
 	} else if (episodeImg == 'Paternity90.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity90.png";
+		document.getElementById('episodePNG').src = "Paternity90.png";
 	} else if (episodeImg == 'Paternity91.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity91.png";
+		document.getElementById('episodePNG').src = "Paternity91.png";
 	} else if (episodeImg == 'Paternity92.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity92.png";
+		document.getElementById('episodePNG').src = "Paternity92.png";
 	} else if (episodeImg == 'Paternity93.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity93.png";
+		document.getElementById('episodePNG').src = "Paternity93.png";
 	} else if (episodeImg == 'Paternity94.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity94.png";
+		document.getElementById('episodePNG').src = "Paternity94.png";
 	} else if (episodeImg == 'Paternity95.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity95.png";
+		document.getElementById('episodePNG').src = "Paternity95.png";
 	} else if (episodeImg == 'Paternity96.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity96.png";
+		document.getElementById('episodePNG').src = "Paternity96.png";
 	} else if (episodeImg == 'Paternity97.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity97.png";
+		document.getElementById('episodePNG').src = "Paternity97.png";
 	} else if (episodeImg == 'Paternity98.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity98.png";
+		document.getElementById('episodePNG').src = "Paternity98.png";
 	} else if (episodeImg == 'Paternity99.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity99.png";
+		document.getElementById('episodePNG').src = "Paternity99.png";
 	} else if (episodeImg == 'Paternity100.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity100.png";
+		document.getElementById('episodePNG').src = "Paternity100.png";
 	} else if (episodeImg == 'Paternity101.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity101.png";
+		document.getElementById('episodePNG').src = "Paternity101.png";
 	} else if (episodeImg == 'Paternity102.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity102.png";
+		document.getElementById('episodePNG').src = "Paternity102.png";
 	} else if (episodeImg == 'Paternity103.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity103.png";
+		document.getElementById('episodePNG').src = "Paternity103.png";
 	} else if (episodeImg == 'Paternity104.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity104.png";
+		document.getElementById('episodePNG').src = "Paternity104.png";
 	} else if (episodeImg == 'Paternity105.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity105.png";
+		document.getElementById('episodePNG').src = "Paternity105.png";
 	} else if (episodeImg == 'Paternity106.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity106.png";
+		document.getElementById('episodePNG').src = "Paternity106.png";
 	} else if (episodeImg == 'Paternity107.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity107.png";
+		document.getElementById('episodePNG').src = "Paternity107.png";
 	} else if (episodeImg == 'Paternity108.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity108.png";
+		document.getElementById('episodePNG').src = "Paternity108.png";
 	} else if (episodeImg == 'Paternity109.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity109.png";
+		document.getElementById('episodePNG').src = "Paternity109.png";
 	} else if (episodeImg == 'Paternity110.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity110.png";
+		document.getElementById('episodePNG').src = "Paternity110.png";
 	} else if (episodeImg == 'Paternity111.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity111.png";
+		document.getElementById('episodePNG').src = "Paternity111.png";
 	} else if (episodeImg == 'Paternity112.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity112.png";
+		document.getElementById('episodePNG').src = "Paternity112.png";
 	} else if (episodeImg == 'Paternity113.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity113.png";
+		document.getElementById('episodePNG').src = "Paternity113.png";
 	} else if (episodeImg == 'Paternity114.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity114.png";
+		document.getElementById('episodePNG').src = "Paternity114.png";
 	} else if (episodeImg == 'Paternity115.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity115.png";
+		document.getElementById('episodePNG').src = "Paternity115.png";
 	} else if (episodeImg == 'Paternity116.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity116.png";
+		document.getElementById('episodePNG').src = "Paternity116.png";
 	} else if (episodeImg == 'Paternity117.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity117.png";
+		document.getElementById('episodePNG').src = "Paternity117.png";
 	} else if (episodeImg == 'Paternity118.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity118.png";
+		document.getElementById('episodePNG').src = "Paternity118.png";
 	} else if (episodeImg == 'Paternity119.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity119.png";
+		document.getElementById('episodePNG').src = "Paternity119.png";
 	} else if (episodeImg == 'Paternity120.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity120.png";
+		document.getElementById('episodePNG').src = "Paternity120.png";
 	} else if (episodeImg == 'Paternity121.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity121.png";
+		document.getElementById('episodePNG').src = "Paternity121.png";
 	} else if (episodeImg == 'Paternity122.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity122.png";
+		document.getElementById('episodePNG').src = "Paternity122.png";
 	} else if (episodeImg == 'Paternity123.png') {
-		document.getElementById('episodePNG').src = "images/Paternity/Paternity123.png";
+		document.getElementById('episodePNG').src = "Paternity123.png";
 	}
 }
 function S1E3Img(){
 	occamArray = ['Occam1.png','Occam2.png','Occam3.png','Occam4.png','Occam5.png','Occam6.png','Occam7.png','Occam8.png','Occam9.png','Occam10.png','Occam11.png','Occam12.png','Occam13.png','Occam14.png','Occam15.png','Occam16.png','Occam17.png','Occam18.png','Occam18.png','Occam19.png','Occam20.png','Occam21.png','Occam22.png','Occam23.png','Occam24.png','Occam25.png','Occam26.png','Occam27.png','Occam28.png','Occam29.png','Occam30.png','Occam31.png','Occam32.png','Occam33.png','Occam34.png','Occam35.png','Occam36.png','Occam37.png','Occam38.png','Occam39.png','Occam40.png','Occam41.png','Occam42.png','Occam43.png','Occam44.png','Occam45.png','Occam46.png','Occam47.png','Occam48.png','Occam49.png','Occam50.png','Occam51.png','Occam52.png','Occam53.png','Occam54.png','Occam55.png','Occam56.png','Occam57.png','Occam58.png','Occam59.png','Occam60.png','Occam61.png','Occam62.png','Occam63.png','Occam64.png','Occam65.png','Occam66.png','Occam67.png','Occam68.png','Occam69.png','Occam70.png','Occam71.png','Occam72.png','Occam73.png','Occam74.png','Occam75.png','Occam76.png','Occam77.png','Occam78.png','Occam79.png','Occam80.png','Occam81.png','Occam82.png','Occam83.png','Occam84.png','Occam85.png','Occam86.png','Occam87.png','Occam88.png','Occam89.png','Occam90.png','Occam91.png','Occam92.png','Occam93.png','Occam94.png','Occam95.png','Occam96.png','Occam97.png','Occam98.png','Occam99.png','Occam100.png','Occam101.png','Occam102.png','Occam103.png','Occam104.png','Occam105.png','Occam106.png','Occam107.png','Occam108.png','Occam109.png','Occam110.png','Occam111.png','Occam112.png','Occam113.png','Occam114.png','Occam115.png','Occam116.png','Occam117.png','Occam118.png','Occam119.png','Occam120.png','Occam121.png','Occam122.png','Occam123.png','Occam124.png','Occam125.png','Occam126.png','Occam127.png','Occam128.png','Occam129.png','Occam130.png','Occam131.png','Occam132.png','Occam133.png','Occam134.png','Occam135.png','Occam136.png','Occam137.png','Occam138.png','Occam139.png','Occam140.png','Occam141.png','Occam142.png','Occam143.png','Occam144.png','Occam145.png','Occam146.png','Occam147.png','Occam148.png','Occam149.png','Occam150.png',];
 	episodeImg = randomValueFromArray(occamArray);
 	if (episodeImg == 'Occam1.png') {
-		document.getElementById('episodePNG').src = " images/Occam/Occam1.png";
+		document.getElementById('episodePNG').src = " Occam1.png";
 	} else if (episodeImg == 'Occam2.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam2.png";
+		document.getElementById('episodePNG').src = "Occam2.png";
 	} else if (episodeImg == 'Occam3.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam3.png";
+		document.getElementById('episodePNG').src = "Occam3.png";
 	} else if (episodeImg == 'Occam4.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam4.png";
+		document.getElementById('episodePNG').src = "Occam4.png";
 	} else if (episodeImg == 'Occam5.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam5.png";
+		document.getElementById('episodePNG').src = "Occam5.png";
 	} else if (episodeImg == 'Occam6.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam6.png";
+		document.getElementById('episodePNG').src = "Occam6.png";
 	} else if (episodeImg == 'Occam7.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam7.png";
+		document.getElementById('episodePNG').src = "Occam7.png";
 	} else if (episodeImg == 'Occam8.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam8.png";
+		document.getElementById('episodePNG').src = "Occam8.png";
 	} else if (episodeImg == 'Occam9.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam9.png";
+		document.getElementById('episodePNG').src = "Occam9.png";
 	} else if (episodeImg == 'Occam10.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam10.png";
+		document.getElementById('episodePNG').src = "Occam10.png";
 	} else if (episodeImg == 'Occam11.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam11.png";
+		document.getElementById('episodePNG').src = "Occam11.png";
 	} else if (episodeImg == 'Occam12.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam12.png";
+		document.getElementById('episodePNG').src = "Occam12.png";
 	} else if (episodeImg == 'Occam13.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam13.png";
+		document.getElementById('episodePNG').src = "Occam13.png";
 	} else if (episodeImg == 'Occam14.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam14.png";
+		document.getElementById('episodePNG').src = "Occam14.png";
 	} else if (episodeImg == 'Occam15.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam15.png";
+		document.getElementById('episodePNG').src = "Occam15.png";
 	} else if (episodeImg == 'Occam16.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam16.png";
+		document.getElementById('episodePNG').src = "Occam16.png";
 	} else if (episodeImg == 'Occam17.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam17.png";
+		document.getElementById('episodePNG').src = "Occam17.png";
 	} else if (episodeImg == 'Occam18.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam18.png";
+		document.getElementById('episodePNG').src = "Occam18.png";
 	} else if (episodeImg == 'Occam19.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam19.png";
+		document.getElementById('episodePNG').src = "Occam19.png";
 	} else if (episodeImg == 'Occam20.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam20.png";
+		document.getElementById('episodePNG').src = "Occam20.png";
 	} else if (episodeImg == 'Occam21.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam21.png";
+		document.getElementById('episodePNG').src = "Occam21.png";
 	} else if (episodeImg == 'Occam22.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam22.png";
+		document.getElementById('episodePNG').src = "Occam22.png";
 	} else if (episodeImg == 'Occam23.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam23.png";
+		document.getElementById('episodePNG').src = "Occam23.png";
 	} else if (episodeImg == 'Occam24.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam24.png";
+		document.getElementById('episodePNG').src = "Occam24.png";
 	} else if (episodeImg == 'Occam25.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam25.png";
+		document.getElementById('episodePNG').src = "Occam25.png";
 	} else if (episodeImg == 'Occam26.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam26.png";
+		document.getElementById('episodePNG').src = "Occam26.png";
 	} else if (episodeImg == 'Occam27.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam27.png";
+		document.getElementById('episodePNG').src = "Occam27.png";
 	} else if (episodeImg == 'Occam28.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam28.png";
+		document.getElementById('episodePNG').src = "Occam28.png";
 	} else if (episodeImg == 'Occam29.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam29.png";
+		document.getElementById('episodePNG').src = "Occam29.png";
 	} else if (episodeImg == 'Occam30.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam30.png";
+		document.getElementById('episodePNG').src = "Occam30.png";
 	} else if (episodeImg == 'Occam31.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam31.png";
+		document.getElementById('episodePNG').src = "Occam31.png";
 	} else if (episodeImg == 'Occam32.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam32.png";
+		document.getElementById('episodePNG').src = "Occam32.png";
 	} else if (episodeImg == 'Occam33.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam33.png";
+		document.getElementById('episodePNG').src = "Occam33.png";
 	} else if (episodeImg == 'Occam34.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam34.png";
+		document.getElementById('episodePNG').src = "Occam34.png";
 	} else if (episodeImg == 'Occam35.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam35.png";
+		document.getElementById('episodePNG').src = "Occam35.png";
 	} else if (episodeImg == 'Occam36.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam36.png";
+		document.getElementById('episodePNG').src = "Occam36.png";
 	} else if (episodeImg == 'Occam37.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam37.png";
+		document.getElementById('episodePNG').src = "Occam37.png";
 	} else if (episodeImg == 'Occam38.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam38.png";
+		document.getElementById('episodePNG').src = "Occam38.png";
 	} else if (episodeImg == 'Occam39.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam39.png";
+		document.getElementById('episodePNG').src = "Occam39.png";
 	} else if (episodeImg == 'Occam40.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam40.png";
+		document.getElementById('episodePNG').src = "Occam40.png";
 	} else if (episodeImg == 'Occam41.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam41.png";
+		document.getElementById('episodePNG').src = "Occam41.png";
 	} else if (episodeImg == 'Occam42.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam42.png";
+		document.getElementById('episodePNG').src = "Occam42.png";
 	} else if (episodeImg == 'Occam43.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam43.png";
+		document.getElementById('episodePNG').src = "Occam43.png";
 	} else if (episodeImg == 'Occam44.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam44.png";
+		document.getElementById('episodePNG').src = "Occam44.png";
 	} else if (episodeImg == 'Occam45.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam45.png";
+		document.getElementById('episodePNG').src = "Occam45.png";
 	} else if (episodeImg == 'Occam46.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam46.png";
+		document.getElementById('episodePNG').src = "Occam46.png";
 	} else if (episodeImg == 'Occam47.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam47.png";
+		document.getElementById('episodePNG').src = "Occam47.png";
 	} else if (episodeImg == 'Occam48.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam48.png";
+		document.getElementById('episodePNG').src = "Occam48.png";
 	} else if (episodeImg == 'Occam49.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam49.png";
+		document.getElementById('episodePNG').src = "Occam49.png";
 	} else if (episodeImg == 'Occam50.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam50.png";
+		document.getElementById('episodePNG').src = "Occam50.png";
 	} else if (episodeImg == 'Occam51.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam51.png";
+		document.getElementById('episodePNG').src = "Occam51.png";
 	} else if (episodeImg == 'Occam52.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam52.png";
+		document.getElementById('episodePNG').src = "Occam52.png";
 	} else if (episodeImg == 'Occam53.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam53.png";
+		document.getElementById('episodePNG').src = "Occam53.png";
 	} else if (episodeImg == 'Occam54.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam54.png";
+		document.getElementById('episodePNG').src = "Occam54.png";
 	} else if (episodeImg == 'Occam55.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam55.png";
+		document.getElementById('episodePNG').src = "Occam55.png";
 	} else if (episodeImg == 'Occam56.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam56.png";
+		document.getElementById('episodePNG').src = "Occam56.png";
 	} else if (episodeImg == 'Occam57.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam57.png";
+		document.getElementById('episodePNG').src = "Occam57.png";
 	} else if (episodeImg == 'Occam58.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam58.png";
+		document.getElementById('episodePNG').src = "Occam58.png";
 	} else if (episodeImg == 'Occam59.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam59.png";
+		document.getElementById('episodePNG').src = "Occam59.png";
 	} else if (episodeImg == 'Occam60.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam60.png";
+		document.getElementById('episodePNG').src = "Occam60.png";
 	} else if (episodeImg == 'Occam61.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam61.png";
+		document.getElementById('episodePNG').src = "Occam61.png";
 	} else if (episodeImg == 'Occam62.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam62.png";
+		document.getElementById('episodePNG').src = "Occam62.png";
 	} else if (episodeImg == 'Occam63.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam63.png";
+		document.getElementById('episodePNG').src = "Occam63.png";
 	} else if (episodeImg == 'Occam64.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam64.png";
+		document.getElementById('episodePNG').src = "Occam64.png";
 	} else if (episodeImg == 'Occam65.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam65.png";
+		document.getElementById('episodePNG').src = "Occam65.png";
 	} else if (episodeImg == 'Occam66.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam66.png";
+		document.getElementById('episodePNG').src = "Occam66.png";
 	} else if (episodeImg == 'Occam67.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam67.png";
+		document.getElementById('episodePNG').src = "Occam67.png";
 	} else if (episodeImg == 'Occam68.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam68.png";
+		document.getElementById('episodePNG').src = "Occam68.png";
 	} else if (episodeImg == 'Occam69.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam69.png";
+		document.getElementById('episodePNG').src = "Occam69.png";
 	} else if (episodeImg == 'Occam70.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam70.png";
+		document.getElementById('episodePNG').src = "Occam70.png";
 	} else if (episodeImg == 'Occam71.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam71.png";
+		document.getElementById('episodePNG').src = "Occam71.png";
 	} else if (episodeImg == 'Occam72.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam72.png";
+		document.getElementById('episodePNG').src = "Occam72.png";
 	} else if (episodeImg == 'Occam73.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam73.png";
+		document.getElementById('episodePNG').src = "Occam73.png";
 	} else if (episodeImg == 'Occam74.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam74.png";
+		document.getElementById('episodePNG').src = "Occam74.png";
 	} else if (episodeImg == 'Occam75.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam75.png";
+		document.getElementById('episodePNG').src = "Occam75.png";
 	} else if (episodeImg == 'Occam76.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam76.png";
+		document.getElementById('episodePNG').src = "Occam76.png";
 	} else if (episodeImg == 'Occam77.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam77.png";
+		document.getElementById('episodePNG').src = "Occam77.png";
 	} else if (episodeImg == 'Occam78.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam78.png";
+		document.getElementById('episodePNG').src = "Occam78.png";
 	} else if (episodeImg == 'Occam79.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam79.png";
+		document.getElementById('episodePNG').src = "Occam79.png";
 	} else if (episodeImg == 'Occam80.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam80.png";
+		document.getElementById('episodePNG').src = "Occam80.png";
 	} else if (episodeImg == 'Occam81.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam81.png";
+		document.getElementById('episodePNG').src = "Occam81.png";
 	} else if (episodeImg == 'Occam82.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam82.png";
+		document.getElementById('episodePNG').src = "Occam82.png";
 	} else if (episodeImg == 'Occam83.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam83.png";
+		document.getElementById('episodePNG').src = "Occam83.png";
 	} else if (episodeImg == 'Occam84.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam84.png";
+		document.getElementById('episodePNG').src = "Occam84.png";
 	} else if (episodeImg == 'Occam85.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam85.png";
+		document.getElementById('episodePNG').src = "Occam85.png";
 	} else if (episodeImg == 'Occam86.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam86.png";
+		document.getElementById('episodePNG').src = "Occam86.png";
 	} else if (episodeImg == 'Occam87.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam87.png";
+		document.getElementById('episodePNG').src = "Occam87.png";
 	} else if (episodeImg == 'Occam88.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam88.png";
+		document.getElementById('episodePNG').src = "Occam88.png";
 	} else if (episodeImg == 'Occam89.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam89.png";
+		document.getElementById('episodePNG').src = "Occam89.png";
 	} else if (episodeImg == 'Occam90.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam90.png";
+		document.getElementById('episodePNG').src = "Occam90.png";
 	} else if (episodeImg == 'Occam91.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam91.png";
+		document.getElementById('episodePNG').src = "Occam91.png";
 	} else if (episodeImg == 'Occam92.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam92.png";
+		document.getElementById('episodePNG').src = "Occam92.png";
 	} else if (episodeImg == 'Occam93.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam93.png";
+		document.getElementById('episodePNG').src = "Occam93.png";
 	} else if (episodeImg == 'Occam94.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam94.png";
+		document.getElementById('episodePNG').src = "Occam94.png";
 	} else if (episodeImg == 'Occam95.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam95.png";
+		document.getElementById('episodePNG').src = "Occam95.png";
 	} else if (episodeImg == 'Occam96.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam96.png";
+		document.getElementById('episodePNG').src = "Occam96.png";
 	} else if (episodeImg == 'Occam97.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam97.png";
+		document.getElementById('episodePNG').src = "Occam97.png";
 	} else if (episodeImg == 'Occam98.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam98.png";
+		document.getElementById('episodePNG').src = "Occam98.png";
 	} else if (episodeImg == 'Occam99.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam99.png";
+		document.getElementById('episodePNG').src = "Occam99.png";
 	} else if (episodeImg == 'Occam100.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam100.png";
+		document.getElementById('episodePNG').src = "Occam100.png";
 	} else if (episodeImg == 'Occam101.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam101.png";
+		document.getElementById('episodePNG').src = "Occam101.png";
 	} else if (episodeImg == 'Occam102.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam102.png";
+		document.getElementById('episodePNG').src = "Occam102.png";
 	} else if (episodeImg == 'Occam103.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam103.png";
+		document.getElementById('episodePNG').src = "Occam103.png";
 	} else if (episodeImg == 'Occam104.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam104.png";
+		document.getElementById('episodePNG').src = "Occam104.png";
 	} else if (episodeImg == 'Occam105.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam105.png";
+		document.getElementById('episodePNG').src = "Occam105.png";
 	} else if (episodeImg == 'Occam106.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam106.png";
+		document.getElementById('episodePNG').src = "Occam106.png";
 	} else if (episodeImg == 'Occam107.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam107.png";
+		document.getElementById('episodePNG').src = "Occam107.png";
 	} else if (episodeImg == 'Occam108.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam108.png";
+		document.getElementById('episodePNG').src = "Occam108.png";
 	} else if (episodeImg == 'Occam109.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam109.png";
+		document.getElementById('episodePNG').src = "Occam109.png";
 	} else if (episodeImg == 'Occam110.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam110.png";
+		document.getElementById('episodePNG').src = "Occam110.png";
 	} else if (episodeImg == 'Occam111.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam111.png";
+		document.getElementById('episodePNG').src = "Occam111.png";
 	} else if (episodeImg == 'Occam112.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam112.png";
+		document.getElementById('episodePNG').src = "Occam112.png";
 	} else if (episodeImg == 'Occam113.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam113.png";
+		document.getElementById('episodePNG').src = "Occam113.png";
 	} else if (episodeImg == 'Occam114.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam114.png";
+		document.getElementById('episodePNG').src = "Occam114.png";
 	} else if (episodeImg == 'Occam115.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam115.png";
+		document.getElementById('episodePNG').src = "Occam115.png";
 	} else if (episodeImg == 'Occam116.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam116.png";
+		document.getElementById('episodePNG').src = "Occam116.png";
 	} else if (episodeImg == 'Occam117.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam117.png";
+		document.getElementById('episodePNG').src = "Occam117.png";
 	} else if (episodeImg == 'Occam118.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam118.png";
+		document.getElementById('episodePNG').src = "Occam118.png";
 	} else if (episodeImg == 'Occam119.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam119.png";
+		document.getElementById('episodePNG').src = "Occam119.png";
 	} else if (episodeImg == 'Occam120.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam120.png";
+		document.getElementById('episodePNG').src = "Occam120.png";
 	} else if (episodeImg == 'Occam121.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam121.png";
+		document.getElementById('episodePNG').src = "Occam121.png";
 	} else if (episodeImg == 'Occam122.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam122.png";
+		document.getElementById('episodePNG').src = "Occam122.png";
 	} else if (episodeImg == 'Occam123.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam123.png";
+		document.getElementById('episodePNG').src = "Occam123.png";
 	} else if (episodeImg == 'Occam124.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam124.png";
+		document.getElementById('episodePNG').src = "Occam124.png";
 	} else if (episodeImg == 'Occam125.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam125.png";
+		document.getElementById('episodePNG').src = "Occam125.png";
 	} else if (episodeImg == 'Occam126.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam126.png";
+		document.getElementById('episodePNG').src = "Occam126.png";
 	} else if (episodeImg == 'Occam127.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam127.png";
+		document.getElementById('episodePNG').src = "Occam127.png";
 	} else if (episodeImg == 'Occam128.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam128.png";
+		document.getElementById('episodePNG').src = "Occam128.png";
 	} else if (episodeImg == 'Occam129.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam129.png";
+		document.getElementById('episodePNG').src = "Occam129.png";
 	} else if (episodeImg == 'Occam130.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam130.png";
+		document.getElementById('episodePNG').src = "Occam130.png";
 	} else if (episodeImg == 'Occam131.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam131.png";
+		document.getElementById('episodePNG').src = "Occam131.png";
 	} else if (episodeImg == 'Occam132.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam132.png";
+		document.getElementById('episodePNG').src = "Occam132.png";
 	} else if (episodeImg == 'Occam133.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam133.png";
+		document.getElementById('episodePNG').src = "Occam133.png";
 	} else if (episodeImg == 'Occam134.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam134.png";
+		document.getElementById('episodePNG').src = "Occam134.png";
 	} else if (episodeImg == 'Occam135.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam135.png";
+		document.getElementById('episodePNG').src = "Occam135.png";
 	} else if (episodeImg == 'Occam136.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam136.png";
+		document.getElementById('episodePNG').src = "Occam136.png";
 	} else if (episodeImg == 'Occam137.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam137.png";
+		document.getElementById('episodePNG').src = "Occam137.png";
 	} else if (episodeImg == 'Occam138.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam138.png";
+		document.getElementById('episodePNG').src = "Occam138.png";
 	} else if (episodeImg == 'Occam139.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam139.png";
+		document.getElementById('episodePNG').src = "Occam139.png";
 	} else if (episodeImg == 'Occam140.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam140.png";
+		document.getElementById('episodePNG').src = "Occam140.png";
 	} else if (episodeImg == 'Occam141.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam141.png";
+		document.getElementById('episodePNG').src = "Occam141.png";
 	} else if (episodeImg == 'Occam142.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam142.png";
+		document.getElementById('episodePNG').src = "Occam142.png";
 	} else if (episodeImg == 'Occam143.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam143.png";
+		document.getElementById('episodePNG').src = "Occam143.png";
 	} else if (episodeImg == 'Occam144.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam144.png";
+		document.getElementById('episodePNG').src = "Occam144.png";
 	} else if (episodeImg == 'Occam145.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam145.png";
+		document.getElementById('episodePNG').src = "Occam145.png";
 	} else if (episodeImg == 'Occam146.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam146.png";
+		document.getElementById('episodePNG').src = "Occam146.png";
 	} else if (episodeImg == 'Occam147.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam147.png";
+		document.getElementById('episodePNG').src = "Occam147.png";
 	} else if (episodeImg == 'Occam148.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam148.png";
+		document.getElementById('episodePNG').src = "Occam148.png";
 	} else if (episodeImg == 'Occam149.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam149.png";
+		document.getElementById('episodePNG').src = "Occam149.png";
 	} else if (episodeImg == 'Occam150.png') {
-		document.getElementById('episodePNG').src = "images/Occam/Occam150.png";
+		document.getElementById('episodePNG').src = "Occam150.png";
 	}
 } 
 function S1E4Img(){
 	MaternityArray = ['Maternity1.png','Maternity2.png','Maternity3.png','Maternity4.png','Maternity5.png','Maternity6.png','Maternity7.png','Maternity8.png','Maternity9.png','Maternity10.png','Maternity11.png','Maternity12.png','Maternity13.png','Maternity14.png','Maternity15.png','Maternity16.png','Maternity17.png','Maternity18.png','Maternity19.png','Maternity20.png','Maternity21.png','Maternity22.png','Maternity23.png','Maternity24.png','Maternity25.png','Maternity26.png','Maternity27.png','Maternity28.png','Maternity29.png','Maternity30.png','Maternity31.png','Maternity32.png','Maternity33.png','Maternity34.png','Maternity35.png','Maternity36.png','Maternity37.png','Maternity38.png','Maternity39.png','Maternity40.png','Maternity41.png','Maternity42.png','Maternity43.png','Maternity44.png','Maternity45.png','Maternity46.png','Maternity47.png','Maternity48.png','Maternity49.png','Maternity50.png','Maternity51.png','Maternity52.png','Maternity53.png','Maternity54.png','Maternity55.png','Maternity56.png','Maternity57.png','Maternity58.png','Maternity59.png','Maternity60.png','Maternity61.png','Maternity62.png','Maternity63.png','Maternity64.png','Maternity65.png','Maternity66.png','Maternity67.png','Maternity68.png','Maternity69.png','Maternity70.png','Maternity71.png','Maternity72.png','Maternity73.png','Maternity74.png','Maternity75.png','Maternity76.png','Maternity77.png','Maternity78.png','Maternity79.png','Maternity80.png','Maternity81.png','Maternity82.png','Maternity83.png','Maternity84.png','Maternity85.png','Maternity86.png','Maternity87.png','Maternity88.png','Maternity89.png','Maternity90.png','Maternity91.png','Maternity92.png','Maternity93.png','Maternity94.png','Maternity95.png','Maternity96.png','Maternity97.png','Maternity98.png','Maternity99.png','Maternity100.png','Maternity101.png','Maternity102.png','Maternity103.png','Maternity104.png','Maternity105.png','Maternity106.png','Maternity107.png','Maternity108.png','Maternity109.png','Maternity110.png','Maternity111.png','Maternity112.png','Maternity113.png','Maternity114.png','Maternity115.png','Maternity116.png','Maternit117.png','Maternity118.png','Maternity119.png',]
 	episodeImg = randomValueFromArray(MaternityArray);
 	if (episodeImg == 'Maternity1.png') {
-		document.getElementById('episodePNG').src = " images/Maternity/Maternity1.png";
+		document.getElementById('episodePNG').src = " Maternity1.png";
 	} else if (episodeImg =='Maternity2.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity2.png";
+		document.getElementById('episodePNG').src = "Maternity2.png";
 	} else if (episodeImg =='Maternity3.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity3.png";
+		document.getElementById('episodePNG').src = "Maternity3.png";
 	} else if (episodeImg =='Maternity4.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity4.png";
+		document.getElementById('episodePNG').src = "Maternity4.png";
 	} else if (episodeImg =='Maternity5.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity5.png";
+		document.getElementById('episodePNG').src = "Maternity5.png";
 	} else if (episodeImg =='Maternity6.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity6.png";
+		document.getElementById('episodePNG').src = "Maternity6.png";
 	} else if (episodeImg =='Maternity7.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity7.png";
+		document.getElementById('episodePNG').src = "Maternity7.png";
 	} else if (episodeImg =='Maternity8.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity8.png";
+		document.getElementById('episodePNG').src = "Maternity8.png";
 	} else if (episodeImg =='Maternity9.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity9.png";
+		document.getElementById('episodePNG').src = "Maternity9.png";
 	} else if (episodeImg =='Maternity10.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity10.png";
+		document.getElementById('episodePNG').src = "Maternity10.png";
 	} else if (episodeImg =='Maternity11.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity11.png";
+		document.getElementById('episodePNG').src = "Maternity11.png";
 	} else if (episodeImg =='Maternity12.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity12.png";
+		document.getElementById('episodePNG').src = "Maternity12.png";
 	} else if (episodeImg =='Maternity13.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity13.png";
+		document.getElementById('episodePNG').src = "Maternity13.png";
 	} else if (episodeImg =='Maternity14.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity14.png";
+		document.getElementById('episodePNG').src = "Maternity14.png";
 	} else if (episodeImg =='Maternity15.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity15.png";
+		document.getElementById('episodePNG').src = "Maternity15.png";
 	} else if (episodeImg =='Maternity16.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity16.png";
+		document.getElementById('episodePNG').src = "Maternity16.png";
 	} else if (episodeImg =='Maternity17.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity17.png";
+		document.getElementById('episodePNG').src = "Maternity17.png";
 	} else if (episodeImg =='Maternity18.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity18.png";
+		document.getElementById('episodePNG').src = "Maternity18.png";
 	} else if (episodeImg =='Maternity19.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity19.png";
+		document.getElementById('episodePNG').src = "Maternity19.png";
 	} else if (episodeImg =='Maternity20.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity20.png";
+		document.getElementById('episodePNG').src = "Maternity20.png";
 	} else if (episodeImg =='Maternity21.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity21.png";
+		document.getElementById('episodePNG').src = "Maternity21.png";
 	} else if (episodeImg =='Maternity22.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity22.png";
+		document.getElementById('episodePNG').src = "Maternity22.png";
 	} else if (episodeImg =='Maternity23.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity23.png";
+		document.getElementById('episodePNG').src = "Maternity23.png";
 	} else if (episodeImg =='Maternity24.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity24.png";
+		document.getElementById('episodePNG').src = "Maternity24.png";
 	} else if (episodeImg =='Maternity25.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity25.png";
+		document.getElementById('episodePNG').src = "Maternity25.png";
 	} else if (episodeImg =='Maternity26.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity26.png";
+		document.getElementById('episodePNG').src = "Maternity26.png";
 	} else if (episodeImg =='Maternity27.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity27.png";
+		document.getElementById('episodePNG').src = "Maternity27.png";
 	} else if (episodeImg =='Maternity28.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity28.png";
+		document.getElementById('episodePNG').src = "Maternity28.png";
 	} else if (episodeImg =='Maternity29.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity29.png";
+		document.getElementById('episodePNG').src = "Maternity29.png";
 	} else if (episodeImg =='Maternity30.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity30.png";
+		document.getElementById('episodePNG').src = "Maternity30.png";
 	} else if (episodeImg =='Maternity31.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity31.png";
+		document.getElementById('episodePNG').src = "Maternity31.png";
 	} else if (episodeImg =='Maternity32.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity32.png";
+		document.getElementById('episodePNG').src = "Maternity32.png";
 	} else if (episodeImg =='Maternity33.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity33.png";
+		document.getElementById('episodePNG').src = "Maternity33.png";
 	} else if (episodeImg =='Maternity34.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity34.png";
+		document.getElementById('episodePNG').src = "Maternity34.png";
 	} else if (episodeImg =='Maternity35.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity35.png";
+		document.getElementById('episodePNG').src = "Maternity35.png";
 	} else if (episodeImg =='Maternity36.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity36.png";
+		document.getElementById('episodePNG').src = "Maternity36.png";
 	} else if (episodeImg =='Maternity37.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity37.png";
+		document.getElementById('episodePNG').src = "Maternity37.png";
 	} else if (episodeImg =='Maternity38.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity38.png";
+		document.getElementById('episodePNG').src = "Maternity38.png";
 	} else if (episodeImg =='Maternity39.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity39.png";
+		document.getElementById('episodePNG').src = "Maternity39.png";
 	} else if (episodeImg =='Maternity40.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity40.png";
+		document.getElementById('episodePNG').src = "Maternity40.png";
 	} else if (episodeImg =='Maternity41.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity41.png";
+		document.getElementById('episodePNG').src = "Maternity41.png";
 	} else if (episodeImg =='Maternity42.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity42.png";
+		document.getElementById('episodePNG').src = "Maternity42.png";
 	} else if (episodeImg =='Maternity43.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity43.png";
+		document.getElementById('episodePNG').src = "Maternity43.png";
 	} else if (episodeImg =='Maternity44.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity44.png";
+		document.getElementById('episodePNG').src = "Maternity44.png";
 	} else if (episodeImg =='Maternity45.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity45.png";
+		document.getElementById('episodePNG').src = "Maternity45.png";
 	} else if (episodeImg =='Maternity46.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity46.png";
+		document.getElementById('episodePNG').src = "Maternity46.png";
 	} else if (episodeImg =='Maternity47.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity47.png";
+		document.getElementById('episodePNG').src = "Maternity47.png";
 	} else if (episodeImg =='Maternity48.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity48.png";
+		document.getElementById('episodePNG').src = "Maternity48.png";
 	} else if (episodeImg =='Maternity49.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity49.png";
+		document.getElementById('episodePNG').src = "Maternity49.png";
 	} else if (episodeImg =='Maternity50.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity50.png";
+		document.getElementById('episodePNG').src = "Maternity50.png";
 	} else if (episodeImg =='Maternity51.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity51.png";
+		document.getElementById('episodePNG').src = "Maternity51.png";
 	} else if (episodeImg =='Maternity52.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity52.png";
+		document.getElementById('episodePNG').src = "Maternity52.png";
 	} else if (episodeImg =='Maternity53.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity53.png";
+		document.getElementById('episodePNG').src = "Maternity53.png";
 	} else if (episodeImg =='Maternity54.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity54.png";
+		document.getElementById('episodePNG').src = "Maternity54.png";
 	} else if (episodeImg =='Maternity55.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity55.png";
+		document.getElementById('episodePNG').src = "Maternity55.png";
 	} else if (episodeImg =='Maternity56.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity56.png";
+		document.getElementById('episodePNG').src = "Maternity56.png";
 	} else if (episodeImg =='Maternity57.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity57.png";
+		document.getElementById('episodePNG').src = "Maternity57.png";
 	} else if (episodeImg =='Maternity58.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity58.png";
+		document.getElementById('episodePNG').src = "Maternity58.png";
 	} else if (episodeImg =='Maternity59.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity59.png";
+		document.getElementById('episodePNG').src = "Maternity59.png";
 	} else if (episodeImg =='Maternity60.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity60.png";
+		document.getElementById('episodePNG').src = "Maternity60.png";
 	} else if (episodeImg =='Maternity61.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity61.png";
+		document.getElementById('episodePNG').src = "Maternity61.png";
 	} else if (episodeImg =='Maternity62.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity62.png";
+		document.getElementById('episodePNG').src = "Maternity62.png";
 	} else if (episodeImg =='Maternity63.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity63.png";
+		document.getElementById('episodePNG').src = "Maternity63.png";
 	} else if (episodeImg =='Maternity64.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity64.png";
+		document.getElementById('episodePNG').src = "Maternity64.png";
 	} else if (episodeImg =='Maternity65.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity65.png";
+		document.getElementById('episodePNG').src = "Maternity65.png";
 	} else if (episodeImg =='Maternity66.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity66.png";
+		document.getElementById('episodePNG').src = "Maternity66.png";
 	} else if (episodeImg =='Maternity67.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity67.png";
+		document.getElementById('episodePNG').src = "Maternity67.png";
 	} else if (episodeImg =='Maternity68.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity68.png";
+		document.getElementById('episodePNG').src = "Maternity68.png";
 	} else if (episodeImg =='Maternity69.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity69.png";
+		document.getElementById('episodePNG').src = "Maternity69.png";
 	} else if (episodeImg =='Maternity70.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity70.png";
+		document.getElementById('episodePNG').src = "Maternity70.png";
 	} else if (episodeImg =='Maternity71.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity71.png";
+		document.getElementById('episodePNG').src = "Maternity71.png";
 	} else if (episodeImg =='Maternity72.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity72.png";
+		document.getElementById('episodePNG').src = "Maternity72.png";
 	} else if (episodeImg =='Maternity73.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity73.png";
+		document.getElementById('episodePNG').src = "Maternity73.png";
 	} else if (episodeImg =='Maternity74.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity74.png";
+		document.getElementById('episodePNG').src = "Maternity74.png";
 	} else if (episodeImg =='Maternity75.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity75.png";
+		document.getElementById('episodePNG').src = "Maternity75.png";
 	} else if (episodeImg =='Maternity76.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity76.png";
+		document.getElementById('episodePNG').src = "Maternity76.png";
 	} else if (episodeImg =='Maternity77.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity77.png";
+		document.getElementById('episodePNG').src = "Maternity77.png";
 	} else if (episodeImg =='Maternity78.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity78.png";
+		document.getElementById('episodePNG').src = "Maternity78.png";
 	} else if (episodeImg =='Maternity79.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity79.png";
+		document.getElementById('episodePNG').src = "Maternity79.png";
 	} else if (episodeImg =='Maternity80.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity80.png";
+		document.getElementById('episodePNG').src = "Maternity80.png";
 	} else if (episodeImg =='Maternity81.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity81.png";
+		document.getElementById('episodePNG').src = "Maternity81.png";
 	} else if (episodeImg =='Maternity82.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity82.png";
+		document.getElementById('episodePNG').src = "Maternity82.png";
 	} else if (episodeImg =='Maternity83.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity83.png";
+		document.getElementById('episodePNG').src = "Maternity83.png";
 	} else if (episodeImg =='Maternity84.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity84.png";
+		document.getElementById('episodePNG').src = "Maternity84.png";
 	} else if (episodeImg =='Maternity85.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity85.png";
+		document.getElementById('episodePNG').src = "Maternity85.png";
 	} else if (episodeImg =='Maternity86.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity86.png";
+		document.getElementById('episodePNG').src = "Maternity86.png";
 	} else if (episodeImg =='Maternity87.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity87.png";
+		document.getElementById('episodePNG').src = "Maternity87.png";
 	} else if (episodeImg =='Maternity88.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity88.png";
+		document.getElementById('episodePNG').src = "Maternity88.png";
 	} else if (episodeImg =='Maternity89.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity89.png";
+		document.getElementById('episodePNG').src = "Maternity89.png";
 	} else if (episodeImg =='Maternity90.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity90.png";
+		document.getElementById('episodePNG').src = "Maternity90.png";
 	} else if (episodeImg =='Maternity91.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity91.png";
+		document.getElementById('episodePNG').src = "Maternity91.png";
 	} else if (episodeImg =='Maternity92.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity92.png";
+		document.getElementById('episodePNG').src = "Maternity92.png";
 	}else if (episodeImg =='Maternity93.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity93.png";
+		document.getElementById('episodePNG').src = "Maternity93.png";
 	} else if (episodeImg =='Maternity94.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity94.png";
+		document.getElementById('episodePNG').src = "Maternity94.png";
 	}else if (episodeImg =='Maternity95.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity95.png";
+		document.getElementById('episodePNG').src = "Maternity95.png";
 	}else if (episodeImg =='Maternity96.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity96.png";
+		document.getElementById('episodePNG').src = "Maternity96.png";
 	}else if (episodeImg =='Maternity97.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity97.png";
+		document.getElementById('episodePNG').src = "Maternity97.png";
 	}else if (episodeImg =='Maternity98.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity98.png";
+		document.getElementById('episodePNG').src = "Maternity98.png";
 	}else if (episodeImg =='Maternity99.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity99.png";
+		document.getElementById('episodePNG').src = "Maternity99.png";
 	}else if (episodeImg =='Maternity100.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity100.png";
+		document.getElementById('episodePNG').src = "Maternity100.png";
 	}else if (episodeImg =='Maternity101.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity101.png";
+		document.getElementById('episodePNG').src = "Maternity101.png";
 	}else if (episodeImg =='Maternity102.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity102.png";
+		document.getElementById('episodePNG').src = "Maternity102.png";
 	}else if (episodeImg =='Maternity103.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity103.png";
+		document.getElementById('episodePNG').src = "Maternity103.png";
 	}else if (episodeImg =='Maternity104.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity104.png";
+		document.getElementById('episodePNG').src = "Maternity104.png";
 	}else if (episodeImg =='Maternity105.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity105.png";
+		document.getElementById('episodePNG').src = "Maternity105.png";
 	}else if (episodeImg =='Maternity106.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity106.png";
+		document.getElementById('episodePNG').src = "Maternity106.png";
 	}else if (episodeImg =='Maternity107.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity107.png";
+		document.getElementById('episodePNG').src = "Maternity107.png";
 	}else if (episodeImg =='Maternity108.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity108.png";
+		document.getElementById('episodePNG').src = "Maternity108.png";
 	}else if (episodeImg =='Maternity109.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity109.png";
+		document.getElementById('episodePNG').src = "Maternity109.png";
 	}else if (episodeImg =='Maternity110.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity110.png";
+		document.getElementById('episodePNG').src = "Maternity110.png";
 	}else if (episodeImg =='Maternity111.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity111.png";
+		document.getElementById('episodePNG').src = "Maternity111.png";
 	}else if (episodeImg =='Maternity112.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity112.png";
+		document.getElementById('episodePNG').src = "Maternity112.png";
 	}else if (episodeImg =='Maternity113.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity113.png";
+		document.getElementById('episodePNG').src = "Maternity113.png";
 	}else if (episodeImg =='Maternity114.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity114.png";
+		document.getElementById('episodePNG').src = "Maternity114.png";
 	}else if (episodeImg =='Maternity115.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity115.png";
+		document.getElementById('episodePNG').src = "Maternity115.png";
 	}else if (episodeImg =='Maternity116.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity116.png";
+		document.getElementById('episodePNG').src = "Maternity116.png";
 	}else if (episodeImg =='Maternity117.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity117.png";
+		document.getElementById('episodePNG').src = "Maternity117.png";
 	}else if (episodeImg =='Maternity118.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity118.png";
+		document.getElementById('episodePNG').src = "Maternity118.png";
 	}else if (episodeImg =='Maternity119.png') {
-		document.getElementById('episodePNG').src = "images/Maternity/Maternity119.png";
+		document.getElementById('episodePNG').src = "Maternity119.png";
 	}
 }
 function S1E5Img(){
@@ -1254,283 +1254,283 @@ function S1E5Img(){
 	episodeImg = randomValueFromArray(DamnedArray);
 	
 	if (episodeImg == 'Damned1.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned1.png";
+		document.getElementById('episodePNG').src = "Damned1.png";
 	}else if (episodeImg == 'Damned2.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned2.png";
+		document.getElementById('episodePNG').src = "Damned2.png";
 	}else if (episodeImg == 'Damned3.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned3.png";
+		document.getElementById('episodePNG').src = "Damned3.png";
 	}else if (episodeImg == 'Damned4.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned4.png";
+		document.getElementById('episodePNG').src = "Damned4.png";
 	}else if (episodeImg == 'Damned5.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned5.png";
+		document.getElementById('episodePNG').src = "Damned5.png";
 	}else if (episodeImg == 'Damned6.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned6.png";
+		document.getElementById('episodePNG').src = "Damned6.png";
 	}else if (episodeImg == 'Damned7.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned7.png";
+		document.getElementById('episodePNG').src = "Damned7.png";
 	}else if (episodeImg == 'Damned8.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned8.png";
+		document.getElementById('episodePNG').src = "Damned8.png";
 	}else if (episodeImg == 'Damned9.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned9.png";
+		document.getElementById('episodePNG').src = "Damned9.png";
 	}else if (episodeImg == 'Damned10.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned10.png";
+		document.getElementById('episodePNG').src = "Damned10.png";
 	}else if (episodeImg == 'Damned11.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned11.png";
+		document.getElementById('episodePNG').src = "Damned11.png";
 	}else if (episodeImg == 'Damned12.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned12.png";
+		document.getElementById('episodePNG').src = "Damned12.png";
 	}else if (episodeImg == 'Damned13.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned13.png";
+		document.getElementById('episodePNG').src = "Damned13.png";
 	}else if (episodeImg == 'Damned14.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned14.png";
+		document.getElementById('episodePNG').src = "Damned14.png";
 	}else if (episodeImg == 'Damned15.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned15.png";
+		document.getElementById('episodePNG').src = "Damned15.png";
 	}else if (episodeImg == 'Damned16.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned16.png";
+		document.getElementById('episodePNG').src = "Damned16.png";
 	}else if (episodeImg == 'Damned17.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned17.png";
+		document.getElementById('episodePNG').src = "Damned17.png";
 	}else if (episodeImg == 'Damned18.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned18.png";
+		document.getElementById('episodePNG').src = "Damned18.png";
 	}else if (episodeImg == 'Damned19.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned19.png";
+		document.getElementById('episodePNG').src = "Damned19.png";
 	}else if (episodeImg == 'Damned20.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned20.png";
+		document.getElementById('episodePNG').src = "Damned20.png";
 	}else if (episodeImg == 'Damned21.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned21.png";
+		document.getElementById('episodePNG').src = "Damned21.png";
 	}else if (episodeImg == 'Damned22.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned22.png";
+		document.getElementById('episodePNG').src = "Damned22.png";
 	}else if (episodeImg == 'Damned23.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned23.png";
+		document.getElementById('episodePNG').src = "Damned23.png";
 	}else if (episodeImg == 'Damned24.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned24.png";
+		document.getElementById('episodePNG').src = "Damned24.png";
 	}else if (episodeImg == 'Damned25.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned25.png";
+		document.getElementById('episodePNG').src = "Damned25.png";
 	}else if (episodeImg == 'Damned26.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned26.png";
+		document.getElementById('episodePNG').src = "Damned26.png";
 	}else if (episodeImg == 'Damned27.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned27.png";
+		document.getElementById('episodePNG').src = "Damned27.png";
 	}else if (episodeImg == 'Damned28.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned28.png";
+		document.getElementById('episodePNG').src = "Damned28.png";
 	}else if (episodeImg == 'Damned29.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned29.png";
+		document.getElementById('episodePNG').src = "Damned29.png";
 	}else if (episodeImg == 'Damned30.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned30.png";
+		document.getElementById('episodePNG').src = "Damned30.png";
 	}else if (episodeImg == 'Damned31.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned31.png";
+		document.getElementById('episodePNG').src = "Damned31.png";
 	}else if (episodeImg == 'Damned32.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned32.png";
+		document.getElementById('episodePNG').src = "Damned32.png";
 	}else if (episodeImg == 'Damned33.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned33.png";
+		document.getElementById('episodePNG').src = "Damned33.png";
 	}else if (episodeImg == 'Damned34.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned34.png";
+		document.getElementById('episodePNG').src = "Damned34.png";
 	}else if (episodeImg == 'Damned35.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned35.png";
+		document.getElementById('episodePNG').src = "Damned35.png";
 	}else if (episodeImg == 'Damned36.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned36.png";
+		document.getElementById('episodePNG').src = "Damned36.png";
 	}else if (episodeImg == 'Damned37.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned37.png";
+		document.getElementById('episodePNG').src = "Damned37.png";
 	}else if (episodeImg == 'Damned38.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned38.png";
+		document.getElementById('episodePNG').src = "Damned38.png";
 	}else if (episodeImg == 'Damned39.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned39.png";
+		document.getElementById('episodePNG').src = "Damned39.png";
 	}else if (episodeImg == 'Damned40.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned40.png";
+		document.getElementById('episodePNG').src = "Damned40.png";
 	}else if (episodeImg == 'Damned41.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned41.png";
+		document.getElementById('episodePNG').src = "Damned41.png";
 	}else if (episodeImg == 'Damned42.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned42.png";
+		document.getElementById('episodePNG').src = "Damned42.png";
 	}else if (episodeImg == 'Damned43.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned43.png";
+		document.getElementById('episodePNG').src = "Damned43.png";
 	}else if (episodeImg == 'Damned44.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned44.png";
+		document.getElementById('episodePNG').src = "Damned44.png";
 	}else if (episodeImg == 'Damned45.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned45.png";
+		document.getElementById('episodePNG').src = "Damned45.png";
 	}else if (episodeImg == 'Damned46.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned46.png";
+		document.getElementById('episodePNG').src = "Damned46.png";
 	}else if (episodeImg == 'Damned47.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned47.png";
+		document.getElementById('episodePNG').src = "Damned47.png";
 	}else if (episodeImg == 'Damned48.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned48.png";
+		document.getElementById('episodePNG').src = "Damned48.png";
 	}else if (episodeImg == 'Damned49.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned49.png";
+		document.getElementById('episodePNG').src = "Damned49.png";
 	}else if (episodeImg == 'Damned50.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned50.png";
+		document.getElementById('episodePNG').src = "Damned50.png";
 	}else if (episodeImg == 'Damned51.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned51.png";
+		document.getElementById('episodePNG').src = "Damned51.png";
 	}else if (episodeImg == 'Damned52.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned52.png";
+		document.getElementById('episodePNG').src = "Damned52.png";
 	}else if (episodeImg == 'Damned53.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned53.png";
+		document.getElementById('episodePNG').src = "Damned53.png";
 	}else if (episodeImg == 'Damned54.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned54.png";
+		document.getElementById('episodePNG').src = "Damned54.png";
 	}else if (episodeImg == 'Damned55.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned55.png";
+		document.getElementById('episodePNG').src = "Damned55.png";
 	}else if (episodeImg == 'Damned56.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned56.png";
+		document.getElementById('episodePNG').src = "Damned56.png";
 	}else if (episodeImg == 'Damned57.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned57.png";
+		document.getElementById('episodePNG').src = "Damned57.png";
 	}else if (episodeImg == 'Damned58.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned58.png";
+		document.getElementById('episodePNG').src = "Damned58.png";
 	}else if (episodeImg == 'Damned59.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned59.png";
+		document.getElementById('episodePNG').src = "Damned59.png";
 	}else if (episodeImg == 'Damned60.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned60.png";
+		document.getElementById('episodePNG').src = "Damned60.png";
 	}else if (episodeImg == 'Damned61.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned61.png";
+		document.getElementById('episodePNG').src = "Damned61.png";
 	}else if (episodeImg == 'Damned62.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned62.png";
+		document.getElementById('episodePNG').src = "Damned62.png";
 	}else if (episodeImg == 'Damned63.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned63.png";
+		document.getElementById('episodePNG').src = "Damned63.png";
 	}else if (episodeImg == 'Damned64.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned64.png";
+		document.getElementById('episodePNG').src = "Damned64.png";
 	}else if (episodeImg == 'Damned65.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned65.png";
+		document.getElementById('episodePNG').src = "Damned65.png";
 	}else if (episodeImg == 'Damned66.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned66.png";
+		document.getElementById('episodePNG').src = "Damned66.png";
 	}else if (episodeImg == 'Damned67.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned67.png";
+		document.getElementById('episodePNG').src = "Damned67.png";
 	}else if (episodeImg == 'Damned68.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned68.png";
+		document.getElementById('episodePNG').src = "Damned68.png";
 	}else if (episodeImg == 'Damned69.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned69.png";
+		document.getElementById('episodePNG').src = "Damned69.png";
 	}else if (episodeImg == 'Damned70.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned70.png";
+		document.getElementById('episodePNG').src = "Damned70.png";
 	}else if (episodeImg == 'Damned71.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned71.png";
+		document.getElementById('episodePNG').src = "Damned71.png";
 	}else if (episodeImg == 'Damned72.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned72.png";
+		document.getElementById('episodePNG').src = "Damned72.png";
 	}else if (episodeImg == 'Damned73.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned73.png";
+		document.getElementById('episodePNG').src = "Damned73.png";
 	}else if (episodeImg == 'Damned74.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned74.png";
+		document.getElementById('episodePNG').src = "Damned74.png";
 	}else if (episodeImg == 'Damned75.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned75.png";
+		document.getElementById('episodePNG').src = "Damned75.png";
 	}else if (episodeImg == 'Damned76.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned76.png";
+		document.getElementById('episodePNG').src = "Damned76.png";
 	}else if (episodeImg == 'Damned77.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned77.png";
+		document.getElementById('episodePNG').src = "Damned77.png";
 	}else if (episodeImg == 'Damned78.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned78.png";
+		document.getElementById('episodePNG').src = "Damned78.png";
 	}else if (episodeImg == 'Damned79.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned79.png";
+		document.getElementById('episodePNG').src = "Damned79.png";
 	}else if (episodeImg == 'Damned80.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned80.png";
+		document.getElementById('episodePNG').src = "Damned80.png";
 	}else if (episodeImg == 'Damned81.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned81.png";
+		document.getElementById('episodePNG').src = "Damned81.png";
 	}else if (episodeImg == 'Damned82.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned82.png";
+		document.getElementById('episodePNG').src = "Damned82.png";
 	}else if (episodeImg == 'Damned83.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned83.png";
+		document.getElementById('episodePNG').src = "Damned83.png";
 	}else if (episodeImg == 'Damned84.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned84.png";
+		document.getElementById('episodePNG').src = "Damned84.png";
 	}else if (episodeImg == 'Damned85.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned85.png";
+		document.getElementById('episodePNG').src = "Damned85.png";
 	}else if (episodeImg == 'Damned86.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned86.png";
+		document.getElementById('episodePNG').src = "Damned86.png";
 	}else if (episodeImg == 'Damned87.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned87.png";
+		document.getElementById('episodePNG').src = "Damned87.png";
 	}else if (episodeImg == 'Damned88.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned88.png";
+		document.getElementById('episodePNG').src = "Damned88.png";
 	}else if (episodeImg == 'Damned89.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned89.png";
+		document.getElementById('episodePNG').src = "Damned89.png";
 	}else if (episodeImg == 'Damned90.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned90.png";
+		document.getElementById('episodePNG').src = "Damned90.png";
 	}else if (episodeImg == 'Damned91.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned91.png";
+		document.getElementById('episodePNG').src = "Damned91.png";
 	}else if (episodeImg == 'Damned92.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned92.png";
+		document.getElementById('episodePNG').src = "Damned92.png";
 	}else if (episodeImg == 'Damned93.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned93.png";
+		document.getElementById('episodePNG').src = "Damned93.png";
 	}else if (episodeImg == 'Damned94.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned94.png";
+		document.getElementById('episodePNG').src = "Damned94.png";
 	}else if (episodeImg == 'Damned95.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned95.png";
+		document.getElementById('episodePNG').src = "Damned95.png";
 	}else if (episodeImg == 'Damned96.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned96.png";
+		document.getElementById('episodePNG').src = "Damned96.png";
 	}else if (episodeImg == 'Damned97.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned97.png";
+		document.getElementById('episodePNG').src = "Damned97.png";
 	}else if (episodeImg == 'Damned98.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned98.png";
+		document.getElementById('episodePNG').src = "Damned98.png";
 	}else if (episodeImg == 'Damned99.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned99.png";
+		document.getElementById('episodePNG').src = "Damned99.png";
 	}else if (episodeImg == 'Damned100.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned100.png";
+		document.getElementById('episodePNG').src = "Damned100.png";
 	}else if (episodeImg == 'Damned101.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned101.png";
+		document.getElementById('episodePNG').src = "Damned101.png";
 	}else if (episodeImg == 'Damned102.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned102.png";
+		document.getElementById('episodePNG').src = "Damned102.png";
 	}else if (episodeImg == 'Damned103.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned103.png";
+		document.getElementById('episodePNG').src = "Damned103.png";
 	}else if (episodeImg == 'Damned104.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned104.png";
+		document.getElementById('episodePNG').src = "Damned104.png";
 	}else if (episodeImg == 'Damned105.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned105.png";
+		document.getElementById('episodePNG').src = "Damned105.png";
 	}else if (episodeImg == 'Damned106.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned106.png";
+		document.getElementById('episodePNG').src = "Damned106.png";
 	}else if (episodeImg == 'Damned107.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned107.png";
+		document.getElementById('episodePNG').src = "Damned107.png";
 	}else if (episodeImg == 'Damned108.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned108.png";
+		document.getElementById('episodePNG').src = "Damned108.png";
 	}else if (episodeImg == 'Damned109.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned109.png";
+		document.getElementById('episodePNG').src = "Damned109.png";
 	}else if (episodeImg == 'Damned110.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned110.png";
+		document.getElementById('episodePNG').src = "Damned110.png";
 	}else if (episodeImg == 'Damned111.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned111.png";
+		document.getElementById('episodePNG').src = "Damned111.png";
 	}else if (episodeImg == 'Damned112.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned112.png";
+		document.getElementById('episodePNG').src = "Damned112.png";
 	}else if (episodeImg == 'Damned113.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned113.png";
+		document.getElementById('episodePNG').src = "Damned113.png";
 	}else if (episodeImg == 'Damned114.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned114.png";
+		document.getElementById('episodePNG').src = "Damned114.png";
 	}else if (episodeImg == 'Damned115.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned115.png";
+		document.getElementById('episodePNG').src = "Damned115.png";
 	}else if (episodeImg == 'Damned116.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned116.png";
+		document.getElementById('episodePNG').src = "Damned116.png";
 	}else if (episodeImg == 'Damned117.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned117.png";
+		document.getElementById('episodePNG').src = "Damned117.png";
 	}else if (episodeImg == 'Damned118.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned118.png";
+		document.getElementById('episodePNG').src = "Damned118.png";
 	}else if (episodeImg == 'Damned119.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned119.png";
+		document.getElementById('episodePNG').src = "Damned119.png";
 	}else if (episodeImg == 'Damned120.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned120.png";
+		document.getElementById('episodePNG').src = "Damned120.png";
 	}else if (episodeImg == 'Damned121.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned121.png";
+		document.getElementById('episodePNG').src = "Damned121.png";
 	}else if (episodeImg == 'Damned122.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned122.png";
+		document.getElementById('episodePNG').src = "Damned122.png";
 	}else if (episodeImg == 'Damned123.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned123.png";
+		document.getElementById('episodePNG').src = "Damned123.png";
 	}else if (episodeImg == 'Damned124.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned124.png";
+		document.getElementById('episodePNG').src = "Damned124.png";
 	}else if (episodeImg == 'Damned125.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned125.png";
+		document.getElementById('episodePNG').src = "Damned125.png";
 	}else if (episodeImg == 'Damned126.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned126.png";
+		document.getElementById('episodePNG').src = "Damned126.png";
 	}else if (episodeImg == 'Damned127.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned127.png";
+		document.getElementById('episodePNG').src = "Damned127.png";
 	}else if (episodeImg == 'Damned128.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned128.png";
+		document.getElementById('episodePNG').src = "Damned128.png";
 	}else if (episodeImg == 'Damned129.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned129.png";
+		document.getElementById('episodePNG').src = "Damned129.png";
 	}else if (episodeImg == 'Damned130.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned130.png";
+		document.getElementById('episodePNG').src = "Damned130.png";
 	}else if (episodeImg == 'Damned131.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned131.png";
+		document.getElementById('episodePNG').src = "Damned131.png";
 	}else if (episodeImg == 'Damned132.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned132.png";
+		document.getElementById('episodePNG').src = "Damned132.png";
 	}else if (episodeImg == 'Damned133.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned133.png";
+		document.getElementById('episodePNG').src = "Damned133.png";
 	}else if (episodeImg == 'Damned134.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned134.png";
+		document.getElementById('episodePNG').src = "Damned134.png";
 	}else if (episodeImg == 'Damned135.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned135.png";
+		document.getElementById('episodePNG').src = "Damned135.png";
 	}else if (episodeImg == 'Damned136.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned136.png";
+		document.getElementById('episodePNG').src = "Damned136.png";
 	}else if (episodeImg == 'Damned137.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned137.png";
+		document.getElementById('episodePNG').src = "Damned137.png";
 	}else if (episodeImg == 'Damned138.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned138.png";
+		document.getElementById('episodePNG').src = "Damned138.png";
 	}else if (episodeImg == 'Damned139.png') {
-		document.getElementById('episodePNG').src = "images/Damned/Damned139.png";
+		document.getElementById('episodePNG').src = "Damned139.png";
 	}
 }
 function S1E6Img(){
@@ -1539,273 +1539,273 @@ function S1E6Img(){
 	episodeImg = randomValueFromArray(MethodArray);
 	
 	if (episodeImg == 'Method (1).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (1).png";
+		document.getElementById('episodePNG').src = "Method (1).png";
 	}else if (episodeImg == 'Method (2).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (2).png";
+		document.getElementById('episodePNG').src = "Method (2).png";
 	}else if (episodeImg == 'Method (3).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (3).png";
+		document.getElementById('episodePNG').src = "Method (3).png";
 	}else if (episodeImg == 'Method (4).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (4).png";
+		document.getElementById('episodePNG').src = "Method (4).png";
 	}else if (episodeImg == 'Method (5).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (5).png";
+		document.getElementById('episodePNG').src = "Method (5).png";
 	}else if (episodeImg == 'Method (6).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (6).png";
+		document.getElementById('episodePNG').src = "Method (6).png";
 	}else if (episodeImg == 'Method (7).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (7).png";
+		document.getElementById('episodePNG').src = "Method (7).png";
 	}else if (episodeImg == 'Method (8).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (8).png";
+		document.getElementById('episodePNG').src = "Method (8).png";
 	}else if (episodeImg == 'Method (9).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (9).png";
+		document.getElementById('episodePNG').src = "Method (9).png";
 	}else if (episodeImg == 'Method (10).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (10).png";
+		document.getElementById('episodePNG').src = "Method (10).png";
 	}else if (episodeImg == 'Method (11).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (11).png";
+		document.getElementById('episodePNG').src = "Method (11).png";
 	}else if (episodeImg == 'Method (12).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (12).png";
+		document.getElementById('episodePNG').src = "Method (12).png";
 	}else if (episodeImg == 'Method (13).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (13).png";
+		document.getElementById('episodePNG').src = "Method (13).png";
 	}else if (episodeImg == 'Method (14).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (14).png";
+		document.getElementById('episodePNG').src = "Method (14).png";
 	}else if (episodeImg == 'Method (15).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (15).png";
+		document.getElementById('episodePNG').src = "Method (15).png";
 	}else if (episodeImg == 'Method (16).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (16).png";
+		document.getElementById('episodePNG').src = "Method (16).png";
 	}else if (episodeImg == 'Method (17).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (17).png";
+		document.getElementById('episodePNG').src = "Method (17).png";
 	}else if (episodeImg == 'Method (18).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (18).png";
+		document.getElementById('episodePNG').src = "Method (18).png";
 	}else if (episodeImg == 'Method (19).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (19).png";
+		document.getElementById('episodePNG').src = "Method (19).png";
 	}else if (episodeImg == 'Method (20).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (20).png";
+		document.getElementById('episodePNG').src = "Method (20).png";
 	}else if (episodeImg == 'Method (21).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (21).png";
+		document.getElementById('episodePNG').src = "Method (21).png";
 	}else if (episodeImg == 'Method (22).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (22).png";
+		document.getElementById('episodePNG').src = "Method (22).png";
 	}else if (episodeImg == 'Method (23).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (23).png";
+		document.getElementById('episodePNG').src = "Method (23).png";
 	}else if (episodeImg == 'Method (24).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (24).png";
+		document.getElementById('episodePNG').src = "Method (24).png";
 	}else if (episodeImg == 'Method (25).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (25).png";
+		document.getElementById('episodePNG').src = "Method (25).png";
 	}else if (episodeImg == 'Method (26).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (26).png";
+		document.getElementById('episodePNG').src = "Method (26).png";
 	}else if (episodeImg == 'Method (27).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (27).png";
+		document.getElementById('episodePNG').src = "Method (27).png";
 	}else if (episodeImg == 'Method (28).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (28).png";
+		document.getElementById('episodePNG').src = "Method (28).png";
 	}else if (episodeImg == 'Method (29).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (29).png";
+		document.getElementById('episodePNG').src = "Method (29).png";
 	}else if (episodeImg == 'Method (30).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (30).png";
+		document.getElementById('episodePNG').src = "Method (30).png";
 	}else if (episodeImg == 'Method (31).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (31).png";
+		document.getElementById('episodePNG').src = "Method (31).png";
 	}else if (episodeImg == 'Method (32).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (32).png";
+		document.getElementById('episodePNG').src = "Method (32).png";
 	}else if (episodeImg == 'Method (33).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (33).png";
+		document.getElementById('episodePNG').src = "Method (33).png";
 	}else if (episodeImg == 'Method (34).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (34).png";
+		document.getElementById('episodePNG').src = "Method (34).png";
 	}else if (episodeImg == 'Method (35).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (35).png";
+		document.getElementById('episodePNG').src = "Method (35).png";
 	}else if (episodeImg == 'Method (36).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (36).png";
+		document.getElementById('episodePNG').src = "Method (36).png";
 	}else if (episodeImg == 'Method (37).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (37).png";
+		document.getElementById('episodePNG').src = "Method (37).png";
 	}else if (episodeImg == 'Method (38).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (38).png";
+		document.getElementById('episodePNG').src = "Method (38).png";
 	}else if (episodeImg == 'Method (39).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (39).png";
+		document.getElementById('episodePNG').src = "Method (39).png";
 	}else if (episodeImg == 'Method (40).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (40).png";
+		document.getElementById('episodePNG').src = "Method (40).png";
 	}else if (episodeImg == 'Method (41).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (41).png";
+		document.getElementById('episodePNG').src = "Method (41).png";
 	}else if (episodeImg == 'Method (42).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (42).png";
+		document.getElementById('episodePNG').src = "Method (42).png";
 	}else if (episodeImg == 'Method (43).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (43).png";
+		document.getElementById('episodePNG').src = "Method (43).png";
 	}else if (episodeImg == 'Method (44).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (44).png";
+		document.getElementById('episodePNG').src = "Method (44).png";
 	}else if (episodeImg == 'Method (45).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (45).png";
+		document.getElementById('episodePNG').src = "Method (45).png";
 	}else if (episodeImg == 'Method (46).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (46).png";
+		document.getElementById('episodePNG').src = "Method (46).png";
 	}else if (episodeImg == 'Method (47).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (47).png";
+		document.getElementById('episodePNG').src = "Method (47).png";
 	}else if (episodeImg == 'Method (48).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (48).png";
+		document.getElementById('episodePNG').src = "Method (48).png";
 	}else if (episodeImg == 'Method (49).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (49).png";
+		document.getElementById('episodePNG').src = "Method (49).png";
 	}else if (episodeImg == 'Method (50).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (50).png";
+		document.getElementById('episodePNG').src = "Method (50).png";
 	}else if (episodeImg == 'Method (51).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (51).png";
+		document.getElementById('episodePNG').src = "Method (51).png";
 	}else if (episodeImg == 'Method (52).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (52).png";
+		document.getElementById('episodePNG').src = "Method (52).png";
 	}else if (episodeImg == 'Method (53).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (53).png";
+		document.getElementById('episodePNG').src = "Method (53).png";
 	}else if (episodeImg == 'Method (54).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (54).png";
+		document.getElementById('episodePNG').src = "Method (54).png";
 	}else if (episodeImg == 'Method (55).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (55).png";
+		document.getElementById('episodePNG').src = "Method (55).png";
 	}else if (episodeImg == 'Method (56).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (56).png";
+		document.getElementById('episodePNG').src = "Method (56).png";
 	}else if (episodeImg == 'Method (57).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (57).png";
+		document.getElementById('episodePNG').src = "Method (57).png";
 	}else if (episodeImg == 'Method (58).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (58).png";
+		document.getElementById('episodePNG').src = "Method (58).png";
 	}else if (episodeImg == 'Method (59).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (59).png";
+		document.getElementById('episodePNG').src = "Method (59).png";
 	}else if (episodeImg == 'Method (60).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (60).png";
+		document.getElementById('episodePNG').src = "Method (60).png";
 	}else if (episodeImg == 'Method (61).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (61).png";
+		document.getElementById('episodePNG').src = "Method (61).png";
 	}else if (episodeImg == 'Method (62).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (62).png";
+		document.getElementById('episodePNG').src = "Method (62).png";
 	}else if (episodeImg == 'Method (63).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (63).png";
+		document.getElementById('episodePNG').src = "Method (63).png";
 	}else if (episodeImg == 'Method (64).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (64).png";
+		document.getElementById('episodePNG').src = "Method (64).png";
 	}else if (episodeImg == 'Method (65).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (65).png";
+		document.getElementById('episodePNG').src = "Method (65).png";
 	}else if (episodeImg == 'Method (66).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (66).png";
+		document.getElementById('episodePNG').src = "Method (66).png";
 	}else if (episodeImg == 'Method (67).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (67).png";
+		document.getElementById('episodePNG').src = "Method (67).png";
 	}else if (episodeImg == 'Method (68).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (68).png";
+		document.getElementById('episodePNG').src = "Method (68).png";
 	}else if (episodeImg == 'Method (69).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (69).png";
+		document.getElementById('episodePNG').src = "Method (69).png";
 	}else if (episodeImg == 'Method (70).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (70).png";
+		document.getElementById('episodePNG').src = "Method (70).png";
 	}else if (episodeImg == 'Method (71).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (71).png";
+		document.getElementById('episodePNG').src = "Method (71).png";
 	}else if (episodeImg == 'Method (72).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (72).png";
+		document.getElementById('episodePNG').src = "Method (72).png";
 	}else if (episodeImg == 'Method (73).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (73).png";
+		document.getElementById('episodePNG').src = "Method (73).png";
 	}else if (episodeImg == 'Method (74).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (74).png";
+		document.getElementById('episodePNG').src = "Method (74).png";
 	}else if (episodeImg == 'Method (75).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (75).png";
+		document.getElementById('episodePNG').src = "Method (75).png";
 	}else if (episodeImg == 'Method (76).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (76).png";
+		document.getElementById('episodePNG').src = "Method (76).png";
 	}else if (episodeImg == 'Method (77).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (77).png";
+		document.getElementById('episodePNG').src = "Method (77).png";
 	}else if (episodeImg == 'Method (78).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (78).png";
+		document.getElementById('episodePNG').src = "Method (78).png";
 	}else if (episodeImg == 'Method (79).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (79).png";
+		document.getElementById('episodePNG').src = "Method (79).png";
 	}else if (episodeImg == 'Method (80).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (80).png";
+		document.getElementById('episodePNG').src = "Method (80).png";
 	}else if (episodeImg == 'Method (81).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (81).png";
+		document.getElementById('episodePNG').src = "Method (81).png";
 	}else if (episodeImg == 'Method (82).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (82).png";
+		document.getElementById('episodePNG').src = "Method (82).png";
 	}else if (episodeImg == 'Method (83).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (83).png";
+		document.getElementById('episodePNG').src = "Method (83).png";
 	}else if (episodeImg == 'Method (84).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (84).png";
+		document.getElementById('episodePNG').src = "Method (84).png";
 	}else if (episodeImg == 'Method (85).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (85).png";
+		document.getElementById('episodePNG').src = "Method (85).png";
 	}else if (episodeImg == 'Method (86).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (86).png";
+		document.getElementById('episodePNG').src = "Method (86).png";
 	}else if (episodeImg == 'Method (87).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (87).png";
+		document.getElementById('episodePNG').src = "Method (87).png";
 	}else if (episodeImg == 'Method (88).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (88).png";
+		document.getElementById('episodePNG').src = "Method (88).png";
 	}else if (episodeImg == 'Method (89).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (89).png";
+		document.getElementById('episodePNG').src = "Method (89).png";
 	}else if (episodeImg == 'Method (90).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (90).png";
+		document.getElementById('episodePNG').src = "Method (90).png";
 	}else if (episodeImg == 'Method (91).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (91).png";
+		document.getElementById('episodePNG').src = "Method (91).png";
 	}else if (episodeImg == 'Method (92).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (92).png";
+		document.getElementById('episodePNG').src = "Method (92).png";
 	}else if (episodeImg == 'Method (93).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (93).png";
+		document.getElementById('episodePNG').src = "Method (93).png";
 	}else if (episodeImg == 'Method (94).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (94).png";
+		document.getElementById('episodePNG').src = "Method (94).png";
 	}else if (episodeImg == 'Method (95).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (95).png";
+		document.getElementById('episodePNG').src = "Method (95).png";
 	}else if (episodeImg == 'Method (96).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (96).png";
+		document.getElementById('episodePNG').src = "Method (96).png";
 	}else if (episodeImg == 'Method (97).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (97).png";
+		document.getElementById('episodePNG').src = "Method (97).png";
 	}else if (episodeImg == 'Method (98).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (98).png";
+		document.getElementById('episodePNG').src = "Method (98).png";
 	}else if (episodeImg == 'Method (99).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (99).png";
+		document.getElementById('episodePNG').src = "Method (99).png";
 	}else if (episodeImg == 'Method (100).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (100).png";
+		document.getElementById('episodePNG').src = "Method (100).png";
 	}else if (episodeImg == 'Method (101).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (101).png";
+		document.getElementById('episodePNG').src = "Method (101).png";
 	}else if (episodeImg == 'Method (102).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (102).png";
+		document.getElementById('episodePNG').src = "Method (102).png";
 	}else if (episodeImg == 'Method (103).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (103).png";
+		document.getElementById('episodePNG').src = "Method (103).png";
 	}else if (episodeImg == 'Method (104).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (104).png";
+		document.getElementById('episodePNG').src = "Method (104).png";
 	}else if (episodeImg == 'Method (105).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (105).png";
+		document.getElementById('episodePNG').src = "Method (105).png";
 	}else if (episodeImg == 'Method (106).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (106).png";
+		document.getElementById('episodePNG').src = "Method (106).png";
 	}else if (episodeImg == 'Method (107).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (107).png";
+		document.getElementById('episodePNG').src = "Method (107).png";
 	}else if (episodeImg == 'Method (108).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (108).png";
+		document.getElementById('episodePNG').src = "Method (108).png";
 	}else if (episodeImg == 'Method (109).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (109).png";
+		document.getElementById('episodePNG').src = "Method (109).png";
 	}else if (episodeImg == 'Method (110).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (110).png";
+		document.getElementById('episodePNG').src = "Method (110).png";
 	}else if (episodeImg == 'Method (111).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (111).png";
+		document.getElementById('episodePNG').src = "Method (111).png";
 	}else if (episodeImg == 'Method (112).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (112).png";
+		document.getElementById('episodePNG').src = "Method (112).png";
 	}else if (episodeImg == 'Method (113).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (113).png";
+		document.getElementById('episodePNG').src = "Method (113).png";
 	}else if (episodeImg == 'Method (114).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (114).png";
+		document.getElementById('episodePNG').src = "Method (114).png";
 	}else if (episodeImg == 'Method (115).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (115).png";
+		document.getElementById('episodePNG').src = "Method (115).png";
 	}else if (episodeImg == 'Method (116).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method 116).png";
+		document.getElementById('episodePNG').src = "Method 116).png";
 	}else if (episodeImg == 'Method (117).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (117).png";
+		document.getElementById('episodePNG').src = "Method (117).png";
 	}else if (episodeImg == 'Method (118).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (118).png";
+		document.getElementById('episodePNG').src = "Method (118).png";
 	}else if (episodeImg == 'Method (119).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (119).png";
+		document.getElementById('episodePNG').src = "Method (119).png";
 	}else if (episodeImg == 'Method (120).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (120).png";
+		document.getElementById('episodePNG').src = "Method (120).png";
 	}else if (episodeImg == 'Method (121).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (121).png";
+		document.getElementById('episodePNG').src = "Method (121).png";
 	}else if (episodeImg == 'Method (122).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (122).png";
+		document.getElementById('episodePNG').src = "Method (122).png";
 	}else if (episodeImg == 'Method (123).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (123).png";
+		document.getElementById('episodePNG').src = "Method (123).png";
 	}else if (episodeImg == 'Method (124).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (124).png";
+		document.getElementById('episodePNG').src = "Method (124).png";
 	}else if (episodeImg == 'Method (125).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (125).png";
+		document.getElementById('episodePNG').src = "Method (125).png";
 	}else if (episodeImg == 'Method (126).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (126).png";
+		document.getElementById('episodePNG').src = "Method (126).png";
 	}else if (episodeImg == 'Method (127).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (127).png";
+		document.getElementById('episodePNG').src = "Method (127).png";
 	}else if (episodeImg == 'Method (128).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (128).png";
+		document.getElementById('episodePNG').src = "Method (128).png";
 	}else if (episodeImg == 'Method (129).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (129).png";
+		document.getElementById('episodePNG').src = "Method (129).png";
 	}else if (episodeImg == 'Method (130).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (130).png";
+		document.getElementById('episodePNG').src = "Method (130).png";
 	}else if (episodeImg == 'Method (131).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (131).png";
+		document.getElementById('episodePNG').src = "Method (131).png";
 	}else if (episodeImg == 'Method (132).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (132).png";
+		document.getElementById('episodePNG').src = "Method (132).png";
 	}else if (episodeImg == 'Method (133).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (133).png";
+		document.getElementById('episodePNG').src = "Method (133).png";
 	}else if (episodeImg == 'Method (134).png') {
-		document.getElementById('episodePNG').src = "images/Method/Method (134).png";
+		document.getElementById('episodePNG').src = "Method (134).png";
 	}
 }
 
