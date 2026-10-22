@@ -288,613 +288,613 @@ function updateImg() {
 function S1E1Img() {
     episodeImg = randomValueFromArray(pilotArray);
     if (episodeImg == 'Pilot1.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot1.png";
+        document.getElementById('episodePNG').src = " Pilot1.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot1.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot2.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot2.png";
+        document.getElementById('episodePNG').src = " Pilot2.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot2.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot3.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot3.png";
+        document.getElementById('episodePNG').src = " Pilot3.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot3.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot4.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot4.png";
+        document.getElementById('episodePNG').src = " Pilot4.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot4.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot5.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot5.png";
+        document.getElementById('episodePNG').src = " Pilot5.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot5.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot6.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot6.png";
+        document.getElementById('episodePNG').src = " Pilot6.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot6.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot7.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot7.png";
+        document.getElementById('episodePNG').src = " Pilot7.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot7.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot8.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot8.png";
+        document.getElementById('episodePNG').src = " Pilot8.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot8.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot9.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot9.png";
+        document.getElementById('episodePNG').src = " Pilot9.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot9.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot10.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot10.png";
+        document.getElementById('episodePNG').src = " Pilot10.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot10.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot11.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot11.png";
+        document.getElementById('episodePNG').src = " Pilot11.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot11.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot12.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot12.png";
+        document.getElementById('episodePNG').src = " Pilot12.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot12.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot13.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot13.png";
+        document.getElementById('episodePNG').src = " Pilot13.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot13.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot14.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot14.png";
+        document.getElementById('episodePNG').src = " Pilot14.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot14.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot15.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot15.png";
+        document.getElementById('episodePNG').src = " Pilot15.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot15.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot16.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot16.png";
+        document.getElementById('episodePNG').src = " Pilot16.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot16.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot17.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot17.png";
+        document.getElementById('episodePNG').src = " Pilot17.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot17.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot18.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot18.png";
+        document.getElementById('episodePNG').src = " Pilot18.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot18.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot19.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot19.png";
+        document.getElementById('episodePNG').src = " Pilot19.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot19.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot20.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot20.png";
+        document.getElementById('episodePNG').src = " Pilot20.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot20.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot21.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot21.png";
+        document.getElementById('episodePNG').src = " Pilot21.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot21.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot22.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot22.png";
+        document.getElementById('episodePNG').src = " Pilot22.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot22.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot23.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot23.png";
+        document.getElementById('episodePNG').src = " Pilot23.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot23.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot24.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot24.png";
+        document.getElementById('episodePNG').src = " Pilot24.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot24.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot25.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot25.png";
+        document.getElementById('episodePNG').src = " Pilot25.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot25.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot26.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot26.png";
+        document.getElementById('episodePNG').src = " Pilot26.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot26.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot27.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot27.png";
+        document.getElementById('episodePNG').src = " Pilot27.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot27.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot28.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot28.png";
+        document.getElementById('episodePNG').src = " Pilot28.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot28.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot29.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot29.png";
+        document.getElementById('episodePNG').src = " Pilot29.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot29.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot30.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot30.png";
+        document.getElementById('episodePNG').src = " Pilot30.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot30.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot31.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot31.png";
+        document.getElementById('episodePNG').src = " Pilot31.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot31.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot32.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot32.png";
+        document.getElementById('episodePNG').src = " Pilot32.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot32.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot33.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot33.png";
+        document.getElementById('episodePNG').src = " Pilot33.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot33.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot34.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot34.png";
+        document.getElementById('episodePNG').src = " Pilot34.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot34.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot35.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot35.png";
+        document.getElementById('episodePNG').src = " Pilot35.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot35.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot36.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot36.png";
+        document.getElementById('episodePNG').src = " Pilot36.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot36.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot37.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot37.png";
+        document.getElementById('episodePNG').src = " Pilot37.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot37.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot38.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot38.png";
+        document.getElementById('episodePNG').src = " Pilot38.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot38.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot39.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot39.png";
+        document.getElementById('episodePNG').src = " Pilot39.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot39.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot40.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot40.png";
+        document.getElementById('episodePNG').src = " Pilot40.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot40.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot41.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot41.png";
+        document.getElementById('episodePNG').src = " Pilot41.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot41.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot42.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot42.png";
+        document.getElementById('episodePNG').src = " Pilot42.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot42.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot43.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot43.png";
+        document.getElementById('episodePNG').src = " Pilot43.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot43.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot44.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot44.png";
+        document.getElementById('episodePNG').src = " Pilot44.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot44.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot45.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot45.png";
+        document.getElementById('episodePNG').src = " Pilot45.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot45.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot46.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot46.png";
+        document.getElementById('episodePNG').src = " Pilot46.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot46.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot47.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot47.png";
+        document.getElementById('episodePNG').src = " Pilot47.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot47.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot48.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot48.png";
+        document.getElementById('episodePNG').src = " Pilot48.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot48.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot49.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot49.png";
+        document.getElementById('episodePNG').src = " Pilot49.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot49.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot50.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot50.png";
+        document.getElementById('episodePNG').src = " Pilot50.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot50.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot51.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot51.png";
+        document.getElementById('episodePNG').src = " Pilot51.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot51.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot52.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot52.png";
+        document.getElementById('episodePNG').src = " Pilot52.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot52.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot53.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot53.png";
+        document.getElementById('episodePNG').src = " Pilot53.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot53.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot54.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot54.png";
+        document.getElementById('episodePNG').src = " Pilot54.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot54.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot55.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot55.png";
+        document.getElementById('episodePNG').src = " Pilot55.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot55.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot56.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot56.png";
+        document.getElementById('episodePNG').src = " Pilot56.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot56.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot57.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot57.png";
+        document.getElementById('episodePNG').src = " Pilot57.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot57.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot58.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot58.png";
+        document.getElementById('episodePNG').src = " Pilot58.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot58.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot59.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot59.png";
+        document.getElementById('episodePNG').src = " Pilot59.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot59.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot60.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot60.png";
+        document.getElementById('episodePNG').src = " Pilot60.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot60.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot61.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot61.png";
+        document.getElementById('episodePNG').src = " Pilot61.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot61.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot62.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot62.png";
+        document.getElementById('episodePNG').src = " Pilot62.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot62.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot63.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot63.png";
+        document.getElementById('episodePNG').src = " Pilot63.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot63.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot64.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot64.png";
+        document.getElementById('episodePNG').src = " Pilot64.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot64.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot65.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot65.png";
+        document.getElementById('episodePNG').src = " Pilot65.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot65.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot66.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot66.png";
+        document.getElementById('episodePNG').src = " Pilot66.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot66.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot67.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot67.png";
+        document.getElementById('episodePNG').src = " Pilot67.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot67.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot68.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot68.png";
+        document.getElementById('episodePNG').src = " Pilot68.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot68.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot69.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot69.png";
+        document.getElementById('episodePNG').src = " Pilot69.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot69.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot70.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot70.png";
+        document.getElementById('episodePNG').src = " Pilot70.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot70.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot71.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot71.png";
+        document.getElementById('episodePNG').src = " Pilot71.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot71.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot72.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot72.png";
+        document.getElementById('episodePNG').src = " Pilot72.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot72.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot73.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot73.png";
+        document.getElementById('episodePNG').src = " Pilot73.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot73.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot74.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot74.png";
+        document.getElementById('episodePNG').src = " Pilot74.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot74.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot75.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot75.png";
+        document.getElementById('episodePNG').src = " Pilot75.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot75.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot76.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot76.png";
+        document.getElementById('episodePNG').src = " Pilot76.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot76.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot77.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot77.png";
+        document.getElementById('episodePNG').src = " Pilot77.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot77.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot78.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot78.png";
+        document.getElementById('episodePNG').src = " Pilot78.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot78.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot79.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot79.png";
+        document.getElementById('episodePNG').src = " Pilot79.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot79.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot80.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot80.png";
+        document.getElementById('episodePNG').src = " Pilot80.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot80.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot81.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot81.png";
+        document.getElementById('episodePNG').src = " Pilot81.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot81.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot82.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot82.png";
+        document.getElementById('episodePNG').src = " Pilot82.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot82.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot83.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot83.png";
+        document.getElementById('episodePNG').src = " Pilot83.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot83.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot84.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot84.png";
+        document.getElementById('episodePNG').src = " Pilot84.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot84.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot85.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot85.png";
+        document.getElementById('episodePNG').src = " Pilot85.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot85.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot86.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot86.png";
+        document.getElementById('episodePNG').src = " Pilot86.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot86.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot87.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot87.png";
+        document.getElementById('episodePNG').src = " Pilot87.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot87.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot88.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot88.png";
+        document.getElementById('episodePNG').src = " Pilot88.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot88.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot89.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot89.png";
+        document.getElementById('episodePNG').src = " Pilot89.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot89.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot90.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot90.png";
+        document.getElementById('episodePNG').src = " Pilot90.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot90.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot91.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot91.png";
+        document.getElementById('episodePNG').src = " Pilot91.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot91.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot92.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot92.png";
+        document.getElementById('episodePNG').src = " Pilot92.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot92.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot93.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot93.png";
+        document.getElementById('episodePNG').src = " Pilot93.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot93.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot94.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot94.png";
+        document.getElementById('episodePNG').src = " Pilot94.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot94.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot95.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot95.png";
+        document.getElementById('episodePNG').src = " Pilot95.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot95.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot96.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot96.png";
+        document.getElementById('episodePNG').src = " Pilot96.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot96.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot97.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot97.png";
+        document.getElementById('episodePNG').src = " Pilot97.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot97.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot98.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot98.png";
+        document.getElementById('episodePNG').src = " Pilot98.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot98.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot99.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot99.png";
+        document.getElementById('episodePNG').src = " Pilot99.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot99.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot100.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot100.png";
+        document.getElementById('episodePNG').src = " Pilot100.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot100.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot101.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot101.png";
+        document.getElementById('episodePNG').src = " Pilot101.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot101.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Pilot102.png') {
-        document.getElementById('episodePNG').src = " images/Pliot/Pilot102.png";
+        document.getElementById('episodePNG').src = " Pilot102.png";
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('Pilot102.png');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
@@ -907,740 +907,740 @@ function S1E1Img() {
 function S1E2Img() {
     episodeImg = randomValueFromArray(paternityArray);
     if (episodeImg == 'Paternity1.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity1.png";
+        document.getElementById('episodePNG').src = "Paternity1.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity1.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity2.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity2.png";
+        document.getElementById('episodePNG').src = "Paternity2.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity2.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity3.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity3.png";
+        document.getElementById('episodePNG').src = "Paternity3.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity3.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity4.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity4.png";
+        document.getElementById('episodePNG').src = "Paternity4.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity4.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity5.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity5.png";
+        document.getElementById('episodePNG').src = "Paternity5.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity5.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity6.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity6.png";
+        document.getElementById('episodePNG').src = "Paternity6.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity6.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity7.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity7.png";
+        document.getElementById('episodePNG').src = "Paternity7.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity7.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity8.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity8.png";
+        document.getElementById('episodePNG').src = "Paternity8.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity8.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity9.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity9.png";
+        document.getElementById('episodePNG').src = "Paternity9.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity9.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity10.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity10.png";
+        document.getElementById('episodePNG').src = "Paternity10.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity10.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity11.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity11.png";
+        document.getElementById('episodePNG').src = "Paternity11.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity11.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity12.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity12.png";
+        document.getElementById('episodePNG').src = "Paternity12.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity12.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity13.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity13.png";
+        document.getElementById('episodePNG').src = "Paternity13.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity13.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity14.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity14.png";
+        document.getElementById('episodePNG').src = "Paternity14.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity14.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity15.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity15.png";
+        document.getElementById('episodePNG').src = "Paternity15.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity15.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity16.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity16.png";
+        document.getElementById('episodePNG').src = "Paternity16.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity16.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity17.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity17.png";
+        document.getElementById('episodePNG').src = "Paternity17.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity17.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity18.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity18.png";
+        document.getElementById('episodePNG').src = "Paternity18.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity18.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity19.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity19.png";
+        document.getElementById('episodePNG').src = "Paternity19.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity19.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity20.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity20.png";
+        document.getElementById('episodePNG').src = "Paternity20.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity20.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity21.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity21.png";
+        document.getElementById('episodePNG').src = "Paternity21.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity21.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity22.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity22.png";
+        document.getElementById('episodePNG').src = "Paternity22.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity22.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity23.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity23.png";
+        document.getElementById('episodePNG').src = "Paternity23.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity23.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity24.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity24.png";
+        document.getElementById('episodePNG').src = "Paternity24.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity24.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity25.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity25.png";
+        document.getElementById('episodePNG').src = "Paternity25.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity25.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity26.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity26.png";
+        document.getElementById('episodePNG').src = "Paternity26.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity26.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity27.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity27.png";
+        document.getElementById('episodePNG').src = "Paternity27.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity27.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity28.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity28.png";
+        document.getElementById('episodePNG').src = "Paternity28.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity28.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity29.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity29.png";
+        document.getElementById('episodePNG').src = "Paternity29.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity29.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity30.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity30.png";
+        document.getElementById('episodePNG').src = "Paternity30.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity30.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity31.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity31.png";
+        document.getElementById('episodePNG').src = "Paternity31.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity31.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity32.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity32.png";
+        document.getElementById('episodePNG').src = "Paternity32.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity32.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity33.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity33.png";
+        document.getElementById('episodePNG').src = "Paternity33.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity33.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity34.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity34.png";
+        document.getElementById('episodePNG').src = "Paternity34.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity34.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity35.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity35.png";
+        document.getElementById('episodePNG').src = "Paternity35.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity35.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity36.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity36.png";
+        document.getElementById('episodePNG').src = "Paternity36.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity36.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity37.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity37.png";
+        document.getElementById('episodePNG').src = "Paternity37.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity37.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity38.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity38.png";
+        document.getElementById('episodePNG').src = "Paternity38.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity38.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity39.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity39.png";
+        document.getElementById('episodePNG').src = "Paternity39.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity39.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity40.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity40.png";
+        document.getElementById('episodePNG').src = "Paternity40.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity40.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity41.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity41.png";
+        document.getElementById('episodePNG').src = "Paternity41.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity41.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity42.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity42.png";
+        document.getElementById('episodePNG').src = "Paternity42.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity42.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity43.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity43.png";
+        document.getElementById('episodePNG').src = "Paternity43.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity43.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity44.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity44.png";
+        document.getElementById('episodePNG').src = "Paternity44.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity44.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity45.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity45.png";
+        document.getElementById('episodePNG').src = "Paternity45.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity45.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity46.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity46.png";
+        document.getElementById('episodePNG').src = "Paternity46.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity46.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
 
     } else if (episodeImg == 'Paternity47.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity47.png";
+        document.getElementById('episodePNG').src = "Paternity47.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity47.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity48.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity48.png";
+        document.getElementById('episodePNG').src = "Paternity48.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity48.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity49.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity49.png";
+        document.getElementById('episodePNG').src = "Paternity49.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity49.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity50.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity50.png";
+        document.getElementById('episodePNG').src = "Paternity50.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity50.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity51.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity51.png";
+        document.getElementById('episodePNG').src = "Paternity51.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity51.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity52.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity52.png";
+        document.getElementById('episodePNG').src = "Paternity52.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity52.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity53.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity53.png";
+        document.getElementById('episodePNG').src = "Paternity53.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity53.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity54.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity54.png";
+        document.getElementById('episodePNG').src = "Paternity54.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity54.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity55.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity55.png";
+        document.getElementById('episodePNG').src = "Paternity55.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity55.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity56.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity56.png";
+        document.getElementById('episodePNG').src = "Paternity56.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity56.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity57.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity57.png";
+        document.getElementById('episodePNG').src = "Paternity57.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity57.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity58.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity58.png";
+        document.getElementById('episodePNG').src = "Paternity58.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity58.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity59.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity59.png";
+        document.getElementById('episodePNG').src = "Paternity59.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity59.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity60.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity60.png";
+        document.getElementById('episodePNG').src = "Paternity60.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity60.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity61.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity61.png";
+        document.getElementById('episodePNG').src = "Paternity61.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity61.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity62.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity62.png";
+        document.getElementById('episodePNG').src = "Paternity62.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity62.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity63.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity63.png";
+        document.getElementById('episodePNG').src = "Paternity63.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity63.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity64.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity64.png";
+        document.getElementById('episodePNG').src = "Paternity64.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity64.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity65.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity65.png";
+        document.getElementById('episodePNG').src = "Paternity65.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity65.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity66.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity66.png";
+        document.getElementById('episodePNG').src = "Paternity66.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity66.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity67.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity67.png";
+        document.getElementById('episodePNG').src = "Paternity67.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity67.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity68.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity68.png";
+        document.getElementById('episodePNG').src = "Paternity68.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity68.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity69.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity69.png";
+        document.getElementById('episodePNG').src = "Paternity69.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity69.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity70.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity70.png";
+        document.getElementById('episodePNG').src = "Paternity70.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity70.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity71.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity71.png";
+        document.getElementById('episodePNG').src = "Paternity71.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity71.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity72.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity72.png";
+        document.getElementById('episodePNG').src = "Paternity72.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity72.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity73.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity73.png";
+        document.getElementById('episodePNG').src = "Paternity73.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity73.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity74.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity74.png";
+        document.getElementById('episodePNG').src = "Paternity74.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity74.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity75.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity75.png";
+        document.getElementById('episodePNG').src = "Paternity75.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity75.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity76.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity76.png";
+        document.getElementById('episodePNG').src = "Paternity76.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity76.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity77.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity77.png";
+        document.getElementById('episodePNG').src = "Paternity77.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity77.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity78.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity78.png";
+        document.getElementById('episodePNG').src = "Paternity78.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity78.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity79.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity79.png";
+        document.getElementById('episodePNG').src = "Paternity79.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity79.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity80.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity80.png";
+        document.getElementById('episodePNG').src = "Paternity80.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity80.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity81.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity81.png";
+        document.getElementById('episodePNG').src = "Paternity81.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity81.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity82.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity82.png";
+        document.getElementById('episodePNG').src = "Paternity82.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity82.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity83.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity83.png";
+        document.getElementById('episodePNG').src = "Paternity83.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity83.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity84.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity84.png";
+        document.getElementById('episodePNG').src = "Paternity84.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity84.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity85.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity85.png";
+        document.getElementById('episodePNG').src = "Paternity85.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity85.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity86.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity86.png";
+        document.getElementById('episodePNG').src = "Paternity86.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity86.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity87.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity87.png";
+        document.getElementById('episodePNG').src = "Paternity87.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity87.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity88.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity88.png";
+        document.getElementById('episodePNG').src = "Paternity88.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity88.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity89.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity89.png";
+        document.getElementById('episodePNG').src = "Paternity89.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity89.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity90.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity90.png";
+        document.getElementById('episodePNG').src = "Paternity90.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity90.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity91.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity91.png";
+        document.getElementById('episodePNG').src = "Paternity91.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity91.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity92.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity92.png";
+        document.getElementById('episodePNG').src = "Paternity92.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity92.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity93.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity93.png";
+        document.getElementById('episodePNG').src = "Paternity93.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity93.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity94.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity94.png";
+        document.getElementById('episodePNG').src = "Paternity94.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity94.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity95.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity95.png";
+        document.getElementById('episodePNG').src = "Paternity95.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity95.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity96.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity96.png";
+        document.getElementById('episodePNG').src = "Paternity96.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity96.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity97.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity97.png";
+        document.getElementById('episodePNG').src = "Paternity97.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity97.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity98.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity98.png";
+        document.getElementById('episodePNG').src = "Paternity98.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity98.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity99.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity99.png";
+        document.getElementById('episodePNG').src = "Paternity99.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity99.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity100.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity100.png";
+        document.getElementById('episodePNG').src = "Paternity100.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity100.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity101.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity101.png";
+        document.getElementById('episodePNG').src = "Paternity101.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity101.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity102.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity102.png";
+        document.getElementById('episodePNG').src = "Paternity102.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity102.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity103.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity103.png";
+        document.getElementById('episodePNG').src = "Paternity103.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity103.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity104.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity104.png";
+        document.getElementById('episodePNG').src = "Paternity104.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity104.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity105.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity105.png";
+        document.getElementById('episodePNG').src = "Paternity105.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity105.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity106.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity106.png";
+        document.getElementById('episodePNG').src = "Paternity106.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity106.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity107.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity107.png";
+        document.getElementById('episodePNG').src = "Paternity107.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity107.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity108.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity108.png";
+        document.getElementById('episodePNG').src = "Paternity108.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity108.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity109.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity109.png";
+        document.getElementById('episodePNG').src = "Paternity109.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity109.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity110.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity110.png";
+        document.getElementById('episodePNG').src = "Paternity110.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity110.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity111.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity111.png";
+        document.getElementById('episodePNG').src = "Paternity111.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity111.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity112.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity112.png";
+        document.getElementById('episodePNG').src = "Paternity112.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity112.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity113.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity113.png";
+        document.getElementById('episodePNG').src = "Paternity113.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity113.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity114.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity114.png";
+        document.getElementById('episodePNG').src = "Paternity114.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity114.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity115.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity115.png";
+        document.getElementById('episodePNG').src = "Paternity115.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity115.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity116.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity116.png";
+        document.getElementById('episodePNG').src = "Paternity116.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity116.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity117.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity117.png";
+        document.getElementById('episodePNG').src = "Paternity117.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity117.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity118.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity118.png";
+        document.getElementById('episodePNG').src = "Paternity118.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity118.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity119.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity119.png";
+        document.getElementById('episodePNG').src = "Paternity119.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity119.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity120.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity120.png";
+        document.getElementById('episodePNG').src = "Paternity120.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity120.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity121.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity121.png";
+        document.getElementById('episodePNG').src = "Paternity121.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity121.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity122.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity122.png";
+        document.getElementById('episodePNG').src = "Paternity122.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity122.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Paternity123.png') {
-        document.getElementById('episodePNG').src = "images/Paternity/Paternity123.png";
+        document.getElementById('episodePNG').src = "Paternity123.png";
         if (noRepeatButt == true) {
             episodePreDelete = paternityArray.indexOf('Paternity123.png');
             episodeDelete = paternityArray.splice(episodePreDelete, 1);
@@ -1653,901 +1653,901 @@ function S1E2Img() {
 function S1E3Img() {
     episodeImg = randomValueFromArray(occamArray);
     if (episodeImg == 'Occam1.png') {
-        document.getElementById('episodePNG').src = " images/Occam/Occam1.png";
+        document.getElementById('episodePNG').src = " Occam1.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam1.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam2.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam2.png";
+        document.getElementById('episodePNG').src = "Occam2.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam2.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam3.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam3.png";
+        document.getElementById('episodePNG').src = "Occam3.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam3.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam4.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam4.png";
+        document.getElementById('episodePNG').src = "Occam4.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam4.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam5.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam5.png";
+        document.getElementById('episodePNG').src = "Occam5.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam5.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam6.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam6.png";
+        document.getElementById('episodePNG').src = "Occam6.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam6.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam7.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam7.png";
+        document.getElementById('episodePNG').src = "Occam7.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam7.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam8.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam8.png";
+        document.getElementById('episodePNG').src = "Occam8.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam8.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam9.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam9.png";
+        document.getElementById('episodePNG').src = "Occam9.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam9.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam10.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam10.png";
+        document.getElementById('episodePNG').src = "Occam10.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam10.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam11.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam11.png";
+        document.getElementById('episodePNG').src = "Occam11.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam11.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam12.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam12.png";
+        document.getElementById('episodePNG').src = "Occam12.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam12.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam13.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam13.png";
+        document.getElementById('episodePNG').src = "Occam13.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam13.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam14.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam14.png";
+        document.getElementById('episodePNG').src = "Occam14.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam14.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam15.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam15.png";
+        document.getElementById('episodePNG').src = "Occam15.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam15.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam16.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam16.png";
+        document.getElementById('episodePNG').src = "Occam16.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam16.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam17.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam17.png";
+        document.getElementById('episodePNG').src = "Occam17.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam17.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam18.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam18.png";
+        document.getElementById('episodePNG').src = "Occam18.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam18.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam19.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam19.png";
+        document.getElementById('episodePNG').src = "Occam19.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam19.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam20.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam20.png";
+        document.getElementById('episodePNG').src = "Occam20.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam20.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam21.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam21.png";
+        document.getElementById('episodePNG').src = "Occam21.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam21.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam22.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam22.png";
+        document.getElementById('episodePNG').src = "Occam22.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam22.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam23.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam23.png";
+        document.getElementById('episodePNG').src = "Occam23.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam23.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam24.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam24.png";
+        document.getElementById('episodePNG').src = "Occam24.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam24.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam25.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam25.png";
+        document.getElementById('episodePNG').src = "Occam25.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam25.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam26.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam26.png";
+        document.getElementById('episodePNG').src = "Occam26.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam26.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam27.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam27.png";
+        document.getElementById('episodePNG').src = "Occam27.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam27.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam28.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam28.png";
+        document.getElementById('episodePNG').src = "Occam28.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam28.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam29.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam29.png";
+        document.getElementById('episodePNG').src = "Occam29.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam29.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam30.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam30.png";
+        document.getElementById('episodePNG').src = "Occam30.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam30.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam31.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam31.png";
+        document.getElementById('episodePNG').src = "Occam31.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam31.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam32.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam32.png";
+        document.getElementById('episodePNG').src = "Occam32.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam32.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam33.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam33.png";
+        document.getElementById('episodePNG').src = "Occam33.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam33.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam34.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam34.png";
+        document.getElementById('episodePNG').src = "Occam34.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam34.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam35.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam35.png";
+        document.getElementById('episodePNG').src = "Occam35.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam35.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam36.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam36.png";
+        document.getElementById('episodePNG').src = "Occam36.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam36.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam37.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam37.png";
+        document.getElementById('episodePNG').src = "Occam37.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam37.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam38.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam38.png";
+        document.getElementById('episodePNG').src = "Occam38.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam38.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam39.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam39.png";
+        document.getElementById('episodePNG').src = "Occam39.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam39.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam40.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam40.png";
+        document.getElementById('episodePNG').src = "Occam40.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam40.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam41.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam41.png";
+        document.getElementById('episodePNG').src = "Occam41.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam41.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam42.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam42.png";
+        document.getElementById('episodePNG').src = "Occam42.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam42.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam43.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam43.png";
+        document.getElementById('episodePNG').src = "Occam43.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam43.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam44.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam44.png";
+        document.getElementById('episodePNG').src = "Occam44.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam44.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam45.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam45.png";
+        document.getElementById('episodePNG').src = "Occam45.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam45.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam46.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam46.png";
+        document.getElementById('episodePNG').src = "Occam46.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam46.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam47.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam47.png";
+        document.getElementById('episodePNG').src = "Occam47.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam47.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam48.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam48.png";
+        document.getElementById('episodePNG').src = "Occam48.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam48.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam49.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam49.png";
+        document.getElementById('episodePNG').src = "Occam49.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam49.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam50.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam50.png";
+        document.getElementById('episodePNG').src = "Occam50.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam50.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam51.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam51.png";
+        document.getElementById('episodePNG').src = "Occam51.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam51.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam52.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam52.png";
+        document.getElementById('episodePNG').src = "Occam52.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam52.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam53.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam53.png";
+        document.getElementById('episodePNG').src = "Occam53.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam53.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam54.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam54.png";
+        document.getElementById('episodePNG').src = "Occam54.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam54.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam55.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam55.png";
+        document.getElementById('episodePNG').src = "Occam55.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam55.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam56.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam56.png";
+        document.getElementById('episodePNG').src = "Occam56.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam56.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam57.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam57.png";
+        document.getElementById('episodePNG').src = "Occam57.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam57.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam58.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam58.png";
+        document.getElementById('episodePNG').src = "Occam58.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam58.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam59.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam59.png";
+        document.getElementById('episodePNG').src = "Occam59.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam59.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam60.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam60.png";
+        document.getElementById('episodePNG').src = "Occam60.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam60.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam61.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam61.png";
+        document.getElementById('episodePNG').src = "Occam61.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam61.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam62.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam62.png";
+        document.getElementById('episodePNG').src = "Occam62.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam62.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam63.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam63.png";
+        document.getElementById('episodePNG').src = "Occam63.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam63.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam64.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam64.png";
+        document.getElementById('episodePNG').src = "Occam64.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam64.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam65.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam65.png";
+        document.getElementById('episodePNG').src = "Occam65.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam65.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam66.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam66.png";
+        document.getElementById('episodePNG').src = "Occam66.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam66.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam67.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam67.png";
+        document.getElementById('episodePNG').src = "Occam67.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam67.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam68.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam68.png";
+        document.getElementById('episodePNG').src = "Occam68.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam68.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam69.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam69.png";
+        document.getElementById('episodePNG').src = "Occam69.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam69.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam70.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam70.png";
+        document.getElementById('episodePNG').src = "Occam70.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam70.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam71.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam71.png";
+        document.getElementById('episodePNG').src = "Occam71.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam71.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam72.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam72.png";
+        document.getElementById('episodePNG').src = "Occam72.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam72.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam73.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam73.png";
+        document.getElementById('episodePNG').src = "Occam73.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam73.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam74.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam74.png";
+        document.getElementById('episodePNG').src = "Occam74.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam74.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam75.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam75.png";
+        document.getElementById('episodePNG').src = "Occam75.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam75.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam76.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam76.png";
+        document.getElementById('episodePNG').src = "Occam76.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam76.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam77.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam77.png";
+        document.getElementById('episodePNG').src = "Occam77.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam77.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam78.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam78.png";
+        document.getElementById('episodePNG').src = "Occam78.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam78.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam79.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam79.png";
+        document.getElementById('episodePNG').src = "Occam79.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam79.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam80.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam80.png";
+        document.getElementById('episodePNG').src = "Occam80.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam80.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam81.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam81.png";
+        document.getElementById('episodePNG').src = "Occam81.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam81.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam82.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam82.png";
+        document.getElementById('episodePNG').src = "Occam82.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam82.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam83.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam83.png";
+        document.getElementById('episodePNG').src = "Occam83.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam83.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam84.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam84.png";
+        document.getElementById('episodePNG').src = "Occam84.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam84.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam85.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam85.png";
+        document.getElementById('episodePNG').src = "Occam85.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam85.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam86.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam86.png";
+        document.getElementById('episodePNG').src = "Occam86.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam86.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam87.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam87.png";
+        document.getElementById('episodePNG').src = "Occam87.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam87.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam88.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam88.png";
+        document.getElementById('episodePNG').src = "Occam88.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam88.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam89.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam89.png";
+        document.getElementById('episodePNG').src = "Occam89.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam89.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam90.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam90.png";
+        document.getElementById('episodePNG').src = "Occam90.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam90.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam91.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam91.png";
+        document.getElementById('episodePNG').src = "Occam91.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam91.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam92.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam92.png";
+        document.getElementById('episodePNG').src = "Occam92.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam92.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam93.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam93.png";
+        document.getElementById('episodePNG').src = "Occam93.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam93.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam94.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam94.png";
+        document.getElementById('episodePNG').src = "Occam94.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam94.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam95.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam95.png";
+        document.getElementById('episodePNG').src = "Occam95.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam95.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam96.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam96.png";
+        document.getElementById('episodePNG').src = "Occam96.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam96.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam97.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam97.png";
+        document.getElementById('episodePNG').src = "Occam97.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam97.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam98.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam98.png";
+        document.getElementById('episodePNG').src = "Occam98.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam98.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam99.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam99.png";
+        document.getElementById('episodePNG').src = "Occam99.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam99.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam100.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam100.png";
+        document.getElementById('episodePNG').src = "Occam100.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam100.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam101.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam101.png";
+        document.getElementById('episodePNG').src = "Occam101.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam101.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam102.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam102.png";
+        document.getElementById('episodePNG').src = "Occam102.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam102.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam103.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam103.png";
+        document.getElementById('episodePNG').src = "Occam103.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam103.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam104.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam104.png";
+        document.getElementById('episodePNG').src = "Occam104.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam104.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam105.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam105.png";
+        document.getElementById('episodePNG').src = "Occam105.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam105.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam106.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam106.png";
+        document.getElementById('episodePNG').src = "Occam106.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('106Occam.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam107.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam107.png";
+        document.getElementById('episodePNG').src = "Occam107.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam107.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam108.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam108.png";
+        document.getElementById('episodePNG').src = "Occam108.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam108.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam109.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam109.png";
+        document.getElementById('episodePNG').src = "Occam109.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam109.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam110.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam110.png";
+        document.getElementById('episodePNG').src = "Occam110.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam110.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam111.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam111.png";
+        document.getElementById('episodePNG').src = "Occam111.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam111.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam112.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam112.png";
+        document.getElementById('episodePNG').src = "Occam112.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam112.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam113.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam113.png";
+        document.getElementById('episodePNG').src = "Occam113.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam113.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam114.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam114.png";
+        document.getElementById('episodePNG').src = "Occam114.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam114.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam115.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam115.png";
+        document.getElementById('episodePNG').src = "Occam115.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam115.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam116.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam116.png";
+        document.getElementById('episodePNG').src = "Occam116.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam116.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam117.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam117.png";
+        document.getElementById('episodePNG').src = "Occam117.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam117.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam118.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam118.png";
+        document.getElementById('episodePNG').src = "Occam118.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam118.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam119.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam119.png";
+        document.getElementById('episodePNG').src = "Occam119.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam119.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam120.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam120.png";
+        document.getElementById('episodePNG').src = "Occam120.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam120.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam121.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam121.png";
+        document.getElementById('episodePNG').src = "Occam121.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam121.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam122.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam122.png";
+        document.getElementById('episodePNG').src = "Occam122.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam122.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam123.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam123.png";
+        document.getElementById('episodePNG').src = "Occam123.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam123.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam124.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam124.png";
+        document.getElementById('episodePNG').src = "Occam124.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam124.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam125.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam125.png";
+        document.getElementById('episodePNG').src = "Occam125.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam125.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam126.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam126.png";
+        document.getElementById('episodePNG').src = "Occam126.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam126.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam127.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam127.png";
+        document.getElementById('episodePNG').src = "Occam127.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam127.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam128.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam128.png";
+        document.getElementById('episodePNG').src = "Occam128.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam128.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam129.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam129.png";
+        document.getElementById('episodePNG').src = "Occam129.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam129.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam130.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam130.png";
+        document.getElementById('episodePNG').src = "Occam130.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam130.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam131.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam131.png";
+        document.getElementById('episodePNG').src = "Occam131.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam131.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam132.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam132.png";
+        document.getElementById('episodePNG').src = "Occam132.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam132.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam133.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam133.png";
+        document.getElementById('episodePNG').src = "Occam133.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam133.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam134.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam134.png";
+        document.getElementById('episodePNG').src = "Occam134.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam134.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam135.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam135.png";
+        document.getElementById('episodePNG').src = "Occam135.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam135.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam136.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam136.png";
+        document.getElementById('episodePNG').src = "Occam136.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam136.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam137.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam137.png";
+        document.getElementById('episodePNG').src = "Occam137.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam137.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam138.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam138.png";
+        document.getElementById('episodePNG').src = "Occam138.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam138.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam139.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam139.png";
+        document.getElementById('episodePNG').src = "Occam139.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam139.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam140.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam140.png";
+        document.getElementById('episodePNG').src = "Occam140.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam140.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam141.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam141.png";
+        document.getElementById('episodePNG').src = "Occam141.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam141.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam142.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam142.png";
+        document.getElementById('episodePNG').src = "Occam142.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam142.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam143.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam143.png";
+        document.getElementById('episodePNG').src = "Occam143.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam143.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam144.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam144.png";
+        document.getElementById('episodePNG').src = "Occam144.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam144.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam145.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam145.png";
+        document.getElementById('episodePNG').src = "Occam145.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam145.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam146.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam146.png";
+        document.getElementById('episodePNG').src = "Occam146.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam146.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam147.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam147.png";
+        document.getElementById('episodePNG').src = "Occam147.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam147.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam148.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam148.png";
+        document.getElementById('episodePNG').src = "Occam148.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam148.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam149.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam149.png";
+        document.getElementById('episodePNG').src = "Occam149.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam149.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Occam150.png') {
-        document.getElementById('episodePNG').src = "images/Occam/Occam150.png";
+        document.getElementById('episodePNG').src = "Occam150.png";
         if (noRepeatButt == true) {
             episodePreDelete = occamArray.indexOf('Occam150.png');
             episodeDelete = occamArray.splice(episodePreDelete, 1);
@@ -2560,715 +2560,715 @@ function S1E3Img() {
 function S1E4Img() {
     episodeImg = randomValueFromArray(MaternityArray);
     if (episodeImg == 'Maternity1.png') {
-        document.getElementById('episodePNG').src = " images/Maternity/Maternity1.png";
+        document.getElementById('episodePNG').src = " Maternity1.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity1.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity2.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity2.png";
+        document.getElementById('episodePNG').src = "Maternity2.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity2.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity3.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity3.png";
+        document.getElementById('episodePNG').src = "Maternity3.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity3.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity4.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity4.png";
+        document.getElementById('episodePNG').src = "Maternity4.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity4.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity5.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity5.png";
+        document.getElementById('episodePNG').src = "Maternity5.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity5.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity6.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity6.png";
+        document.getElementById('episodePNG').src = "Maternity6.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity6.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity7.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity7.png";
+        document.getElementById('episodePNG').src = "Maternity7.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity7.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity8.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity8.png";
+        document.getElementById('episodePNG').src = "Maternity8.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity8.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity9.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity9.png";
+        document.getElementById('episodePNG').src = "Maternity9.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity9.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity10.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity10.png";
+        document.getElementById('episodePNG').src = "Maternity10.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity10.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity11.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity11.png";
+        document.getElementById('episodePNG').src = "Maternity11.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity11.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity12.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity12.png";
+        document.getElementById('episodePNG').src = "Maternity12.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity12.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity13.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity13.png";
+        document.getElementById('episodePNG').src = "Maternity13.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity13.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity14.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity14.png";
+        document.getElementById('episodePNG').src = "Maternity14.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity14.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity15.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity15.png";
+        document.getElementById('episodePNG').src = "Maternity15.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity15.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity16.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity16.png";
+        document.getElementById('episodePNG').src = "Maternity16.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity16.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity17.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity17.png";
+        document.getElementById('episodePNG').src = "Maternity17.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity17.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity18.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity18.png";
+        document.getElementById('episodePNG').src = "Maternity18.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity18.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity19.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity19.png";
+        document.getElementById('episodePNG').src = "Maternity19.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity19.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity20.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity20.png";
+        document.getElementById('episodePNG').src = "Maternity20.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity20.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity21.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity21.png";
+        document.getElementById('episodePNG').src = "Maternity21.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity21.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity22.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity22.png";
+        document.getElementById('episodePNG').src = "Maternity22.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity22.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity23.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity23.png";
+        document.getElementById('episodePNG').src = "Maternity23.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity23.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity24.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity24.png";
+        document.getElementById('episodePNG').src = "Maternity24.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity24.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity25.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity25.png";
+        document.getElementById('episodePNG').src = "Maternity25.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity25.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity26.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity26.png";
+        document.getElementById('episodePNG').src = "Maternity26.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity26.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity27.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity27.png";
+        document.getElementById('episodePNG').src = "Maternity27.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity27.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity28.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity28.png";
+        document.getElementById('episodePNG').src = "Maternity28.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity28.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity29.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity29.png";
+        document.getElementById('episodePNG').src = "Maternity29.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity29.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity30.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity30.png";
+        document.getElementById('episodePNG').src = "Maternity30.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity30.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity31.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity31.png";
+        document.getElementById('episodePNG').src = "Maternity31.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity31.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity32.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity32.png";
+        document.getElementById('episodePNG').src = "Maternity32.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity32.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity33.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity33.png";
+        document.getElementById('episodePNG').src = "Maternity33.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity33.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity34.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity34.png";
+        document.getElementById('episodePNG').src = "Maternity34.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity34.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity35.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity35.png";
+        document.getElementById('episodePNG').src = "Maternity35.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity35.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity36.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity36.png";
+        document.getElementById('episodePNG').src = "Maternity36.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity36.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity37.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity37.png";
+        document.getElementById('episodePNG').src = "Maternity37.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity37.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity38.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity38.png";
+        document.getElementById('episodePNG').src = "Maternity38.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity38.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity39.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity39.png";
+        document.getElementById('episodePNG').src = "Maternity39.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity39.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity40.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity40.png";
+        document.getElementById('episodePNG').src = "Maternity40.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity40.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity41.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity41.png";
+        document.getElementById('episodePNG').src = "Maternity41.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity41.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity42.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity42.png";
+        document.getElementById('episodePNG').src = "Maternity42.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity42.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity43.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity43.png";
+        document.getElementById('episodePNG').src = "Maternity43.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity43.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity44.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity44.png";
+        document.getElementById('episodePNG').src = "Maternity44.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity44.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity45.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity45.png";
+        document.getElementById('episodePNG').src = "Maternity45.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity45.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity46.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity46.png";
+        document.getElementById('episodePNG').src = "Maternity46.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity46.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity47.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity47.png";
+        document.getElementById('episodePNG').src = "Maternity47.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity47.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity48.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity48.png";
+        document.getElementById('episodePNG').src = "Maternity48.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity48.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity49.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity49.png";
+        document.getElementById('episodePNG').src = "Maternity49.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity49.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity50.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity50.png";
+        document.getElementById('episodePNG').src = "Maternity50.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity50.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity51.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity51.png";
+        document.getElementById('episodePNG').src = "Maternity51.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity51.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity52.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity52.png";
+        document.getElementById('episodePNG').src = "Maternity52.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity52.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity53.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity53.png";
+        document.getElementById('episodePNG').src = "Maternity53.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity53.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity54.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity54.png";
+        document.getElementById('episodePNG').src = "Maternity54.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity54.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity55.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity55.png";
+        document.getElementById('episodePNG').src = "Maternity55.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity55.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity56.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity56.png";
+        document.getElementById('episodePNG').src = "Maternity56.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity56.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity57.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity57.png";
+        document.getElementById('episodePNG').src = "Maternity57.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity57.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity58.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity58.png";
+        document.getElementById('episodePNG').src = "Maternity58.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity58.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity59.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity59.png";
+        document.getElementById('episodePNG').src = "Maternity59.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity59.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity60.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity60.png";
+        document.getElementById('episodePNG').src = "Maternity60.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity60.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity61.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity61.png";
+        document.getElementById('episodePNG').src = "Maternity61.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity61.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity62.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity62.png";
+        document.getElementById('episodePNG').src = "Maternity62.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity62.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity63.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity63.png";
+        document.getElementById('episodePNG').src = "Maternity63.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity63.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity64.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity64.png";
+        document.getElementById('episodePNG').src = "Maternity64.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity64.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity65.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity65.png";
+        document.getElementById('episodePNG').src = "Maternity65.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity65.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity66.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity66.png";
+        document.getElementById('episodePNG').src = "Maternity66.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity66.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity67.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity67.png";
+        document.getElementById('episodePNG').src = "Maternity67.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity67.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity68.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity68.png";
+        document.getElementById('episodePNG').src = "Maternity68.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity68.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity69.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity69.png";
+        document.getElementById('episodePNG').src = "Maternity69.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity69.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity70.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity70.png";
+        document.getElementById('episodePNG').src = "Maternity70.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity70.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity71.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity71.png";
+        document.getElementById('episodePNG').src = "Maternity71.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity71.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity72.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity72.png";
+        document.getElementById('episodePNG').src = "Maternity72.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity72.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity73.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity73.png";
+        document.getElementById('episodePNG').src = "Maternity73.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity73.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity74.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity74.png";
+        document.getElementById('episodePNG').src = "Maternity74.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity74.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity75.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity75.png";
+        document.getElementById('episodePNG').src = "Maternity75.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity75.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity76.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity76.png";
+        document.getElementById('episodePNG').src = "Maternity76.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity76.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity77.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity77.png";
+        document.getElementById('episodePNG').src = "Maternity77.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity77.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity78.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity78.png";
+        document.getElementById('episodePNG').src = "Maternity78.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity78.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity79.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity79.png";
+        document.getElementById('episodePNG').src = "Maternity79.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity79.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity80.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity80.png";
+        document.getElementById('episodePNG').src = "Maternity80.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity80.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity81.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity81.png";
+        document.getElementById('episodePNG').src = "Maternity81.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity81.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity82.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity82.png";
+        document.getElementById('episodePNG').src = "Maternity82.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity82.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity83.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity83.png";
+        document.getElementById('episodePNG').src = "Maternity83.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity83.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity84.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity84.png";
+        document.getElementById('episodePNG').src = "Maternity84.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity84.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity85.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity85.png";
+        document.getElementById('episodePNG').src = "Maternity85.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity85.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity86.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity86.png";
+        document.getElementById('episodePNG').src = "Maternity86.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity86.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity87.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity87.png";
+        document.getElementById('episodePNG').src = "Maternity87.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity87.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity88.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity88.png";
+        document.getElementById('episodePNG').src = "Maternity88.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity88.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity89.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity89.png";
+        document.getElementById('episodePNG').src = "Maternity89.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity89.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity90.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity90.png";
+        document.getElementById('episodePNG').src = "Maternity90.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity90.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity91.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity91.png";
+        document.getElementById('episodePNG').src = "Maternity91.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity91.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity92.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity92.png";
+        document.getElementById('episodePNG').src = "Maternity92.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity92.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity93.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity93.png";
+        document.getElementById('episodePNG').src = "Maternity93.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity93.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity94.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity94.png";
+        document.getElementById('episodePNG').src = "Maternity94.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity94.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity95.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity95.png";
+        document.getElementById('episodePNG').src = "Maternity95.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity95.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity96.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity96.png";
+        document.getElementById('episodePNG').src = "Maternity96.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity96.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity97.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity97.png";
+        document.getElementById('episodePNG').src = "Maternity97.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity97.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity98.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity98.png";
+        document.getElementById('episodePNG').src = "Maternity98.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity98.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity99.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity99.png";
+        document.getElementById('episodePNG').src = "Maternity99.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity99.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity100.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity100.png";
+        document.getElementById('episodePNG').src = "Maternity100.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity100.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity101.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity101.png";
+        document.getElementById('episodePNG').src = "Maternity101.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity101.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity102.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity102.png";
+        document.getElementById('episodePNG').src = "Maternity102.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity102.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity103.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity103.png";
+        document.getElementById('episodePNG').src = "Maternity103.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity103.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity104.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity104.png";
+        document.getElementById('episodePNG').src = "Maternity104.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity104.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity105.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity105.png";
+        document.getElementById('episodePNG').src = "Maternity105.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity105.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity106.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity106.png";
+        document.getElementById('episodePNG').src = "Maternity106.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity106.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity107.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity107.png";
+        document.getElementById('episodePNG').src = "Maternity107.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity107.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity108.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity108.png";
+        document.getElementById('episodePNG').src = "Maternity108.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity108.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity109.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity109.png";
+        document.getElementById('episodePNG').src = "Maternity109.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity109.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity110.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity110.png";
+        document.getElementById('episodePNG').src = "Maternity110.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity110.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity111.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity111.png";
+        document.getElementById('episodePNG').src = "Maternity111.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity111.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity112.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity112.png";
+        document.getElementById('episodePNG').src = "Maternity112.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity112.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity113.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity113.png";
+        document.getElementById('episodePNG').src = "Maternity113.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity113.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity114.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity114.png";
+        document.getElementById('episodePNG').src = "Maternity114.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity114.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity115.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity115.png";
+        document.getElementById('episodePNG').src = "Maternity115.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity115.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity116.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity116.png";
+        document.getElementById('episodePNG').src = "Maternity116.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity116.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity117.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity117.png";
+        document.getElementById('episodePNG').src = "Maternity117.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity117.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity118.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity118.png";
+        document.getElementById('episodePNG').src = "Maternity118.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity118.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Maternity119.png') {
-        document.getElementById('episodePNG').src = "images/Maternity/Maternity119.png";
+        document.getElementById('episodePNG').src = "Maternity119.png";
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf('Maternity119.png');
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
@@ -3282,835 +3282,835 @@ function S1E4Img() {
 function S1E5Img() {
     episodeImg = randomValueFromArray(DamnedArray);
     if (episodeImg == 'Damned1.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned1.png";
+        document.getElementById('episodePNG').src = "Damned1.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned1.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned2.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned2.png";
+        document.getElementById('episodePNG').src = "Damned2.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned2.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned3.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned3.png";
+        document.getElementById('episodePNG').src = "Damned3.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned3.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned4.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned4.png";
+        document.getElementById('episodePNG').src = "Damned4.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned4.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned5.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned5.png";
+        document.getElementById('episodePNG').src = "Damned5.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned5.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned6.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned6.png";
+        document.getElementById('episodePNG').src = "Damned6.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned6.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned7.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned7.png";
+        document.getElementById('episodePNG').src = "Damned7.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned7.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned8.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned8.png";
+        document.getElementById('episodePNG').src = "Damned8.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned8.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned9.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned9.png";
+        document.getElementById('episodePNG').src = "Damned9.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned9.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned10.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned10.png";
+        document.getElementById('episodePNG').src = "Damned10.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned10.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned11.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned11.png";
+        document.getElementById('episodePNG').src = "Damned11.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned11.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned12.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned12.png";
+        document.getElementById('episodePNG').src = "Damned12.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned12.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned13.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned13.png";
+        document.getElementById('episodePNG').src = "Damned13.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned13.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned14.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned14.png";
+        document.getElementById('episodePNG').src = "Damned14.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned14.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned15.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned15.png";
+        document.getElementById('episodePNG').src = "Damned15.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned15.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned16.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned16.png";
+        document.getElementById('episodePNG').src = "Damned16.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned16.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned17.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned17.png";
+        document.getElementById('episodePNG').src = "Damned17.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned17.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned18.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned18.png";
+        document.getElementById('episodePNG').src = "Damned18.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned18.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned19.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned19.png";
+        document.getElementById('episodePNG').src = "Damned19.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned19.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned20.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned20.png";
+        document.getElementById('episodePNG').src = "Damned20.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned20.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned21.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned21.png";
+        document.getElementById('episodePNG').src = "Damned21.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned21.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned22.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned22.png";
+        document.getElementById('episodePNG').src = "Damned22.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned22.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned23.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned23.png";
+        document.getElementById('episodePNG').src = "Damned23.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned23.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned24.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned24.png";
+        document.getElementById('episodePNG').src = "Damned24.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned24.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned25.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned25.png";
+        document.getElementById('episodePNG').src = "Damned25.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned25.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned26.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned26.png";
+        document.getElementById('episodePNG').src = "Damned26.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned26.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned27.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned27.png";
+        document.getElementById('episodePNG').src = "Damned27.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned27.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned28.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned28.png";
+        document.getElementById('episodePNG').src = "Damned28.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned28.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned29.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned29.png";
+        document.getElementById('episodePNG').src = "Damned29.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned29.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned30.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned30.png";
+        document.getElementById('episodePNG').src = "Damned30.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned30.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned31.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned31.png";
+        document.getElementById('episodePNG').src = "Damned31.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned31.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned32.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned32.png";
+        document.getElementById('episodePNG').src = "Damned32.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned32.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned33.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned33.png";
+        document.getElementById('episodePNG').src = "Damned33.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned33.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned34.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned34.png";
+        document.getElementById('episodePNG').src = "Damned34.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned34.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned35.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned35.png";
+        document.getElementById('episodePNG').src = "Damned35.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned35.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned36.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned36.png";
+        document.getElementById('episodePNG').src = "Damned36.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned36.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned37.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned37.png";
+        document.getElementById('episodePNG').src = "Damned37.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned37.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned38.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned38.png";
+        document.getElementById('episodePNG').src = "Damned38.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned38.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned39.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned39.png";
+        document.getElementById('episodePNG').src = "Damned39.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned39.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned40.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned40.png";
+        document.getElementById('episodePNG').src = "Damned40.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned40.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned41.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned41.png";
+        document.getElementById('episodePNG').src = "Damned41.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned41.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned42.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned42.png";
+        document.getElementById('episodePNG').src = "Damned42.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned42.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned43.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned43.png";
+        document.getElementById('episodePNG').src = "Damned43.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned43.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned44.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned44.png";
+        document.getElementById('episodePNG').src = "Damned44.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned44.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned45.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned45.png";
+        document.getElementById('episodePNG').src = "Damned45.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned45.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned46.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned46.png";
+        document.getElementById('episodePNG').src = "Damned46.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned46.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned47.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned47.png";
+        document.getElementById('episodePNG').src = "Damned47.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned47.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned48.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned48.png";
+        document.getElementById('episodePNG').src = "Damned48.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned48.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned49.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned49.png";
+        document.getElementById('episodePNG').src = "Damned49.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned49.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned50.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned50.png";
+        document.getElementById('episodePNG').src = "Damned50.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned50.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned51.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned51.png";
+        document.getElementById('episodePNG').src = "Damned51.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned51.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned52.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned52.png";
+        document.getElementById('episodePNG').src = "Damned52.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned52.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned53.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned53.png";
+        document.getElementById('episodePNG').src = "Damned53.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned53.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned54.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned54.png";
+        document.getElementById('episodePNG').src = "Damned54.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned54.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned55.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned55.png";
+        document.getElementById('episodePNG').src = "Damned55.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned55.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned56.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned56.png";
+        document.getElementById('episodePNG').src = "Damned56.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned56.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned57.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned57.png";
+        document.getElementById('episodePNG').src = "Damned57.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned57.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned58.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned58.png";
+        document.getElementById('episodePNG').src = "Damned58.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned58.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned59.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned59.png";
+        document.getElementById('episodePNG').src = "Damned59.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned59.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned60.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned60.png";
+        document.getElementById('episodePNG').src = "Damned60.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned60.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned61.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned61.png";
+        document.getElementById('episodePNG').src = "Damned61.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned61.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned62.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned62.png";
+        document.getElementById('episodePNG').src = "Damned62.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned62.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned63.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned63.png";
+        document.getElementById('episodePNG').src = "Damned63.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned63.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned64.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned64.png";
+        document.getElementById('episodePNG').src = "Damned64.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned64.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned65.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned65.png";
+        document.getElementById('episodePNG').src = "Damned65.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned65.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned66.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned66.png";
+        document.getElementById('episodePNG').src = "Damned66.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned66.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned67.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned67.png";
+        document.getElementById('episodePNG').src = "Damned67.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned67.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned68.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned68.png";
+        document.getElementById('episodePNG').src = "Damned68.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned68.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned69.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned69.png";
+        document.getElementById('episodePNG').src = "Damned69.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned69.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned70.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned70.png";
+        document.getElementById('episodePNG').src = "Damned70.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned70.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned71.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned71.png";
+        document.getElementById('episodePNG').src = "Damned71.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned71.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned72.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned72.png";
+        document.getElementById('episodePNG').src = "Damned72.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned72.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned73.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned73.png";
+        document.getElementById('episodePNG').src = "Damned73.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned73.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned74.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned74.png";
+        document.getElementById('episodePNG').src = "Damned74.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned74.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned75.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned75.png";
+        document.getElementById('episodePNG').src = "Damned75.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned75.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned76.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned76.png";
+        document.getElementById('episodePNG').src = "Damned76.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned76.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned77.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned77.png";
+        document.getElementById('episodePNG').src = "Damned77.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned77.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned78.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned78.png";
+        document.getElementById('episodePNG').src = "Damned78.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned78.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned79.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned79.png";
+        document.getElementById('episodePNG').src = "Damned79.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned79.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned80.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned80.png";
+        document.getElementById('episodePNG').src = "Damned80.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned80.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned81.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned81.png";
+        document.getElementById('episodePNG').src = "Damned81.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned81.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned82.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned82.png";
+        document.getElementById('episodePNG').src = "Damned82.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned82.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned83.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned83.png";
+        document.getElementById('episodePNG').src = "Damned83.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned83.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned84.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned84.png";
+        document.getElementById('episodePNG').src = "Damned84.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned84.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned85.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned85.png";
+        document.getElementById('episodePNG').src = "Damned85.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned85.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned86.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned86.png";
+        document.getElementById('episodePNG').src = "Damned86.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned86.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned87.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned87.png";
+        document.getElementById('episodePNG').src = "Damned87.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned87.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned88.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned88.png";
+        document.getElementById('episodePNG').src = "Damned88.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned88.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned89.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned89.png";
+        document.getElementById('episodePNG').src = "Damned89.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned89.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned90.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned90.png";
+        document.getElementById('episodePNG').src = "Damned90.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned90.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned91.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned91.png";
+        document.getElementById('episodePNG').src = "Damned91.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned91.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned92.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned92.png";
+        document.getElementById('episodePNG').src = "Damned92.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned92.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned93.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned93.png";
+        document.getElementById('episodePNG').src = "Damned93.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned93.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned94.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned94.png";
+        document.getElementById('episodePNG').src = "Damned94.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned94.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned95.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned95.png";
+        document.getElementById('episodePNG').src = "Damned95.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned95.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned96.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned96.png";
+        document.getElementById('episodePNG').src = "Damned96.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned96.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned97.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned97.png";
+        document.getElementById('episodePNG').src = "Damned97.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned97.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned98.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned98.png";
+        document.getElementById('episodePNG').src = "Damned98.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned98.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned99.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned99.png";
+        document.getElementById('episodePNG').src = "Damned99.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned99.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned100.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned100.png";
+        document.getElementById('episodePNG').src = "Damned100.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned100.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned101.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned101.png";
+        document.getElementById('episodePNG').src = "Damned101.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned101.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned102.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned102.png";
+        document.getElementById('episodePNG').src = "Damned102.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned102.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned103.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned103.png";
+        document.getElementById('episodePNG').src = "Damned103.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned103.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned104.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned104.png";
+        document.getElementById('episodePNG').src = "Damned104.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned104.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned105.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned105.png";
+        document.getElementById('episodePNG').src = "Damned105.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned105.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned106.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned106.png";
+        document.getElementById('episodePNG').src = "Damned106.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned106.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned107.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned107.png";
+        document.getElementById('episodePNG').src = "Damned107.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned107.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned108.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned108.png";
+        document.getElementById('episodePNG').src = "Damned108.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned108.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned109.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned109.png";
+        document.getElementById('episodePNG').src = "Damned109.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned109.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned110.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned110.png";
+        document.getElementById('episodePNG').src = "Damned110.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned110.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned111.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned111.png";
+        document.getElementById('episodePNG').src = "Damned111.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned111.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned112.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned112.png";
+        document.getElementById('episodePNG').src = "Damned112.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned112.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned113.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned113.png";
+        document.getElementById('episodePNG').src = "Damned113.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned113.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned114.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned114.png";
+        document.getElementById('episodePNG').src = "Damned114.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned114.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned115.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned115.png";
+        document.getElementById('episodePNG').src = "Damned115.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned115.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned116.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned116.png";
+        document.getElementById('episodePNG').src = "Damned116.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned116.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned117.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned117.png";
+        document.getElementById('episodePNG').src = "Damned117.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned117.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned118.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned118.png";
+        document.getElementById('episodePNG').src = "Damned118.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned118.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned119.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned119.png";
+        document.getElementById('episodePNG').src = "Damned119.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned119.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned120.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned120.png";
+        document.getElementById('episodePNG').src = "Damned120.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned120.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned121.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned121.png";
+        document.getElementById('episodePNG').src = "Damned121.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned121.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned122.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned122.png";
+        document.getElementById('episodePNG').src = "Damned122.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned122.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned123.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned123.png";
+        document.getElementById('episodePNG').src = "Damned123.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned123.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned124.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned124.png";
+        document.getElementById('episodePNG').src = "Damned124.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned124.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned125.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned125.png";
+        document.getElementById('episodePNG').src = "Damned125.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned125.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned126.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned126.png";
+        document.getElementById('episodePNG').src = "Damned126.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned126.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned127.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned127.png";
+        document.getElementById('episodePNG').src = "Damned127.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned127.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned128.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned128.png";
+        document.getElementById('episodePNG').src = "Damned128.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned128.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned129.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned129.png";
+        document.getElementById('episodePNG').src = "Damned129.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned129.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned130.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned130.png";
+        document.getElementById('episodePNG').src = "Damned130.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned130.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned131.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned131.png";
+        document.getElementById('episodePNG').src = "Damned131.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned131.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned132.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned132.png";
+        document.getElementById('episodePNG').src = "Damned132.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned132.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned133.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned133.png";
+        document.getElementById('episodePNG').src = "Damned133.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned133.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned134.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned134.png";
+        document.getElementById('episodePNG').src = "Damned134.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned134.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned135.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned135.png";
+        document.getElementById('episodePNG').src = "Damned135.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned135.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned136.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned136.png";
+        document.getElementById('episodePNG').src = "Damned136.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned136.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned137.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned137.png";
+        document.getElementById('episodePNG').src = "Damned137.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned137.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned138.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned138.png";
+        document.getElementById('episodePNG').src = "Damned138.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned138.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Damned139.png') {
-        document.getElementById('episodePNG').src = "images/Damned/Damned139.png";
+        document.getElementById('episodePNG').src = "Damned139.png";
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf('Damned139.png');
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
@@ -4126,805 +4126,805 @@ function S1E6Img() {
     episodeImg = randomValueFromArray(MethodArray);
 
     if (episodeImg == 'Method (1).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (1).png";
+        document.getElementById('episodePNG').src = "Method (1).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (1).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (2).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (2).png";
+        document.getElementById('episodePNG').src = "Method (2).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (2).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (3).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (3).png";
+        document.getElementById('episodePNG').src = "Method (3).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (3).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (4).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (4).png";
+        document.getElementById('episodePNG').src = "Method (4).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (4).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (5).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (5).png";
+        document.getElementById('episodePNG').src = "Method (5).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (5).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (6).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (6).png";
+        document.getElementById('episodePNG').src = "Method (6).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (6).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (7).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (7).png";
+        document.getElementById('episodePNG').src = "Method (7).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (7).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (8).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (8).png";
+        document.getElementById('episodePNG').src = "Method (8).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (8).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (9).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (9).png";
+        document.getElementById('episodePNG').src = "Method (9).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (9).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (10).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (10).png";
+        document.getElementById('episodePNG').src = "Method (10).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (10).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (11).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (11).png";
+        document.getElementById('episodePNG').src = "Method (11).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (11).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (12).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (12).png";
+        document.getElementById('episodePNG').src = "Method (12).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (12).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (13).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (13).png";
+        document.getElementById('episodePNG').src = "Method (13).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (13).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (14).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (14).png";
+        document.getElementById('episodePNG').src = "Method (14).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (14).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (15).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (15).png";
+        document.getElementById('episodePNG').src = "Method (15).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (15).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (16).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (16).png";
+        document.getElementById('episodePNG').src = "Method (16).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (16).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (17).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (17).png";
+        document.getElementById('episodePNG').src = "Method (17).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (17).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (18).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (18).png";
+        document.getElementById('episodePNG').src = "Method (18).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (18).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (19).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (19).png";
+        document.getElementById('episodePNG').src = "Method (19).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (19).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (20).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (20).png";
+        document.getElementById('episodePNG').src = "Method (20).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (20).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (21).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (21).png";
+        document.getElementById('episodePNG').src = "Method (21).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (21).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (22).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (22).png";
+        document.getElementById('episodePNG').src = "Method (22).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (22).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (23).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (23).png";
+        document.getElementById('episodePNG').src = "Method (23).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (23).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (24).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (24).png";
+        document.getElementById('episodePNG').src = "Method (24).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (24).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (25).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (25).png";
+        document.getElementById('episodePNG').src = "Method (25).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (25).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (26).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (26).png";
+        document.getElementById('episodePNG').src = "Method (26).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (26).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (27).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (27).png";
+        document.getElementById('episodePNG').src = "Method (27).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (27).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (28).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (28).png";
+        document.getElementById('episodePNG').src = "Method (28).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (28).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (29).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (29).png";
+        document.getElementById('episodePNG').src = "Method (29).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (29).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (30).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (30).png";
+        document.getElementById('episodePNG').src = "Method (30).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (30).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (31).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (31).png";
+        document.getElementById('episodePNG').src = "Method (31).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (31).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (32).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (32).png";
+        document.getElementById('episodePNG').src = "Method (32).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (32).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (33).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (33).png";
+        document.getElementById('episodePNG').src = "Method (33).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (33).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (34).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (34).png";
+        document.getElementById('episodePNG').src = "Method (34).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (34).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (35).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (35).png";
+        document.getElementById('episodePNG').src = "Method (35).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (35).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (36).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (36).png";
+        document.getElementById('episodePNG').src = "Method (36).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (36).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (37).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (37).png";
+        document.getElementById('episodePNG').src = "Method (37).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (37).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (38).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (38).png";
+        document.getElementById('episodePNG').src = "Method (38).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (38).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (39).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (39).png";
+        document.getElementById('episodePNG').src = "Method (39).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (39).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (40).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (40).png";
+        document.getElementById('episodePNG').src = "Method (40).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (40).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (41).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (41).png";
+        document.getElementById('episodePNG').src = "Method (41).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (41).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (42).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (42).png";
+        document.getElementById('episodePNG').src = "Method (42).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (42).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (43).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (43).png";
+        document.getElementById('episodePNG').src = "Method (43).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (43).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (44).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (44).png";
+        document.getElementById('episodePNG').src = "Method (44).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (44).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (45).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (45).png";
+        document.getElementById('episodePNG').src = "Method (45).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (45).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (46).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (46).png";
+        document.getElementById('episodePNG').src = "Method (46).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (46).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (47).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (47).png";
+        document.getElementById('episodePNG').src = "Method (47).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (47).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (48).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (48).png";
+        document.getElementById('episodePNG').src = "Method (48).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (48).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (49).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (49).png";
+        document.getElementById('episodePNG').src = "Method (49).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (49).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (50).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (50).png";
+        document.getElementById('episodePNG').src = "Method (50).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (50).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (51).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (51).png";
+        document.getElementById('episodePNG').src = "Method (51).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (51).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (52).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (52).png";
+        document.getElementById('episodePNG').src = "Method (52).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (52).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (53).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (53).png";
+        document.getElementById('episodePNG').src = "Method (53).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (53).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (54).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (54).png";
+        document.getElementById('episodePNG').src = "Method (54).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (54).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (55).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (55).png";
+        document.getElementById('episodePNG').src = "Method (55).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (55).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (56).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (56).png";
+        document.getElementById('episodePNG').src = "Method (56).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (56).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (57).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (57).png";
+        document.getElementById('episodePNG').src = "Method (57).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (57).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (58).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (58).png";
+        document.getElementById('episodePNG').src = "Method (58).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (58).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (59).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (59).png";
+        document.getElementById('episodePNG').src = "Method (59).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (59).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (60).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (60).png";
+        document.getElementById('episodePNG').src = "Method (60).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (60).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (61).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (61).png";
+        document.getElementById('episodePNG').src = "Method (61).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (61).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (62).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (62).png";
+        document.getElementById('episodePNG').src = "Method (62).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (62).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (63).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (63).png";
+        document.getElementById('episodePNG').src = "Method (63).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (63).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (64).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (64).png";
+        document.getElementById('episodePNG').src = "Method (64).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (64).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (65).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (65).png";
+        document.getElementById('episodePNG').src = "Method (65).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (65).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (66).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (66).png";
+        document.getElementById('episodePNG').src = "Method (66).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (66).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (67).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (67).png";
+        document.getElementById('episodePNG').src = "Method (67).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (67).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (68).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (68).png";
+        document.getElementById('episodePNG').src = "Method (68).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (68).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (69).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (69).png";
+        document.getElementById('episodePNG').src = "Method (69).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (69).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (70).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (70).png";
+        document.getElementById('episodePNG').src = "Method (70).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (70).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (71).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (71).png";
+        document.getElementById('episodePNG').src = "Method (71).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (71).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (72).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (72).png";
+        document.getElementById('episodePNG').src = "Method (72).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (72).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (73).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (73).png";
+        document.getElementById('episodePNG').src = "Method (73).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (73).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (74).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (74).png";
+        document.getElementById('episodePNG').src = "Method (74).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (74).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (75).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (75).png";
+        document.getElementById('episodePNG').src = "Method (75).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (75).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (76).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (76).png";
+        document.getElementById('episodePNG').src = "Method (76).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (76).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (77).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (77).png";
+        document.getElementById('episodePNG').src = "Method (77).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (77).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (78).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (78).png";
+        document.getElementById('episodePNG').src = "Method (78).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (78).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (79).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (79).png";
+        document.getElementById('episodePNG').src = "Method (79).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (79).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (80).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (80).png";
+        document.getElementById('episodePNG').src = "Method (80).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (80).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (81).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (81).png";
+        document.getElementById('episodePNG').src = "Method (81).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (81).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (82).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (82).png";
+        document.getElementById('episodePNG').src = "Method (82).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (82).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (83).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (83).png";
+        document.getElementById('episodePNG').src = "Method (83).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (83).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (84).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (84).png";
+        document.getElementById('episodePNG').src = "Method (84).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (84).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (85).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (85).png";
+        document.getElementById('episodePNG').src = "Method (85).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (85).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (86).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (86).png";
+        document.getElementById('episodePNG').src = "Method (86).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (86).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (87).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (87).png";
+        document.getElementById('episodePNG').src = "Method (87).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (87).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (88).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (88).png";
+        document.getElementById('episodePNG').src = "Method (88).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (88).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (89).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (89).png";
+        document.getElementById('episodePNG').src = "Method (89).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (89).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (90).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (90).png";
+        document.getElementById('episodePNG').src = "Method (90).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (90).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (91).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (91).png";
+        document.getElementById('episodePNG').src = "Method (91).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (91).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (92).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (92).png";
+        document.getElementById('episodePNG').src = "Method (92).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (92).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (93).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (93).png";
+        document.getElementById('episodePNG').src = "Method (93).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (93).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (94).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (94).png";
+        document.getElementById('episodePNG').src = "Method (94).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (94).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (95).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (95).png";
+        document.getElementById('episodePNG').src = "Method (95).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (95).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (96).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (96).png";
+        document.getElementById('episodePNG').src = "Method (96).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (96).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (97).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (97).png";
+        document.getElementById('episodePNG').src = "Method (97).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (97).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (98).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (98).png";
+        document.getElementById('episodePNG').src = "Method (98).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (98).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (99).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (99).png";
+        document.getElementById('episodePNG').src = "Method (99).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (99).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (100).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (100).png";
+        document.getElementById('episodePNG').src = "Method (100).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (100).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (101).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (101).png";
+        document.getElementById('episodePNG').src = "Method (101).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (101).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (102).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (102).png";
+        document.getElementById('episodePNG').src = "Method (102).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (102).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (103).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (103).png";
+        document.getElementById('episodePNG').src = "Method (103).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (103).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (104).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (104).png";
+        document.getElementById('episodePNG').src = "Method (104).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (104).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (105).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (105).png";
+        document.getElementById('episodePNG').src = "Method (105).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (105).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (106).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (106).png";
+        document.getElementById('episodePNG').src = "Method (106).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (106).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (107).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (107).png";
+        document.getElementById('episodePNG').src = "Method (107).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (107).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (108).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (108).png";
+        document.getElementById('episodePNG').src = "Method (108).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (108).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (109).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (109).png";
+        document.getElementById('episodePNG').src = "Method (109).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (109).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (110).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (110).png";
+        document.getElementById('episodePNG').src = "Method (110).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (110).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (111).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (111).png";
+        document.getElementById('episodePNG').src = "Method (111).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (111).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (112).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (112).png";
+        document.getElementById('episodePNG').src = "Method (112).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (112).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (113).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (113).png";
+        document.getElementById('episodePNG').src = "Method (113).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (113).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (114).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (114).png";
+        document.getElementById('episodePNG').src = "Method (114).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (114).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (115).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (115).png";
+        document.getElementById('episodePNG').src = "Method (115).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (115).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (116).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (116).png";
+        document.getElementById('episodePNG').src = "Method (116).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (116).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (117).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (117).png";
+        document.getElementById('episodePNG').src = "Method (117).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (117).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (118).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (118).png";
+        document.getElementById('episodePNG').src = "Method (118).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (118).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (119).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (119).png";
+        document.getElementById('episodePNG').src = "Method (119).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (119).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (120).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (120).png";
+        document.getElementById('episodePNG').src = "Method (120).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (120).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (121).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (121).png";
+        document.getElementById('episodePNG').src = "Method (121).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (121).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (122).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (122).png";
+        document.getElementById('episodePNG').src = "Method (122).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (122).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (123).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (123).png";
+        document.getElementById('episodePNG').src = "Method (123).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (123).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (124).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (124).png";
+        document.getElementById('episodePNG').src = "Method (124).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (124).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (125).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (125).png";
+        document.getElementById('episodePNG').src = "Method (125).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (125).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (126).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (126).png";
+        document.getElementById('episodePNG').src = "Method (126).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (126).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (127).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (127).png";
+        document.getElementById('episodePNG').src = "Method (127).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (127).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (128).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (128).png";
+        document.getElementById('episodePNG').src = "Method (128).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (128).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (129).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (129).png";
+        document.getElementById('episodePNG').src = "Method (129).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (129).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (130).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (130).png";
+        document.getElementById('episodePNG').src = "Method (130).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (130).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (131).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (131).png";
+        document.getElementById('episodePNG').src = "Method (131).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (131).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (132).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (132).png";
+        document.getElementById('episodePNG').src = "Method (132).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (132).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (133).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (133).png";
+        document.getElementById('episodePNG').src = "Method (133).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (133).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
     } else if (episodeImg == 'Method (134).png') {
-        document.getElementById('episodePNG').src = "images/Method/Method (134).png";
+        document.getElementById('episodePNG').src = "Method (134).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (134).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
