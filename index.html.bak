@@ -1,13 +1,10 @@
 <DOCTYPE html>
-
 <html>
 	<head>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel ="stylesheet" href="Styles.css">
 		<title> House Guessing Game </title>
 	</head>
-
-
 	<body>
 		<div class="main" style="margin-top:1px;">
 			<div class="row" style="background-color:b1d3e2;">	
@@ -15,6 +12,7 @@
 					<div class="col-6 col-lg-10 centerPlease sideDiv">
 						<img id="housePNG" src="houseNet.png">
 						<p><b> <span id="Right"> 0</span>/<span id="Wrong">0</span> correct <span id="Percent">0</span>%</b></p>
+						<button id="hardModeEnable"> No Repeats </button>
 					</div>
 				</div>
 				<div class="col-11 col-lg-6 guessDiv">
@@ -59,4 +57,3 @@
 		<script src="main.js"> </script>
 	</body>
 </html>
-
