@@ -78,7 +78,7 @@ episodes = ['Season 1 Episode 1', 'Season 1 Episode 2', 'Season 1 Episode 3', 'S
 
 function tryAgain() {
     episodeX = randomValueFromArray(episodes);
-   // episodeX = 'Season 1 Episode 6';
+   episodeX = 'Season 1 Episode 1';
     updateImg();
     wrongOrRight.textContent = '';
     document.getElementById('housePNG').src = "houseNet.png";
@@ -287,12 +287,14 @@ function updateImg() {
 
 function S1E1Img() {
     episodeImg = randomValueFromArray(pilotArray);
-    if (episodeImg == 'Pilot1.png') {
-        document.getElementById('episodePNG').src = " Pilot1.png";
+    document.getElementById('episodePNG').src = 'episodeImg';
         if (noRepeatButt == true) {
-            episodePreDelete = pilotArray.indexOf('Pilot1.png');
+            episodePreDelete = pilotArray.indexOf('episodeImg');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
-        }
+        
+	   }
+}
+		/*
     } else if (episodeImg == 'Pilot2.png') {
         document.getElementById('episodePNG').src = " Pilot2.png";
         if (noRepeatButt == true) {
@@ -902,7 +904,8 @@ function S1E1Img() {
     } else if (noRepeatButt == true) {
         episodePreDelete = episodes.indexOf('Season 1 Episode 1');
         episodeDelete = episodes.splice(episodePreDelete, 1);
-    }
+    } 
+	*/
 }
 function S1E2Img() {
     episodeImg = randomValueFromArray(paternityArray);
