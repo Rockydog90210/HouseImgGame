@@ -80,7 +80,7 @@ episodes = ['Season 1 Episode 1', 'Season 1 Episode 2', 'Season 1 Episode 3', 'S
 
 function tryAgain() {
     episodeX = randomValueFromArray(episodes);
-   episodeX = 'Season 1 Episode 1';
+   //episodeX = 'Season 1 Episode 1';
     updateImg();
     wrongOrRight.textContent = '';
     document.getElementById('housePNG').src = "houseNet.png";
@@ -322,13 +322,13 @@ function S1E3Img() {
 }
 function S1E4Img() {
     episodeImg = randomValueFromArray(MaternityArray);
-    if (episodeImg == 'Maternity1.png') {
+   
         document.getElementById('episodePNG').src = episodeImg;
         if (noRepeatButt == true) {
             episodePreDelete = MaternityArray.indexOf(episodeImg);
             episodeDelete = MaternityArray.splice(episodePreDelete, 1);
         }
-    } else if (noRepeatButt == true) {
+   if (noRepeatButt == true) {
         episodePreDelete = episodes.indexOf('Season 1 Episode 4');
         episodeDelete = episodes.splice(episodePreDelete, 1);
     }
@@ -336,13 +336,13 @@ function S1E4Img() {
 
 function S1E5Img() {
     episodeImg = randomValueFromArray(DamnedArray);
-    if (episodeImg == 'Damned1.png') {
+    
         document.getElementById('episodePNG').src = episodeImg;
         if (noRepeatButt == true) {
             episodePreDelete = DamnedArray.indexOf(episodeImg);
             episodeDelete = DamnedArray.splice(episodePreDelete, 1);
         }
-    } else if (noRepeatButt == true) {
+    if (noRepeatButt == true) {
         episodePreDelete = episodes.indexOf('Season 1 Episode 5');
         episodeDelete = episodes.splice(episodePreDelete, 1);
     }
@@ -351,13 +351,13 @@ function S1E6Img() {
 
     episodeImg = randomValueFromArray(MethodArray);
 
-    if (episodeImg == 'Method (1).png') {
+    
         document.getElementById('episodePNG').src = "Method (1).png";
         if (noRepeatButt == true) {
             episodePreDelete = MethodArray.indexOf('Method (1).png');
             episodeDelete = MethodArray.splice(episodePreDelete, 1);
         }
-    } else if (noRepeatButt == true) {
+    (noRepeatButt == true) {
         episodePreDelete = episodes.indexOf('Season 1 Episode 6');
         episodeDelete = episodes.splice(episodePreDelete, 1);
     }
