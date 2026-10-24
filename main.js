@@ -359,6 +359,7 @@ function S1E5Img() {
             episodeDelete = episodes.splice(episodePreDelete, 1);
         }
     }
+}
 function S1E6Img() {
 
     episodeImg = randomValueFromArray(MethodArray);
