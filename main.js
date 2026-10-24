@@ -288,78 +288,92 @@ function updateImg() {
 }
 
 function S1E1Img() {
-   var episodeImg = randomValueFromArray(pilotArray);
+    var episodeImg = randomValueFromArray(pilotArray);
     document.getElementById('episodePNG').src = episodeImg;
+    if (noRepeatButt == true) {
+        episodePreDelete = pilotArray.indexOf(episodeImg);
+        episodeDelete = pilotArray.splice(episodePreDelete, 1);
+    }
+    if (pilotArray.length == 0) {
         if (noRepeatButt == true) {
-            episodePreDelete = pilotArray.indexOf(episodeImg);
-            episodeDelete = pilotArray.splice(episodePreDelete, 1);
-	   } else if (noRepeatButt == true) {
-        episodePreDelete = episodes.indexOf('Season 1 Episode 1');
-        episodeDelete = episodes.splice(episodePreDelete, 1);
+            episodePreDelete = episodes.indexOf('Season 1 Episode 1');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
     }
 }
 function S1E2Img() {
-   var episodeImg = randomValueFromArray(paternityArray);
-        document.getElementById('episodePNG').src = episodeImg;
+    var episodeImg = randomValueFromArray(paternityArray);
+    document.getElementById('episodePNG').src = episodeImg;
+    if (noRepeatButt == true) {
+        episodePreDelete = paternityArray.indexOf(episodeImg);
+        episodeDelete = paternityArray.splice(episodePreDelete, 1);
+    }
+    if (paternityArray.length == 0) {
         if (noRepeatButt == true) {
-            episodePreDelete = paternityArray.indexOf(episodeImg);
-            episodeDelete = paternityArray.splice(episodePreDelete, 1);
-        } else if (noRepeatButt == true) {
-        episodePreDelete = episodes.indexOf('Season 1 Episode 2');
-        episodeDelete = episodes.splice(episodePreDelete, 1);
+            episodePreDelete = episodes.indexOf('Season 1 Episode 2');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
     }
 }
 function S1E3Img() {
-   var episodeImg = randomValueFromArray(occamArray);
-        document.getElementById('episodePNG').src = episodeImg;
+    var episodeImg = randomValueFromArray(occamArray);
+    document.getElementById('episodePNG').src = episodeImg;
+    if (noRepeatButt == true) {
+        episodePreDelete = occamArray.indexOf(episodeImg);
+        episodeDelete = occamArray.splice(episodePreDelete, 1);
+    }
+    if (occamArray.length == 0) {
         if (noRepeatButt == true) {
-            episodePreDelete = occamArray.indexOf(episodeImg);
-            episodeDelete = occamArray.splice(episodePreDelete, 1);
-        } else if (noRepeatButt == true) {
-        episodePreDelete = episodes.indexOf('Season 1 Episode 3');
-        episodeDelete = episodes.splice(episodePreDelete, 1);
+            episodePreDelete = episodes.indexOf('Season 1 Episode 3');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
     }
 }
 function S1E4Img() {
     episodeImg = randomValueFromArray(MaternityArray);
-   
-        document.getElementById('episodePNG').src = episodeImg;
+
+    document.getElementById('episodePNG').src = episodeImg;
+    if (noRepeatButt == true) {
+        episodePreDelete = MaternityArray.indexOf(episodeImg);
+        episodeDelete = MaternityArray.splice(episodePreDelete, 1);
+    }
+    if (MaternityArray.length == 0) {
         if (noRepeatButt == true) {
-            episodePreDelete = MaternityArray.indexOf(episodeImg);
-            episodeDelete = MaternityArray.splice(episodePreDelete, 1);
+            episodePreDelete = episodes.indexOf('Season 1 Episode 4');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
         }
-   if (noRepeatButt == true) {
-        episodePreDelete = episodes.indexOf('Season 1 Episode 4');
-        episodeDelete = episodes.splice(episodePreDelete, 1);
     }
 }
 
 function S1E5Img() {
     episodeImg = randomValueFromArray(DamnedArray);
-    
-        document.getElementById('episodePNG').src = episodeImg;
-        if (noRepeatButt == true) {
-            episodePreDelete = DamnedArray.indexOf(episodeImg);
-            episodeDelete = DamnedArray.splice(episodePreDelete, 1);
-        }
+
+    document.getElementById('episodePNG').src = episodeImg;
     if (noRepeatButt == true) {
-        episodePreDelete = episodes.indexOf('Season 1 Episode 5');
-        episodeDelete = episodes.splice(episodePreDelete, 1);
+        episodePreDelete = DamnedArray.indexOf(episodeImg);
+        episodeDelete = DamnedArray.splice(episodePreDelete, 1);
+    }
+    if (DamnedArray.length == 0) {
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 1 Episode 5');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
     }
 }
 function S1E6Img() {
 
     episodeImg = randomValueFromArray(MethodArray);
 
-    
-        document.getElementById('episodePNG').src = "Method (1).png";
+    document.getElementById('episodePNG').src = episodeImg;
+    if (noRepeatButt == true) {
+        episodePreDelete = MethodArray.indexOf(episodeImg);
+        episodeDelete = MethodArray.splice(episodePreDelete, 1);
+    }
+    if (MethodArray.length == 0) {
         if (noRepeatButt == true) {
-            episodePreDelete = MethodArray.indexOf('Method (1).png');
-            episodeDelete = MethodArray.splice(episodePreDelete, 1);
+            episodePreDelete = episodes.indexOf('Season 1 Episode 6');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
         }
-    (noRepeatButt == true) {
-        episodePreDelete = episodes.indexOf('Season 1 Episode 6');
-        episodeDelete = episodes.splice(episodePreDelete, 1);
     }
 }
 
