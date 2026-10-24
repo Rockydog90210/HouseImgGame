@@ -287,7 +287,7 @@ function updateImg() {
 
 function S1E1Img() {
     episodeImg = randomValueFromArray(pilotArray);
-    document.getElementById('episodePNG').src = ("episodeImg");
+    document.getElementById('episodePNG').src = episodeImg;
         if (noRepeatButt == true) {
             episodePreDelete = pilotArray.indexOf('episodeImg');
             episodeDelete = pilotArray.splice(episodePreDelete, 1);
