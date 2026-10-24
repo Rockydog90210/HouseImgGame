@@ -905,8 +905,8 @@ function S1E1Img() {
         episodePreDelete = episodes.indexOf('Season 1 Episode 1');
         episodeDelete = episodes.splice(episodePreDelete, 1);
     } 
-	*/
-}
+	
+}*/
 function S1E2Img() {
     episodeImg = randomValueFromArray(paternityArray);
     if (episodeImg == 'Paternity1.png') {
