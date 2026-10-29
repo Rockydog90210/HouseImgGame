@@ -2,8 +2,12 @@ body{
 	background-color:#89a9b7;
 	 overflow-x: hidden;
 }
+.tittle {
+	font-family: Spectral;
+}
 .main {
 	text-align:center;
+	
 }
 .inLine {
 	display:inline;
@@ -35,6 +39,7 @@ body{
 }
 .sideDiv{
 	background-color:#9ec2d3;
+	
 }
 .guessDiv{
 	padding-bottom:5%;

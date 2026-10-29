@@ -53,8 +53,8 @@ function updateStat() {
             totWrong = 0;
             Correct.textContent = totCorrect;
             Incorrect.textContent = totWrong;
-			Percent.textContent = "0"
-            restartArray();
+            Percent.textContent = "0"
+                restartArray();
         }
     }
 }
@@ -68,19 +68,19 @@ function hardModeToggle() {
     }
 }
 function restartArray() {
-episodes = ['Season 1 Episode 1', 'Season 1 Episode 2', 'Season 1 Episode 3', 'Season 1 Episode 4', 'Season 1 Episode 5', 'Season 1 Episode 6',] //'Season 1 Episode 7', 'Season 1 Episode 8', 'Season 1 Episode 9', 'Season 1 Episode 10', 'Season 1 Episode 11', 'Season 1 Episode 12', 'Season 1 Episode 13', 'Season 1 Episode 14', 'Season 1 Episode 15', 'Season 1 Episode 16', 'Season 1 Episode 17', 'Season 1 Episode 18', 'Season 1 Episode 19', 'Season 1 Episode 20', 'Season 1 Episode 21', 'Season 2 Episode 1', 'Season 2 Episode 2', 'Season 2 Episode 3', 'Season 2 Episode 4', 'Season 2 Episode 5', 'Season 2 Episode 6', 'Season 2 Episode 7', 'Season 2 Episode 8', 'Season 2 Episode 9', 'Season 2 Episode 10', 'Season 2 Episode 11', 'Season 2 Episode 12', 'Season 2 Episode 13', 'Season 2 Episode 14', 'Season 2 Episode 15', 'Season 2 Episode 16', 'Season 2 Episode 17', 'Season 2 Episode 18', 'Season 2 Episode 19', 'Season 2 Episode 20', 'Season 2 Episode 21', 'Season 2 Episode 21', 'Season 2 Episode 22', 'Season 2 Episode 23', 'Season 2 Episode 23', 'Season 2 Episode 24', 'Season 3 Episode 1', 'Season 3 Episode 2', 'Season 3 Episode 3', 'Season 3 Episode 4', 'Season 3 Episode 5', 'Season 3 Episode 6', 'Season 3 Episode 7', 'Season 3 Episode 8', 'Season 3 Episode 9', 'Season 3 Episode 10', 'Season 3 Episode 11', 'Season 3 Episode 12', 'Season 3 Episode 13', 'Season 3 Episode 14', 'Season 3 Episode 15', 'Season 3 Episode 16', 'Season 3 Episode 17', 'Season 3 Episode 18', 'Season 3 Episode 19', 'Season 3 Episode 20', 'Season 3 Episode 21', 'Season 3 Episode 22', 'Season 3 Episode 23', 'Season 3 Episode 24', 'Season 4 Episode 1', 'Season 4 Episode 2', 'Season 4 Episode 3', 'Season 4 Episode 4', 'Season 4 Episode 5', 'Season 4 Episode 6', 'Season 4 Episode 7', 'Season 4 Episode 8', 'Season 4 Episode 9', 'Season 4 Episode 10', 'Season 4 Episode 11', 'Season 4 Episode 12', 'Season 4 Episode 13', 'Season 4 Episode 14', 'Season 4 Episode 15', 'Season 4 Episode 16', 'Season 5 Episode 1', 'Season 5 Episode 2', 'Season 5 Episode 3', 'Season 5 Episode 4', 'Season 5 Episode 5', 'Season 5 Episode 6', 'Season 5 Episode 7', 'Season 5 Episode 8', 'Season 5 Episode 9', 'Season 5 Episode 10', 'Season 5 Episode 11', 'Season 5 Episode 12', 'Season 5 Episode 13', 'Season 5 Episode 14', 'Season 5 Episode 15', 'Season 5 Episode 16', 'Season 5 Episode 17', 'Season 5 Episode 18', 'Season 5 Episode 19', 'Season 5 Episode 20', 'Season 5 Episode 21', 'Season 5 Episode 22', 'Season 5 Episode 23', 'Season 5 Episode 24', 'Season 6 Episode 1', 'Season 6 Episode 2', 'Season 6 Episode 3', 'Season 6 Episode 4', 'Season 6 Episode 5', 'Season 6 Episode 6', 'Season 6 Episode 7', 'Season 6 Episode 8', 'Season 6 Episode 9', 'Season 6 Episode 10', 'Season 6 Episode 11', 'Season 6 Episode 12', 'Season 6 Episode 13', 'Season 6 Episode 14', 'Season 6 Episode 15', 'Season 6 Episode 16', 'Season 6 Episode 17', 'Season 6 Episode 18', 'Season 6 Episode 19', 'Season 6 Episode 20', 'Season 6 Episode 21', 'Season 7 Episode 1', ];
-    pilotArray = ['Pilot1.png', 'Pilot2.png', 'Pilot3.png', 'Pilot4.png', 'Pilot5.png', 'Pilot6.png', 'Pilot7.png', 'Pilot8.png', 'Pilot9.png', 'Pilot10.png', 'Pilot11.png', 'Pilot12.png', 'Pilot13.png', 'Pilot14.png', 'Pilot15.png', 'Pilot16.png', 'Pilot17.png', 'Pilot18.png', 'Pilot19.png', 'Pilot20.png', 'Pilot21.png', 'Pilot22.png', 'Pilot23.png', 'Pilot24.png', 'Pilot25.png', 'Pilot26.png', 'Pilot27.png', 'Pilot28.png', 'Pilot29.png', 'Pilot30.png', 'Pilot31.png', 'Pilot32.png', 'Pilot33.png', 'Pilot34.png', 'Pilot35.png', 'Pilot36.png', 'Pilot37.png', 'Pilot38.png', 'Pilot39.png', 'Pilot40.png', 'Pilot41.png', 'Pilot42.png', 'Pilot43.png', 'Pilot44.png', 'Pilot45.png', 'Pilot46.png', 'Pilot47.png', 'Pilot48.png', 'Pilot49.png', 'Pilot50.png', 'Pilot51.png', 'Pilot52.png', 'Pilot53.png', 'Pilot54.png', 'Pilot55.png', 'Pilot56.png', 'Pilot57.png', 'Pilot58.png', 'Pilot59.png', 'Pilot60.png', 'Pilot61.png', 'Pilot62.png', 'Pilot63.png', 'Pilot64.png', 'Pilot65.png', 'Pilot66.png', 'Pilot67.png', 'Pilot68.png', 'Pilot69.png', 'Pilot70.png', 'Pilot71.png', 'Pilot72.png', 'Pilot73.png', 'Pilot74.png', 'Pilot75.png', 'Pilot76.png', 'Pilot77.png', 'Pilot78.png', 'Pilot79.png', 'Pilot80.png', 'Pilot81.png', 'Pilot82.png', 'Pilot83.png', 'Pilot84.png', 'Pilot85.png', 'Pilot86.png', 'Pilot87.png', 'Pilot88.png', 'Pilot89.png', 'Pilot90.png', 'Pilot91.png', 'Pilot92.png', 'Pilot93.png', 'Pilot94.png', 'Pilot95.png', 'Pilot96.png', 'Pilot97.png', 'Pilot98.png', 'Pilot99.png', 'Pilot100.png', 'Pilot101.png', 'Pilot102', ];
+    episodes = ['Season 1 Episode 1', 'Season 1 Episode 2', 'Season 1 Episode 3', 'Season 1 Episode 4', 'Season 1 Episode 5', 'Season 1 Episode 6', 'Season 1 Episode 7',]// 'Season 1 Episode 8', 'Season 1 Episode 9', 'Season 1 Episode 10', 'Season 1 Episode 11', 'Season 1 Episode 12', 'Season 1 Episode 13', 'Season 1 Episode 14', 'Season 1 Episode 15', 'Season 1 Episode 16', 'Season 1 Episode 17', 'Season 1 Episode 18', 'Season 1 Episode 19', 'Season 1 Episode 20', 'Season 1 Episode 21', 'Season 2 Episode 1', 'Season 2 Episode 2', 'Season 2 Episode 3', 'Season 2 Episode 4', 'Season 2 Episode 5', 'Season 2 Episode 6', 'Season 2 Episode 7', 'Season 2 Episode 8', 'Season 2 Episode 9', 'Season 2 Episode 10', 'Season 2 Episode 11', 'Season 2 Episode 12', 'Season 2 Episode 13', 'Season 2 Episode 14', 'Season 2 Episode 15', 'Season 2 Episode 16', 'Season 2 Episode 17', 'Season 2 Episode 18', 'Season 2 Episode 19', 'Season 2 Episode 20', 'Season 2 Episode 21', 'Season 2 Episode 21', 'Season 2 Episode 22', 'Season 2 Episode 23', 'Season 2 Episode 23', 'Season 2 Episode 24', 'Season 3 Episode 1', 'Season 3 Episode 2', 'Season 3 Episode 3', 'Season 3 Episode 4', 'Season 3 Episode 5', 'Season 3 Episode 6', 'Season 3 Episode 7', 'Season 3 Episode 8', 'Season 3 Episode 9', 'Season 3 Episode 10', 'Season 3 Episode 11', 'Season 3 Episode 12', 'Season 3 Episode 13', 'Season 3 Episode 14', 'Season 3 Episode 15', 'Season 3 Episode 16', 'Season 3 Episode 17', 'Season 3 Episode 18', 'Season 3 Episode 19', 'Season 3 Episode 20', 'Season 3 Episode 21', 'Season 3 Episode 22', 'Season 3 Episode 23', 'Season 3 Episode 24', 'Season 4 Episode 1', 'Season 4 Episode 2', 'Season 4 Episode 3', 'Season 4 Episode 4', 'Season 4 Episode 5', 'Season 4 Episode 6', 'Season 4 Episode 7', 'Season 4 Episode 8', 'Season 4 Episode 9', 'Season 4 Episode 10', 'Season 4 Episode 11', 'Season 4 Episode 12', 'Season 4 Episode 13', 'Season 4 Episode 14', 'Season 4 Episode 15', 'Season 4 Episode 16', 'Season 5 Episode 1', 'Season 5 Episode 2', 'Season 5 Episode 3', 'Season 5 Episode 4', 'Season 5 Episode 5', 'Season 5 Episode 6', 'Season 5 Episode 7', 'Season 5 Episode 8', 'Season 5 Episode 9', 'Season 5 Episode 10', 'Season 5 Episode 11', 'Season 5 Episode 12', 'Season 5 Episode 13', 'Season 5 Episode 14', 'Season 5 Episode 15', 'Season 5 Episode 16', 'Season 5 Episode 17', 'Season 5 Episode 18', 'Season 5 Episode 19', 'Season 5 Episode 20', 'Season 5 Episode 21', 'Season 5 Episode 22', 'Season 5 Episode 23', 'Season 5 Episode 24', 'Season 6 Episode 1', 'Season 6 Episode 2', 'Season 6 Episode 3', 'Season 6 Episode 4', 'Season 6 Episode 5', 'Season 6 Episode 6', 'Season 6 Episode 7', 'Season 6 Episode 8', 'Season 6 Episode 9', 'Season 6 Episode 10', 'Season 6 Episode 11', 'Season 6 Episode 12', 'Season 6 Episode 13', 'Season 6 Episode 14', 'Season 6 Episode 15', 'Season 6 Episode 16', 'Season 6 Episode 17', 'Season 6 Episode 18', 'Season 6 Episode 19', 'Season 6 Episode 20', 'Season 6 Episode 21', 'Season 7 Episode 1', ];
+    pilotArray = ['Pilot1.png', 'Pilot2.png', 'Pilot3.png', 'Pilot4.png', 'Pilot5.png', 'Pilot6.png', 'Pilot7.png', 'Pilot8.png', 'Pilot9.png', 'Pilot10.png', 'Pilot11.png', 'Pilot12.png', 'Pilot13.png', 'Pilot14.png', 'Pilot15.png', 'Pilot16.png', 'Pilot17.png', 'Pilot18.png', 'Pilot19.png', 'Pilot20.png', 'Pilot21.png', 'Pilot22.png', 'Pilot23.png', 'Pilot24.png', 'Pilot25.png', 'Pilot26.png', 'Pilot27.png', 'Pilot28.png', 'Pilot29.png', 'Pilot30.png', 'Pilot31.png', 'Pilot32.png', 'Pilot33.png', 'Pilot34.png', 'Pilot35.png', 'Pilot36.png', 'Pilot37.png', 'Pilot38.png', 'Pilot39.png', 'Pilot40.png', 'Pilot41.png', 'Pilot42.png', 'Pilot43.png', 'Pilot44.png', 'Pilot45.png', 'Pilot46.png', 'Pilot47.png', 'Pilot48.png', 'Pilot49.png', 'Pilot50.png', 'Pilot51.png', 'Pilot52.png', 'Pilot53.png', 'Pilot54.png', 'Pilot55.png', 'Pilot56.png', 'Pilot57.png', 'Pilot58.png', 'Pilot59.png', 'Pilot60.png', 'Pilot61.png', 'Pilot62.png', 'Pilot63.png', 'Pilot64.png', 'Pilot65.png', 'Pilot66.png', 'Pilot67.png', 'Pilot68.png', 'Pilot69.png', 'Pilot70.png', 'Pilot71.png', 'Pilot72.png', 'Pilot73.png', 'Pilot74.png', 'Pilot75.png', 'Pilot76.png', 'Pilot77.png', 'Pilot78.png', 'Pilot79.png', 'Pilot80.png', 'Pilot81.png', 'Pilot82.png', 'Pilot83.png', 'Pilot84.png', 'Pilot85.png', 'Pilot86.png', 'Pilot87.png', 'Pilot88.png', 'Pilot89.png', 'Pilot90.png', 'Pilot91.png', 'Pilot92.png', 'Pilot93.png', 'Pilot94.png', 'Pilot95.png', 'Pilot96.png', 'Pilot97.png', 'Pilot98.png', 'Pilot99.png', 'Pilot100.png', 'Pilot101.png', 'Pilot102.png', ];
     paternityArray = ['Paternity1.png', 'Paternity2.png', 'Paternity3.png', 'Paternity4.png', 'Paternity5.png', 'Paternity6.png', 'Paternity7.png', 'Paternity8.png', 'Paternity9.png', 'Paternity10.png', 'Paternity11.png', 'Paternity12.png', 'Paternity13.png', 'Paternity14.png', 'Paternity15.png', 'Paternity16.png', 'Paternity17.png', 'Paternity18.png', 'Paternity19.png', 'Paternity20.png', 'Paternity21.png', 'Paternity22.png', 'Paternity23.png', 'Paternity24.png', 'Paternity25.png', 'Paternity26.png', 'Paternity27.png', 'Paternity28.png', 'Paternity29.png', 'Paternity30.png', 'Paternity31.png', 'Paternity32.png', 'Paternity33.png', 'Paternity34.png', 'Paternity35.png', 'Paternity36.png', 'Paternity37.png', 'Paternity38.png', 'Paternity39.png', 'Paternity40.png', 'Paternity41.png', 'Paternity42.png', 'Paternity43.png', 'Paternity44.png', 'Paternity45.png', 'Paternity46.png', 'Paternity47.png', 'Paternity48.png', 'Paternity49.png', 'Paternity50.png', 'Paternity51.png', 'Paternity52.png', 'Paternity53.png', 'Paternity54.png', 'Paternity55.png', 'Paternity56.png', 'Paternity57.png', 'Paternity58.png', 'Paternity59.png', 'Paternity60.png', 'Paternity61.png', 'Paternity62.png', 'Paternity63.png', 'Paternity64.png', 'Paternity65.png', 'Paternity66.png', 'Paternity67.png', 'Paternity68.png', 'Paternity69.png', 'Paternity70.png', 'Paternity71.png', 'Paternity72.png', 'Paternity73.png', 'Paternity74.png', 'Paternity75.png', 'Paternity76.png', 'Paternity77.png', 'Paternity78.png', 'Paternity79.png', 'Paternity80.png', 'Paternity81.png', 'Paternity82.png', 'Paternity83.png', 'Paternity84.png', 'Paternity85.png', 'Paternity86.png', 'Paternity87.png', 'Paternity88.png', 'Paternity89.png', 'Paternity90.png', 'Paternity91.png', 'Paternity92.png', 'Paternity93.png', 'Paternity94.png', 'Paternity95.png', 'Paternity96.png', 'Paternity97.png', 'Paternity98.png', 'Paternity99.png', 'Paternity100.png', 'Paternity101.png', 'Paternity102.png', 'Paternity103.png', 'Paternity104.png', 'Paternity105.png', 'Paternity106.png', 'Paternity107.png', 'Paternity108.png', 'Paternity109.png', 'Paternity110.png', 'Paternity111.png', 'Paternity112.png', 'Paternity113.png', 'Paternity114.png', 'Paternity115.png', 'Paternity116.png', 'Paternity117.png', 'Paternity118.png', 'Paternity119.png', 'Paternity120.png', 'Paternity121.png', 'Paternity122.png', 'Paternity123.png', ];
     occamArray = ['Occam1.png', 'Occam2.png', 'Occam3.png', 'Occam4.png', 'Occam5.png', 'Occam6.png', 'Occam7.png', 'Occam8.png', 'Occam9.png', 'Occam10.png', 'Occam11.png', 'Occam12.png', 'Occam13.png', 'Occam14.png', 'Occam15.png', 'Occam16.png', 'Occam17.png', 'Occam18.png', 'Occam18.png', 'Occam19.png', 'Occam20.png', 'Occam21.png', 'Occam22.png', 'Occam23.png', 'Occam24.png', 'Occam25.png', 'Occam26.png', 'Occam27.png', 'Occam28.png', 'Occam29.png', 'Occam30.png', 'Occam31.png', 'Occam32.png', 'Occam33.png', 'Occam34.png', 'Occam35.png', 'Occam36.png', 'Occam37.png', 'Occam38.png', 'Occam39.png', 'Occam40.png', 'Occam41.png', 'Occam42.png', 'Occam43.png', 'Occam44.png', 'Occam45.png', 'Occam46.png', 'Occam47.png', 'Occam48.png', 'Occam49.png', 'Occam50.png', 'Occam51.png', 'Occam52.png', 'Occam53.png', 'Occam54.png', 'Occam55.png', 'Occam56.png', 'Occam57.png', 'Occam58.png', 'Occam59.png', 'Occam60.png', 'Occam61.png', 'Occam62.png', 'Occam63.png', 'Occam64.png', 'Occam65.png', 'Occam66.png', 'Occam67.png', 'Occam68.png', 'Occam69.png', 'Occam70.png', 'Occam71.png', 'Occam72.png', 'Occam73.png', 'Occam74.png', 'Occam75.png', 'Occam76.png', 'Occam77.png', 'Occam78.png', 'Occam79.png', 'Occam80.png', 'Occam81.png', 'Occam82.png', 'Occam83.png', 'Occam84.png', 'Occam85.png', 'Occam86.png', 'Occam87.png', 'Occam88.png', 'Occam89.png', 'Occam90.png', 'Occam91.png', 'Occam92.png', 'Occam93.png', 'Occam94.png', 'Occam95.png', 'Occam96.png', 'Occam97.png', 'Occam98.png', 'Occam99.png', 'Occam100.png', 'Occam101.png', 'Occam102.png', 'Occam103.png', 'Occam104.png', 'Occam105.png', 'Occam106.png', 'Occam107.png', 'Occam108.png', 'Occam109.png', 'Occam110.png', 'Occam111.png', 'Occam112.png', 'Occam113.png', 'Occam114.png', 'Occam115.png', 'Occam116.png', 'Occam117.png', 'Occam118.png', 'Occam119.png', 'Occam120.png', 'Occam121.png', 'Occam122.png', 'Occam123.png', 'Occam124.png', 'Occam125.png', 'Occam126.png', 'Occam127.png', 'Occam128.png', 'Occam129.png', 'Occam130.png', 'Occam131.png', 'Occam132.png', 'Occam133.png', 'Occam134.png', 'Occam135.png', 'Occam136.png', 'Occam137.png', 'Occam138.png', 'Occam139.png', 'Occam140.png', 'Occam141.png', 'Occam142.png', 'Occam143.png', 'Occam144.png', 'Occam145.png', 'Occam146.png', 'Occam147.png', 'Occam148.png', 'Occam149.png', 'Occam150.png', ];
     MaternityArray = ['Maternity1.png', 'Maternity2.png', 'Maternity3.png', 'Maternity4.png', 'Maternity5.png', 'Maternity6.png', 'Maternity7.png', 'Maternity8.png', 'Maternity9.png', 'Maternity10.png', 'Maternity11.png', 'Maternity12.png', 'Maternity13.png', 'Maternity14.png', 'Maternity15.png', 'Maternity16.png', 'Maternity17.png', 'Maternity18.png', 'Maternity19.png', 'Maternity20.png', 'Maternity21.png', 'Maternity22.png', 'Maternity23.png', 'Maternity24.png', 'Maternity25.png', 'Maternity26.png', 'Maternity27.png', 'Maternity28.png', 'Maternity29.png', 'Maternity30.png', 'Maternity31.png', 'Maternity32.png', 'Maternity33.png', 'Maternity34.png', 'Maternity35.png', 'Maternity36.png', 'Maternity37.png', 'Maternity38.png', 'Maternity39.png', 'Maternity40.png', 'Maternity41.png', 'Maternity42.png', 'Maternity43.png', 'Maternity44.png', 'Maternity45.png', 'Maternity46.png', 'Maternity47.png', 'Maternity48.png', 'Maternity49.png', 'Maternity50.png', 'Maternity51.png', 'Maternity52.png', 'Maternity53.png', 'Maternity54.png', 'Maternity55.png', 'Maternity56.png', 'Maternity57.png', 'Maternity58.png', 'Maternity59.png', 'Maternity60.png', 'Maternity61.png', 'Maternity62.png', 'Maternity63.png', 'Maternity64.png', 'Maternity65.png', 'Maternity66.png', 'Maternity67.png', 'Maternity68.png', 'Maternity69.png', 'Maternity70.png', 'Maternity71.png', 'Maternity72.png', 'Maternity73.png', 'Maternity74.png', 'Maternity75.png', 'Maternity76.png', 'Maternity77.png', 'Maternity78.png', 'Maternity79.png', 'Maternity80.png', 'Maternity81.png', 'Maternity82.png', 'Maternity83.png', 'Maternity84.png', 'Maternity85.png', 'Maternity86.png', 'Maternity87.png', 'Maternity88.png', 'Maternity89.png', 'Maternity90.png', 'Maternity91.png', 'Maternity92.png', 'Maternity93.png', 'Maternity94.png', 'Maternity95.png', 'Maternity96.png', 'Maternity97.png', 'Maternity98.png', 'Maternity99.png', 'Maternity100.png', 'Maternity101.png', 'Maternity102.png', 'Maternity103.png', 'Maternity104.png', 'Maternity105.png', 'Maternity106.png', 'Maternity107.png', 'Maternity108.png', 'Maternity109.png', 'Maternity110.png', 'Maternity111.png', 'Maternity112.png', 'Maternity113.png', 'Maternity114.png', 'Maternity115.png', 'Maternity116.png', 'Maternity117.png', 'Maternity118.png', 'Maternity119.png', ]
     DamnedArray = ['Damned1.png', 'Damned2.png', 'Damned3.png', 'Damned4.png', 'Damned4.png', 'Damned5.png', 'Damned6.png', 'Damned7.png', 'Damned8.png', 'Damned9.png', 'Damned10.png', 'Damned11.png', 'Damned12.png', 'Damned13.png', 'Damned14.png', 'Damned15.png', 'Damned16.png', 'Damned17.png', 'Damned18.png', 'Damned19.png', 'Damned20.png', 'Damned21.png', 'Damned22.png', 'Damned23.png', 'Damned24.png', 'Damned25.png', 'Damned26.png', 'Damned27.png', 'Damned28.png', 'Damned29.png', 'Damned30.png', 'Damned31.png', 'Damned32.png', 'Damned33.png', 'Damned34.png', 'Damned35.png', 'Damned36.png', 'Damned37.png', 'Damned38.png', 'Damned39.png', 'Damned40.png', 'Damned41.png', 'Damned42.png', 'Damned43.png', 'Damned44.png', 'Damned45.png', 'Damned46.png', 'Damned47.png', 'Damned48.png', 'Damned49.png', 'Damned50.png', 'Damned51.png', 'Damned52.png', 'Damned53.png', 'Damned54.png', 'Damned55.png', 'Damned56.png', 'Damned57.png', 'Damned58.png', 'Damned59.png', 'Damned60.png', 'Damned61.png', 'Damned62.png', 'Damned63.png', 'Damned64.png', 'Damned65.png', 'Damned66.png', 'Damned67.png', 'Damned68.png', 'Damned69.png', 'Damned70.png', 'Damned71.png', 'Damned72.png', 'Damned73.png', 'Damned74.png', 'Damned75.png', 'Damned76.png', 'Damned77.png', 'Damned78.png', 'Damned79.png', 'Damned80.png', 'Damned81.png', 'Damned82.png', 'Damned83.png', 'Damned84.png', 'Damned85.png', 'Damned86.png', 'Damned87.png', 'Damned88.png', 'Damned89.png', 'Damned90.png', 'Damned91.png', 'Damned92.png', 'Damned93.png', 'Damned94.png', 'Damned95.png', 'Damned96.png', 'Damned97.png', 'Damned98.png', 'Damned99.png', 'Damned100.png', 'Damned100.png', 'Damned101.png', 'Damned102.png', 'Damned103.png', 'Damned104.png', 'Damned105.png', 'Damned106.png', 'Damned107.png', 'Damned108.png', 'Damned109.png', 'Damned110.png', 'Damned111.png', 'Damned112.png', 'Damned113.png', 'Damned114.png', 'Damned115.png', 'Damned116.png', 'Damned117.png', 'Damned118.png', 'Damned119.png', 'Damned120.png', 'Damned121.png', 'Damned122.png', 'Damned123.png', 'Damned124.png', 'Damned125.png', 'Damned126.png', 'Damned127.png', 'Damned128.png', 'Damned129.png', 'Damned130.png', 'Damned131.png', 'Damned132.png', 'Damned133.png', 'Damned134.png', 'Damned135.png', 'Damned136.png', 'Damned137.png', 'Damned138.png', 'Damned139.png', ];
-	MethodArray = ['Method (1).png', 'Method (1).png', 'Method (2).png', 'Method (3).png', 'Method (4).png', 'Method (5).png', 'Method (6).png', 'Method (7).png', 'Method (8).png', 'Method (9).png', 'Method (10).png', 'Method (11).png', 'Method (12).png', 'Method (13).png', 'Method (14).png', 'Method (15).png', 'Method (16).png', 'Method (17).png', 'Method (18).png', 'Method (19).png', 'Method (20).png', 'Method (21).png', 'Method (22).png', 'Method (23).png', 'Method (24).png', 'Method (25).png', 'Method (26).png', 'Method (27).png', 'Method (28).png', 'Method (29).png', 'Method (30).png', 'Method (31).png', 'Method (32).png', 'Method (33).png', 'Method (34).png', 'Method (35).png', 'Method (36).png', 'Method (37).png', 'Method (38).png', 'Method (39).png', 'Method (40).png', 'Method (41).png', 'Method (42).png', 'Method (43).png', 'Method (44).png', 'Method (45).png', 'Method (46).png', 'Method (47).png', 'Method (48).png', 'Method (49).png', 'Method (50).png', 'Method (51).png', 'Method (52).png', 'Method (53).png', 'Method (54).png', 'Method (55).png', 'Method (56).png', 'Method (57).png', 'Method (58).png', 'Method (59).png', 'Method (60).png', 'Method (61).png', 'Method (62).png', 'Method (63).png', 'Method (64).png', 'Method (65).png', 'Method (66).png', 'Method (67).png', 'Method (68).png', 'Method (69).png', 'Method (70).png', 'Method (71).png', 'Method (72).png', 'Method (73).png', 'Method (74).png', 'Method (75).png', 'Method (76).png', 'Method (77).png', 'Method (78).png', 'Method (79).png', 'Method (80).png', 'Method (81).png', 'Method (82).png', 'Method (83).png', 'Method (84).png', 'Method (85).png', 'Method (86).png', 'Method (87).png', 'Method (88).png', 'Method (89).png', 'Method (90).png', 'Method (91).png', 'Method (92).png', 'Method (93).png', 'Method (94).png', 'Method (95).png', 'Method (96).png', 'Method (97).png', 'Method (98).png', 'Method (99).png', 'Method (100).png', 'Method (101).png', 'Method (102).png', 'Method (103).png', 'Method (104).png', 'Method (105).png', 'Method (106).png', 'Method (107).png', 'Method (108).png', 'Method (109).png', 'Method (110).png', 'Method (111).png', 'Method (112).png', 'Method (113).png', 'Method (114).png', 'Method (115).png', 'Method (116).png', 'Method (117).png', 'Method (118).png', 'Method (119).png', 'Method (120).png', 'Method (121).png', 'Method (122).png', 'Method (123).png', 'Method (124).png', 'Method (125).png', 'Method (126).png', 'Method (127).png', 'Method (128).png', 'Method (129).png', 'Method (130).png', 'Method (131).png', 'Method (132).png', 'Method (133).png', 'Method (134).png', ]
-
+    MethodArray = ['Method (1).png', 'Method (2).png', 'Method (3).png', 'Method (4).png', 'Method (5).png', 'Method (6).png', 'Method (7).png', 'Method (8).png', 'Method (9).png', 'Method (10).png', 'Method (11).png', 'Method (12).png', 'Method (13).png', 'Method (14).png', 'Method (15).png', 'Method (16).png', 'Method (17).png', 'Method (18).png', 'Method (19).png', 'Method (20).png', 'Method (21).png', 'Method (22).png', 'Method (23).png', 'Method (24).png', 'Method (25).png', 'Method (26).png', 'Method (27).png', 'Method (28).png', 'Method (29).png', 'Method (30).png', 'Method (31).png', 'Method (32).png', 'Method (33).png', 'Method (34).png', 'Method (35).png', 'Method (36).png', 'Method (37).png', 'Method (38).png', 'Method (39).png', 'Method (40).png', 'Method (41).png', 'Method (42).png', 'Method (43).png', 'Method (44).png', 'Method (45).png', 'Method (46).png', 'Method (47).png', 'Method (48).png', 'Method (49).png', 'Method (50).png', 'Method (51).png', 'Method (52).png', 'Method (53).png', 'Method (54).png', 'Method (55).png', 'Method (56).png', 'Method (57).png', 'Method (58).png', 'Method (59).png', 'Method (60).png', 'Method (61).png', 'Method (62).png', 'Method (63).png', 'Method (64).png', 'Method (65).png', 'Method (66).png', 'Method (67).png', 'Method (68).png', 'Method (69).png', 'Method (70).png', 'Method (71).png', 'Method (72).png', 'Method (73).png', 'Method (74).png', 'Method (75).png', 'Method (76).png', 'Method (77).png', 'Method (78).png', 'Method (79).png', 'Method (80).png', 'Method (81).png', 'Method (82).png', 'Method (83).png', 'Method (84).png', 'Method (85).png', 'Method (86).png', 'Method (87).png', 'Method (88).png', 'Method (89).png', 'Method (90).png', 'Method (91).png', 'Method (92).png', 'Method (93).png', 'Method (94).png', 'Method (95).png', 'Method (96).png', 'Method (97).png', 'Method (98).png', 'Method (99).png', 'Method (100).png', 'Method (101).png', 'Method (102).png', 'Method (103).png', 'Method (104).png', 'Method (105).png', 'Method (106).png', 'Method (107).png', 'Method (108).png', 'Method (109).png', 'Method (110).png', 'Method (111).png', 'Method (112).png', 'Method (113).png', 'Method (114).png', 'Method (115).png', 'Method (116).png', 'Method (117).png', 'Method (118).png', 'Method (119).png', 'Method (120).png', 'Method (121).png', 'Method (122).png', 'Method (123).png', 'Method (124).png', 'Method (125).png', 'Method (126).png', 'Method (127).png', 'Method (128).png', 'Method (129).png', 'Method (130).png', 'Method (131).png', 'Method (132).png', 'Method (133).png', 'Method (134).png', ]
+	FidelityArray = ['fidelity (1).png', 'fidelity (2).png', 'fidelity (3).png', 'fidelity (4).png', 'fidelity (5).png', 'fidelity (6).png', 'fidelity (7).png', 'fidelity (8).png', 'fidelity (9).png', 'fidelity (10).png', 'fidelity (11).png', 'fidelity (12).png', 'fidelity (13).png', 'fidelity (14).png', 'fidelity (15).png', 'fidelity (16).png', 'fidelity (17).png', 'fidelity (18).png', 'fidelity (19).png', 'fidelity (20).png', 'fidelity (21).png', 'fidelity (22).png', 'fidelity (23).png', 'fidelity (24).png', 'fidelity (25).png', 'fidelity (26).png', 'fidelity (27).png', 'fidelity (28).png', 'fidelity (29).png', 'fidelity (30).png', 'fidelity (31).png', 'fidelity (32).png', 'fidelity (33).png', 'fidelity (34).png', 'fidelity (35).png', 'fidelity (36).png', 'fidelity (37).png', 'fidelity (38).png', 'fidelity (39).png', 'fidelity (40).png', 'fidelity (41).png', 'fidelity (42).png', 'fidelity (43).png', 'fidelity (44).png', 'fidelity (45).png', 'fidelity (46).png', 'fidelity (47).png', 'fidelity (48).png', 'fidelity (49).png', 'fidelity (50).png', 'fidelity (51).png', 'fidelity (52).png', 'fidelity (53).png', 'fidelity (54).png', 'fidelity (55).png', 'fidelity (56).png', 'fidelity (57).png', 'fidelity (58).png', 'fidelity (59).png', 'fidelity (60).png', 'fidelity (61).png', 'fidelity (62).png', 'fidelity (63).png', 'fidelity (64).png', 'fidelity (65).png', 'fidelity (66).png', 'fidelity (67).png', 'fidelity (68).png', 'fidelity (69).png', 'fidelity (70).png', 'fidelity (71).png', 'fidelity (72).png', 'fidelity (73).png', 'fidelity (74).png', 'fidelity (75).png', 'fidelity (76).png', 'fidelity (77).png', 'fidelity (78).png', 'fidelity (79).png', 'fidelity (80).png', 'fidelity (81).png', 'fidelity (82).png', 'fidelity (83).png', 'fidelity (84).png', 'fidelity (85).png', 'fidelity (86).png', 'fidelity (87).png', 'fidelity (88).png', 'fidelity (89).png', 'fidelity (90).png', 'fidelity (91).png', 'fidelity (92).png', 'fidelity (93).png', 'fidelity (94).png', 'fidelity (95).png', 'fidelity (96).png', 'fidelity (97).png', 'fidelity (98).png', 'fidelity (99).png', 'fidelity (100).png', 'fidelity (101).png', 'fidelity (102).png', 'fidelity (103).png', 'fidelity (104).png', 'fidelity (105).png', 'fidelity (106).png', 'fidelity (107).png', 'fidelity (108).png', 'fidelity (109).png', 'fidelity (110).png', 'fidelity (111).png', 'fidelity (112).png', 'fidelity (113).png', 'fidelity (114).png', 'fidelity (115).png', 'fidelity (116).png', 'fidelity (117).png', 'fidelity (118).png', 'fidelity (119).png', 'fidelity (120).png', 'fidelity (121).png', 'fidelity (122).png', 'fidelity (123).png', 'fidelity (124).png', 'fidelity (125).png', 'fidelity (126).png', 'fidelity (127).png', 'fidelity (128).png', 'fidelity (129).png', 'fidelity (130).png', 'fidelity (131).png', 'fidelity (132).png', 'fidelity (133).png', 'fidelity (134).png', 'fidelity (135).png', 'fidelity (136).png', 'fidelity (137).png', 'fidelity (138).png', 'fidelity (139).png', 'fidelity (140).png', 'fidelity (141).png', 'fidelity (142).png', 'fidelity (143).png', 'fidelity (144).png', 'fidelity (145).png', 'fidelity (146).png', 'fidelity (147).png', 'fidelity (148).png', 'fidelity (149).png', 'fidelity (150).png', 'fidelity (151).png', 'fidelity (152).png', 'fidelity (153).png', 'fidelity (154).png', 'fidelity (155).png', 'fidelity (156).png', 'fidelity (157).png', 'fidelity (158).png', 'fidelity (159).png', 'fidelity (160).png', 'fidelity (161).png', 'fidelity (162).png', 'fidelity (163).png', 'fidelity (164).png', 'fidelity (165).png', 'fidelity (166).png', 'fidelity (167).png', 'fidelity (168).png', 'fidelity (169).png', 'fidelity (170).png', 'fidelity (171).png', 'fidelity (172).png', 'fidelity (173).png', 'fidelity (174).png', 'fidelity (175).png', 'fidelity (176).png', 'fidelity (177).png', 'fidelity (178).png', 'fidelity (179).png', 'fidelity (180).png', 'fidelity (181).png', 'fidelity (182).png', 'fidelity (183).png', 'fidelity (184).png', 'fidelity (185).png', 'fidelity (186).png', 'fidelity (187).png', 'fidelity (188).png', 'fidelity (189).png', 'fidelity (190).png', 'fidelity (191).png', 'fidelity (192).png', 'fidelity (193).png', 'fidelity (194).png', 'fidelity (195).png', 'fidelity (196).png', 'fidelity (197).png', 'fidelity (198).png', 'fidelity (199).png', 'fidelity (200).png',] 
 }
 
 function tryAgain() {
     episodeX = randomValueFromArray(episodes);
-   episodeX = 'Season 1 Episode 1';
+    // episodeX = 'Season 1 Episode 7';
     updateImg();
     wrongOrRight.textContent = '';
     document.getElementById('housePNG').src = "houseNet.png";
@@ -288,81 +288,110 @@ function updateImg() {
 }
 
 function S1E1Img() {
-   var episodeImg = randomValueFromArray(pilotArray);
+    var episodeImg = randomValueFromArray(pilotArray);
     document.getElementById('episodePNG').src = episodeImg;
+    if (noRepeatButt == true) {
+        episodePreDelete = pilotArray.indexOf(episodeImg);
+        episodeDelete = pilotArray.splice(episodePreDelete, 1);
+    }
+    if (pilotArray.length == 0) {
         if (noRepeatButt == true) {
-            episodePreDelete = pilotArray.indexOf(episodeImg);
-            episodeDelete = pilotArray.splice(episodePreDelete, 1);
-	   } else if (noRepeatButt == true) {
-        episodePreDelete = episodes.indexOf('Season 1 Episode 1');
-        episodeDelete = episodes.splice(episodePreDelete, 1);
+            episodePreDelete = episodes.indexOf('Season 1 Episode 1');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
     }
 }
 function S1E2Img() {
-   var episodeImg = randomValueFromArray(paternityArray);
-        document.getElementById('episodePNG').src = episodeImg;
+    var episodeImg = randomValueFromArray(paternityArray);
+    document.getElementById('episodePNG').src = episodeImg;
+    if (noRepeatButt == true) {
+        episodePreDelete = paternityArray.indexOf(episodeImg);
+        episodeDelete = paternityArray.splice(episodePreDelete, 1);
+    }
+    if (paternityArray.length == 0) {
         if (noRepeatButt == true) {
-            episodePreDelete = paternityArray.indexOf(episodeImg);
-            episodeDelete = paternityArray.splice(episodePreDelete, 1);
-        } else if (noRepeatButt == true) {
-        episodePreDelete = episodes.indexOf('Season 1 Episode 2');
-        episodeDelete = episodes.splice(episodePreDelete, 1);
+            episodePreDelete = episodes.indexOf('Season 1 Episode 2');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
     }
 }
 function S1E3Img() {
-   var episodeImg = randomValueFromArray(occamArray);
-        document.getElementById('episodePNG').src = episodeImg;
+    var episodeImg = randomValueFromArray(occamArray);
+    document.getElementById('episodePNG').src = episodeImg;
+    if (noRepeatButt == true) {
+        episodePreDelete = occamArray.indexOf(episodeImg);
+        episodeDelete = occamArray.splice(episodePreDelete, 1);
+    }
+    if (occamArray.length == 0) {
         if (noRepeatButt == true) {
-            episodePreDelete = occamArray.indexOf(episodeImg);
-            episodeDelete = occamArray.splice(episodePreDelete, 1);
-        } else if (noRepeatButt == true) {
-        episodePreDelete = episodes.indexOf('Season 1 Episode 3');
-        episodeDelete = episodes.splice(episodePreDelete, 1);
+            episodePreDelete = episodes.indexOf('Season 1 Episode 3');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
     }
 }
 function S1E4Img() {
     episodeImg = randomValueFromArray(MaternityArray);
-    if (episodeImg == 'Maternity1.png') {
-        document.getElementById('episodePNG').src = episodeImg;
+
+    document.getElementById('episodePNG').src = episodeImg;
+    if (noRepeatButt == true) {
+        episodePreDelete = MaternityArray.indexOf(episodeImg);
+        episodeDelete = MaternityArray.splice(episodePreDelete, 1);
+    }
+    if (MaternityArray.length == 0) {
         if (noRepeatButt == true) {
-            episodePreDelete = MaternityArray.indexOf(episodeImg);
-            episodeDelete = MaternityArray.splice(episodePreDelete, 1);
+            episodePreDelete = episodes.indexOf('Season 1 Episode 4');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
         }
-    } else if (noRepeatButt == true) {
-        episodePreDelete = episodes.indexOf('Season 1 Episode 4');
-        episodeDelete = episodes.splice(episodePreDelete, 1);
     }
 }
 
 function S1E5Img() {
     episodeImg = randomValueFromArray(DamnedArray);
-    if (episodeImg == 'Damned1.png') {
-        document.getElementById('episodePNG').src = episodeImg;
+
+    document.getElementById('episodePNG').src = episodeImg;
+    if (noRepeatButt == true) {
+        episodePreDelete = DamnedArray.indexOf(episodeImg);
+        episodeDelete = DamnedArray.splice(episodePreDelete, 1);
+    }
+    if (DamnedArray.length == 0) {
         if (noRepeatButt == true) {
-            episodePreDelete = DamnedArray.indexOf(episodeImg);
-            episodeDelete = DamnedArray.splice(episodePreDelete, 1);
+            episodePreDelete = episodes.indexOf('Season 1 Episode 5');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
         }
-    } else if (noRepeatButt == true) {
-        episodePreDelete = episodes.indexOf('Season 1 Episode 5');
-        episodeDelete = episodes.splice(episodePreDelete, 1);
     }
 }
 function S1E6Img() {
 
     episodeImg = randomValueFromArray(MethodArray);
 
-    if (episodeImg == 'Method (1).png') {
-        document.getElementById('episodePNG').src = "Method (1).png";
+    document.getElementById('episodePNG').src = episodeImg;
+    if (noRepeatButt == true) {
+        episodePreDelete = MethodArray.indexOf(episodeImg);
+        episodeDelete = MethodArray.splice(episodePreDelete, 1);
+    }
+    if (MethodArray.length == 0) {
         if (noRepeatButt == true) {
-            episodePreDelete = MethodArray.indexOf('Method (1).png');
-            episodeDelete = MethodArray.splice(episodePreDelete, 1);
+            episodePreDelete = episodes.indexOf('Season 1 Episode 6');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
         }
-    } else if (noRepeatButt == true) {
-        episodePreDelete = episodes.indexOf('Season 1 Episode 6');
-        episodeDelete = episodes.splice(episodePreDelete, 1);
     }
 }
+function S1E7Img() {
 
+    episodeImg = randomValueFromArray(FidelityArray);
+
+    document.getElementById('episodePNG').src = episodeImg;
+    if (noRepeatButt == true) {
+        episodePreDelete = FidelityArray.indexOf(episodeImg);
+        episodeDelete = FidelityArray.splice(episodePreDelete, 1);
+    }
+    if (FidelityArray.length == 0) {
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 1 Episode 7');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    }
+}
 function check() {
     if (alreadyGussed == false) {
         check2();
