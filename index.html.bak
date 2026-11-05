@@ -12,11 +12,12 @@
 					<div class="col-6 col-lg-10 centerPlease sideDiv">
 						<img id="housePNG" src="houseNet.png">
 						<p><b> <span id="Right"> 0</span>/<span id="Wrong">0</span> correct <span id="Percent">0</span>%</b></p>
-						<button id="hardModeEnable"> No Repeats </button>
+						<button id="noRepeatButtion"> No Repeats </button>
+						<button id="hardModeEnable"> HardMode </button>
 					</div>
 				</div>
 				<div class="col-11 col-lg-6 guessDiv">
-						<h1> House Guessing Game </h1>
+						<h1 class="Tittle"> House Guessing Game </h1>
 							<!--Episode-->
 						<img id="episodePNG" src="" style="">
 						<div class="inLine">
@@ -30,14 +31,14 @@
 						</div>
 				</div>
 				<div class="col-12 col-lg-3 sideDiv">
-					<div>
+					<div class="Tittle">
 						<h1>	Game Tips </h1>
 						<hr>
 						<ul class="list">
-							<li> All awnsers must be spelt correctly </li>
-							<li> All awnsers must be properly captitalzed. ex: <u>TB or Not TB</u> not <u>tb or not tb</u> </li>
+							<li> All answers must be spelt correctly </li>
+							<li> All answers must be properly captitalzed. ex: <u>TB or Not TB</u> not <u>tb or not tb</u> </li>
 							<li> Two part episodes are stylized as <u> Euphoria: part 1 </u> </li>
-							<li> Awnsers must use proper punctuation ex: <u>One Day, One Room</u> or <u>Whac-A-Mole</u> </li>
+							<li> Answers must use proper punctuation ex: <u>One Day, One Room</u> or <u>Whac-A-Mole</u> </li>
 						<!--	<li> English characters only. ex: <u>Que Sera Sera</u> not <u>Que Será Será</u> </li> -->
 						</ul>
 					</div>
