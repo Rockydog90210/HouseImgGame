@@ -712,13 +712,13 @@ function S1E7() {
     updateStat();
 }
 function S1E8() {
-    if (episodeGuess.value == 'Posion') {
+    if (episodeGuess.value == 'Poison') {
         wrongOrRight.textContent = 'Right';
         wrongOrRight.style.color = 'green';
         document.getElementById('housePNG').src = "houseHappy.png";
         ++totCorrect;
-    } else if (episodeGuess.Value !== 'Posion') {
-        wrongOrRight.textContent = 'wrong - Posion';
+    } else if (episodeGuess.Value !== 'Poison') {
+        wrongOrRight.textContent = 'wrong - Poison';
         wrongOrRight.style.color = 'red';
         document.getElementById('housePNG').src = "houseSad.png";
     }
