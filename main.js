@@ -82,7 +82,7 @@ function restartArray() {
 
 function tryAgain() {
     episodeX = randomValueFromArray(episodes);
-    episodeX = 'Season 1 Episode 9';
+   // episodeX = 'Season 1 Episode 9';
     updateImg();
     wrongOrRight.textContent = '';
     document.getElementById('housePNG').src = "houseNet.png";
