@@ -1,24 +1,27 @@
 placeGuess = document.getElementById('submitGuess')
-const episodeGuess = document.getElementById('episodeGuess')
-wrongOrRight = document.getElementById('wrongOrRight')
-playAgain = document.getElementById('playAgain')
-noRepeatFun = document.getElementById('noRepeatButtion')
-hardModeButton = document.getElementById('hardModeEnable')
+    const episodeGuess = document.getElementById('episodeGuess')
+    wrongOrRight = document.getElementById('wrongOrRight')
+    playAgain = document.getElementById('playAgain')
+    noRepeatFun = document.getElementById('noRepeatButtion')
+    hardModeButton = document.getElementById('hardModeEnable')
+	easyModeButton = document.getElementById('easyModeEnable')
 
-Correct = document.getElementById('Right')
-Incorrect = document.getElementById('Wrong')
-Percent = document.getElementById('Percent')
+    Correct = document.getElementById('Right')
+    Incorrect = document.getElementById('Wrong')
+    Percent = document.getElementById('Percent')
 
-var totCorrect = 0;
+    var totCorrect = 0;
 var totWrong = 0;
 let alreadyGussed = false
-let noRepeatButt = false
-let hardMode = false
+    let noRepeatButt = false
+    let hardMode = false
+	 let easyMode = false
 
-window.addEventListener('load', restartArray);
+    window.addEventListener('load', restartArray);
 window.addEventListener('load', tryAgain);
 noRepeatFun.addEventListener('click', toggleRepeat);
 hardModeButton.addEventListener('click', hardModeToggle);
+easyModeButton.addEventListener('click', easyModeToggle);
 
 episodeGuess.addEventListener("keypress", function (event) {
     if (event.key === "Enter") {
@@ -67,6 +70,15 @@ function hardModeToggle() {
         document.getElementById("hardModeEnable").style.backgroundColor = 'white';
     }
 }
+function easyModeToggle() {
+    if (easyMode == false) {
+        easyMode = true;
+        document.getElementById("easyModeEnable").style.backgroundColor = 'green';
+    } else if (easyMode == true) {
+        easyMode = false;
+        document.getElementById("easyModeEnable").style.backgroundColor = 'white';
+    }
+}
 function restartArray() {
     episodes = ['Season 1 Episode 1', 'Season 1 Episode 2', 'Season 1 Episode 3', 'Season 1 Episode 4', 'Season 1 Episode 5', 'Season 1 Episode 6', 'Season 1 Episode 7', 'Season 1 Episode 8', 'Season 1 Episode 9', 'Season 1 Episode 10', ]//'Season 1 Episode 11', 'Season 1 Episode 12', 'Season 1 Episode 13', 'Season 1 Episode 14', 'Season 1 Episode 15', 'Season 1 Episode 16', 'Season 1 Episode 17', 'Season 1 Episode 18', 'Season 1 Episode 19', 'Season 1 Episode 20', 'Season 1 Episode 21', 'Season 2 Episode 1', 'Season 2 Episode 2', 'Season 2 Episode 3', 'Season 2 Episode 4', 'Season 2 Episode 5', 'Season 2 Episode 6', 'Season 2 Episode 7', 'Season 2 Episode 8', 'Season 2 Episode 9', 'Season 2 Episode 10', 'Season 2 Episode 11', 'Season 2 Episode 12', 'Season 2 Episode 13', 'Season 2 Episode 14', 'Season 2 Episode 15', 'Season 2 Episode 16', 'Season 2 Episode 17', 'Season 2 Episode 18', 'Season 2 Episode 19', 'Season 2 Episode 20', 'Season 2 Episode 21', 'Season 2 Episode 21', 'Season 2 Episode 22', 'Season 2 Episode 23', 'Season 2 Episode 23', 'Season 2 Episode 24', 'Season 3 Episode 1', 'Season 3 Episode 2', 'Season 3 Episode 3', 'Season 3 Episode 4', 'Season 3 Episode 5', 'Season 3 Episode 6', 'Season 3 Episode 7', 'Season 3 Episode 8', 'Season 3 Episode 9', 'Season 3 Episode 10', 'Season 3 Episode 11', 'Season 3 Episode 12', 'Season 3 Episode 13', 'Season 3 Episode 14', 'Season 3 Episode 15', 'Season 3 Episode 16', 'Season 3 Episode 17', 'Season 3 Episode 18', 'Season 3 Episode 19', 'Season 3 Episode 20', 'Season 3 Episode 21', 'Season 3 Episode 22', 'Season 3 Episode 23', 'Season 3 Episode 24', 'Season 4 Episode 1', 'Season 4 Episode 2', 'Season 4 Episode 3', 'Season 4 Episode 4', 'Season 4 Episode 5', 'Season 4 Episode 6', 'Season 4 Episode 7', 'Season 4 Episode 8', 'Season 4 Episode 9', 'Season 4 Episode 10', 'Season 4 Episode 11', 'Season 4 Episode 12', 'Season 4 Episode 13', 'Season 4 Episode 14', 'Season 4 Episode 15', 'Season 4 Episode 16', 'Season 5 Episode 1', 'Season 5 Episode 2', 'Season 5 Episode 3', 'Season 5 Episode 4', 'Season 5 Episode 5', 'Season 5 Episode 6', 'Season 5 Episode 7', 'Season 5 Episode 8', 'Season 5 Episode 9', 'Season 5 Episode 10', 'Season 5 Episode 11', 'Season 5 Episode 12', 'Season 5 Episode 13', 'Season 5 Episode 14', 'Season 5 Episode 15', 'Season 5 Episode 16', 'Season 5 Episode 17', 'Season 5 Episode 18', 'Season 5 Episode 19', 'Season 5 Episode 20', 'Season 5 Episode 21', 'Season 5 Episode 22', 'Season 5 Episode 23', 'Season 5 Episode 24', 'Season 6 Episode 1', 'Season 6 Episode 2', 'Season 6 Episode 3', 'Season 6 Episode 4', 'Season 6 Episode 5', 'Season 6 Episode 6', 'Season 6 Episode 7', 'Season 6 Episode 8', 'Season 6 Episode 9', 'Season 6 Episode 10', 'Season 6 Episode 11', 'Season 6 Episode 12', 'Season 6 Episode 13', 'Season 6 Episode 14', 'Season 6 Episode 15', 'Season 6 Episode 16', 'Season 6 Episode 17', 'Season 6 Episode 18', 'Season 6 Episode 19', 'Season 6 Episode 20', 'Season 6 Episode 21', 'Season 7 Episode 1', ];
     pilotArray = ['Images/Pliot/Pilot1.png', 'Images/Pliot/Pilot2.png', 'Images/Pliot/Pilot3.png', 'Images/Pliot/Pilot4.png', 'Images/Pliot/Pilot5.png', 'Images/Pliot/Pilot6.png', 'Images/Pliot/Pilot7.png', 'Images/Pliot/Pilot8.png', 'Images/Pliot/Pilot9.png', 'Images/Pliot/Pilot10.png', 'Images/Pliot/Pilot11.png', 'Images/Pliot/Pilot12.png', 'Images/Pliot/Pilot13.png', 'Images/Pliot/Pilot14.png', 'Images/Pliot/Pilot15.png', 'Images/Pliot/Pilot16.png', 'Images/Pliot/Pilot17.png', 'Images/Pliot/Pilot18.png', 'Images/Pliot/Pilot19.png', 'Images/Pliot/Pilot20.png', 'Images/Pliot/Pilot21.png', 'Images/Pliot/Pilot22.png', 'Images/Pliot/Pilot23.png', 'Images/Pliot/Pilot24.png', 'Images/Pliot/Pilot25.png', 'Images/Pliot/Pilot26.png', 'Images/Pliot/Pilot27.png', 'Images/Pliot/Pilot28.png', 'Images/Pliot/Pilot29.png', 'Images/Pliot/Pilot30.png', 'Images/Pliot/Pilot31.png', 'Images/Pliot/Pilot32.png', 'Images/Pliot/Pilot33.png', 'Images/Pliot/Pilot34.png', 'Images/Pliot/Pilot35.png', 'Images/Pliot/Pilot36.png', 'Images/Pliot/Pilot37.png', 'Images/Pliot/Pilot38.png', 'Images/Pliot/Pilot39.png', 'Images/Pliot/Pilot40.png', 'Images/Pliot/Pilot41.png', 'Images/Pliot/Pilot42.png', 'Images/Pliot/Pilot43.png', 'Images/Pliot/Pilot44.png', 'Images/Pliot/Pilot45.png', 'Images/Pliot/Pilot46.png', 'Images/Pliot/Pilot47.png', 'Images/Pliot/Pilot48.png', 'Images/Pliot/Pilot49.png', 'Images/Pliot/Pilot50.png', 'Images/Pliot/Pilot51.png', 'Images/Pliot/Pilot52.png', 'Images/Pliot/Pilot53.png', 'Images/Pliot/Pilot54.png', 'Images/Pliot/Pilot55.png', 'Images/Pliot/Pilot56.png', 'Images/Pliot/Pilot57.png', 'Images/Pliot/Pilot58.png', 'Images/Pliot/Pilot59.png', 'Images/Pliot/Pilot60.png', 'Images/Pliot/Pilot61.png', 'Images/Pliot/Pilot62.png', 'Images/Pliot/Pilot63.png', 'Images/Pliot/Pilot64.png', 'Images/Pliot/Pilot65.png', 'Images/Pliot/Pilot66.png', 'Images/Pliot/Pilot67.png', 'Images/Pliot/Pilot68.png', 'Images/Pliot/Pilot69.png', 'Images/Pliot/Pilot70.png', 'Images/Pliot/Pilot71.png', 'Images/Pliot/Pilot72.png', 'Images/Pliot/Pilot73.png', 'Images/Pliot/Pilot74.png', 'Images/Pliot/Pilot75.png', 'Images/Pliot/Pilot76.png', 'Images/Pliot/Pilot77.png', 'Images/Pliot/Pilot78.png', 'Images/Pliot/Pilot79.png', 'Images/Pliot/Pilot80.png', 'Images/Pliot/Pilot81.png', 'Images/Pliot/Pilot82.png', 'Images/Pliot/Pilot83.png', 'Images/Pliot/Pilot84.png', 'Images/Pliot/Pilot85.png', 'Images/Pliot/Pilot86.png', 'Images/Pliot/Pilot87.png', 'Images/Pliot/Pilot88.png', 'Images/Pliot/Pilot89.png', 'Images/Pliot/Pilot90.png', 'Images/Pliot/Pilot91.png', 'Images/Pliot/Pilot92.png', 'Images/Pliot/Pilot93.png', 'Images/Pliot/Pilot94.png', 'Images/Pliot/Pilot95.png', 'Images/Pliot/Pilot96.png', 'Images/Pliot/Pilot97.png', 'Images/Pliot/Pilot98.png', 'Images/Pliot/Pilot99.png', 'Images/Pliot/Pilot100.png', 'Images/Pliot/Pilot101.png', 'Images/Pliot/Pilot102.png', ];
@@ -75,15 +87,15 @@ function restartArray() {
     MaternityArray = ['Images/Maternity/Maternity1.png', 'Images/Maternity/Maternity2.png', 'Images/Maternity/Maternity3.png', 'Images/Maternity/Maternity4.png', 'Images/Maternity/Maternity5.png', 'Images/Maternity/Maternity6.png', 'Images/Maternity/Maternity7.png', 'Images/Maternity/Maternity8.png', 'Images/Maternity/Maternity9.png', 'Images/Maternity/Maternity10.png', 'Images/Maternity/Maternity11.png', 'Images/Maternity/Maternity12.png', 'Images/Maternity/Maternity13.png', 'Images/Maternity/Maternity14.png', 'Images/Maternity/Maternity15.png', 'Images/Maternity/Maternity16.png', 'Images/Maternity/Maternity17.png', 'Images/Maternity/Maternity18.png', 'Images/Maternity/Maternity19.png', 'Images/Maternity/Maternity20.png', 'Images/Maternity/Maternity21.png', 'Images/Maternity/Maternity22.png', 'Images/Maternity/Maternity23.png', 'Images/Maternity/Maternity24.png', 'Images/Maternity/Maternity25.png', 'Images/Maternity/Maternity26.png', 'Images/Maternity/Maternity27.png', 'Images/Maternity/Maternity28.png', 'Images/Maternity/Maternity29.png', 'Images/Maternity/Maternity30.png', 'Images/Maternity/Maternity31.png', 'Images/Maternity/Maternity32.png', 'Images/Maternity/Maternity33.png', 'Images/Maternity/Maternity34.png', 'Images/Maternity/Maternity35.png', 'Images/Maternity/Maternity36.png', 'Images/Maternity/Maternity37.png', 'Images/Maternity/Maternity38.png', 'Images/Maternity/Maternity39.png', 'Images/Maternity/Maternity40.png', 'Images/Maternity/Maternity41.png', 'Images/Maternity/Maternity42.png', 'Images/Maternity/Maternity43.png', 'Images/Maternity/Maternity44.png', 'Images/Maternity/Maternity45.png', 'Images/Maternity/Maternity46.png', 'Images/Maternity/Maternity47.png', 'Images/Maternity/Maternity48.png', 'Images/Maternity/Maternity49.png', 'Images/Maternity/Maternity50.png', 'Images/Maternity/Maternity51.png', 'Images/Maternity/Maternity52.png', 'Images/Maternity/Maternity53.png', 'Images/Maternity/Maternity54.png', 'Images/Maternity/Maternity55.png', 'Images/Maternity/Maternity56.png', 'Images/Maternity/Maternity57.png', 'Images/Maternity/Maternity58.png', 'Images/Maternity/Maternity59.png', 'Images/Maternity/Maternity60.png', 'Images/Maternity/Maternity61.png', 'Images/Maternity/Maternity62.png', 'Images/Maternity/Maternity63.png', 'Images/Maternity/Maternity64.png', 'Images/Maternity/Maternity65.png', 'Images/Maternity/Maternity66.png', 'Images/Maternity/Maternity67.png', 'Images/Maternity/Maternity68.png', 'Images/Maternity/Maternity69.png', 'Images/Maternity/Maternity70.png', 'Images/Maternity/Maternity71.png', 'Images/Maternity/Maternity72.png', 'Images/Maternity/Maternity73.png', 'Images/Maternity/Maternity74.png', 'Images/Maternity/Maternity75.png', 'Images/Maternity/Maternity76.png', 'Images/Maternity/Maternity77.png', 'Images/Maternity/Maternity78.png', 'Images/Maternity/Maternity79.png', 'Images/Maternity/Maternity80.png', 'Images/Maternity/Maternity81.png', 'Images/Maternity/Maternity82.png', 'Images/Maternity/Maternity83.png', 'Images/Maternity/Maternity84.png', 'Images/Maternity/Maternity85.png', 'Images/Maternity/Maternity86.png', 'Images/Maternity/Maternity87.png', 'Images/Maternity/Maternity88.png', 'Images/Maternity/Maternity89.png', 'Images/Maternity/Maternity90.png', 'Images/Maternity/Maternity91.png', 'Images/Maternity/Maternity92.png', 'Images/Maternity/Maternity93.png', 'Images/Maternity/Maternity94.png', 'Images/Maternity/Maternity95.png', 'Images/Maternity/Maternity96.png', 'Images/Maternity/Maternity97.png', 'Images/Maternity/Maternity98.png', 'Images/Maternity/Maternity99.png', 'Images/Maternity/Maternity100.png', 'Images/Maternity/Maternity101.png', 'Images/Maternity/Maternity102.png', 'Images/Maternity/Maternity103.png', 'Images/Maternity/Maternity104.png', 'Images/Maternity/Maternity105.png', 'Images/Maternity/Maternity106.png', 'Images/Maternity/Maternity107.png', 'Images/Maternity/Maternity108.png', 'Images/Maternity/Maternity109.png', 'Images/Maternity/Maternity110.png', 'Images/Maternity/Maternity111.png', 'Images/Maternity/Maternity112.png', 'Images/Maternity/Maternity113.png', 'Images/Maternity/Maternity114.png', 'Images/Maternity/Maternity115.png', 'Images/Maternity/Maternity116.png', 'Images/Maternity/Maternity117.png', 'Images/Maternity/Maternity118.png', 'Images/Maternity/Maternity119.png', ]
     DamnedArray = ['Images/Damned/Damned1.png', 'Images/Damned/Damned2.png', 'Images/Damned/Damned3.png', 'Images/Damned/Damned4.png', 'Images/Damned/Damned4.png', 'Images/Damned/Damned5.png', 'Images/Damned/Damned6.png', 'Images/Damned/Damned7.png', 'Images/Damned/Damned8.png', 'Images/Damned/Damned9.png', 'Images/Damned/Damned10.png', 'Images/Damned/Damned11.png', 'Images/Damned/Damned12.png', 'Images/Damned/Damned13.png', 'Images/Damned/Damned14.png', 'Images/Damned/Damned15.png', 'Images/Damned/Damned16.png', 'Images/Damned/Damned17.png', 'Images/Damned/Damned18.png', 'Images/Damned/Damned19.png', 'Images/Damned/Damned20.png', 'Images/Damned/Damned21.png', 'Images/Damned/Damned22.png', 'Images/Damned/Damned23.png', 'Images/Damned/Damned24.png', 'Images/Damned/Damned25.png', 'Images/Damned/Damned26.png', 'Images/Damned/Damned27.png', 'Images/Damned/Damned28.png', 'Images/Damned/Damned29.png', 'Images/Damned/Damned30.png', 'Images/Damned/Damned31.png', 'Images/Damned/Damned32.png', 'Images/Damned/Damned33.png', 'Images/Damned/Damned34.png', 'Images/Damned/Damned35.png', 'Images/Damned/Damned36.png', 'Images/Damned/Damned37.png', 'Images/Damned/Damned38.png', 'Images/Damned/Damned39.png', 'Images/Damned/Damned40.png', 'Images/Damned/Damned41.png', 'Images/Damned/Damned42.png', 'Images/Damned/Damned43.png', 'Images/Damned/Damned44.png', 'Images/Damned/Damned45.png', 'Images/Damned/Damned46.png', 'Images/Damned/Damned47.png', 'Images/Damned/Damned48.png', 'Images/Damned/Damned49.png', 'Images/Damned/Damned50.png', 'Images/Damned/Damned51.png', 'Images/Damned/Damned52.png', 'Images/Damned/Damned53.png', 'Images/Damned/Damned54.png', 'Images/Damned/Damned55.png', 'Images/Damned/Damned56.png', 'Images/Damned/Damned57.png', 'Images/Damned/Damned58.png', 'Images/Damned/Damned59.png', 'Images/Damned/Damned60.png', 'Images/Damned/Damned61.png', 'Images/Damned/Damned62.png', 'Images/Damned/Damned63.png', 'Images/Damned/Damned64.png', 'Images/Damned/Damned65.png', 'Images/Damned/Damned66.png', 'Images/Damned/Damned67.png', 'Images/Damned/Damned68.png', 'Images/Damned/Damned69.png', 'Images/Damned/Damned70.png', 'Images/Damned/Damned71.png', 'Images/Damned/Damned72.png', 'Images/Damned/Damned73.png', 'Images/Damned/Damned74.png', 'Images/Damned/Damned75.png', 'Images/Damned/Damned76.png', 'Images/Damned/Damned77.png', 'Images/Damned/Damned78.png', 'Images/Damned/Damned79.png', 'Images/Damned/Damned80.png', 'Images/Damned/Damned81.png', 'Images/Damned/Damned82.png', 'Images/Damned/Damned83.png', 'Images/Damned/Damned84.png', 'Images/Damned/Damned85.png', 'Images/Damned/Damned86.png', 'Images/Damned/Damned87.png', 'Images/Damned/Damned88.png', 'Images/Damned/Damned89.png', 'Images/Damned/Damned90.png', 'Images/Damned/Damned91.png', 'Images/Damned/Damned92.png', 'Images/Damned/Damned93.png', 'Images/Damned/Damned94.png', 'Images/Damned/Damned95.png', 'Images/Damned/Damned96.png', 'Images/Damned/Damned97.png', 'Images/Damned/Damned98.png', 'Images/Damned/Damned99.png', 'Images/Damned/Damned100.png', 'Images/Damned/Damned100.png', 'Images/Damned/Damned101.png', 'Images/Damned/Damned102.png', 'Images/Damned/Damned103.png', 'Images/Damned/Damned104.png', 'Images/Damned/Damned105.png', 'Images/Damned/Damned106.png', 'Images/Damned/Damned107.png', 'Images/Damned/Damned108.png', 'Images/Damned/Damned109.png', 'Images/Damned/Damned110.png', 'Images/Damned/Damned111.png', 'Images/Damned/Damned112.png', 'Images/Damned/Damned113.png', 'Images/Damned/Damned114.png', 'Images/Damned/Damned115.png', 'Images/Damned/Damned116.png', 'Images/Damned/Damned117.png', 'Images/Damned/Damned118.png', 'Images/Damned/Damned119.png', 'Images/Damned/Damned120.png', 'Images/Damned/Damned121.png', 'Images/Damned/Damned122.png', 'Images/Damned/Damned123.png', 'Images/Damned/Damned124.png', 'Images/Damned/Damned125.png', 'Images/Damned/Damned126.png', 'Images/Damned/Damned127.png', 'Images/Damned/Damned128.png', 'Images/Damned/Damned129.png', 'Images/Damned/Damned130.png', 'Images/Damned/Damned131.png', 'Images/Damned/Damned132.png', 'Images/Damned/Damned133.png', 'Images/Damned/Damned134.png', 'Images/Damned/Damned135.png', 'Images/Damned/Damned136.png', 'Images/Damned/Damned137.png', 'Images/Damned/Damned138.png', 'Images/Damned/Damned139.png', ];
     MethodArray = ['Images/Method/Method (1).png', 'Images/Method/Method (2).png', 'Images/Method/Method (3).png', 'Images/Method/Method (4).png', 'Images/Method/Method (5).png', 'Images/Method/Method (6).png', 'Images/Method/Method (7).png', 'Images/Method/Method (8).png', 'Images/Method/Method (9).png', 'Images/Method/Method (10).png', 'Images/Method/Method (11).png', 'Images/Method/Method (12).png', 'Images/Method/Method (13).png', 'Images/Method/Method (14).png', 'Images/Method/Method (15).png', 'Images/Method/Method (16).png', 'Images/Method/Method (17).png', 'Images/Method/Method (18).png', 'Images/Method/Method (19).png', 'Images/Method/Method (20).png', 'Images/Method/Method (21).png', 'Images/Method/Method (22).png', 'Images/Method/Method (23).png', 'Images/Method/Method (24).png', 'Images/Method/Method (25).png', 'Images/Method/Method (26).png', 'Images/Method/Method (27).png', 'Images/Method/Method (28).png', 'Images/Method/Method (29).png', 'Images/Method/Method (30).png', 'Images/Method/Method (31).png', 'Images/Method/Method (32).png', 'Images/Method/Method (33).png', 'Images/Method/Method (34).png', 'Images/Method/Method (35).png', 'Images/Method/Method (36).png', 'Images/Method/Method (37).png', 'Images/Method/Method (38).png', 'Images/Method/Method (39).png', 'Images/Method/Method (40).png', 'Images/Method/Method (41).png', 'Images/Method/Method (42).png', 'Images/Method/Method (43).png', 'Images/Method/Method (44).png', 'Images/Method/Method (45).png', 'Images/Method/Method (46).png', 'Images/Method/Method (47).png', 'Images/Method/Method (48).png', 'Images/Method/Method (49).png', 'Images/Method/Method (50).png', 'Images/Method/Method (51).png', 'Images/Method/Method (52).png', 'Images/Method/Method (53).png', 'Images/Method/Method (54).png', 'Images/Method/Method (55).png', 'Images/Method/Method (56).png', 'Images/Method/Method (57).png', 'Images/Method/Method (58).png', 'Images/Method/Method (59).png', 'Images/Method/Method (60).png', 'Images/Method/Method (61).png', 'Images/Method/Method (62).png', 'Images/Method/Method (63).png', 'Images/Method/Method (64).png', 'Images/Method/Method (65).png', 'Images/Method/Method (66).png', 'Images/Method/Method (67).png', 'Images/Method/Method (68).png', 'Images/Method/Method (69).png', 'Images/Method/Method (70).png', 'Images/Method/Method (71).png', 'Images/Method/Method (72).png', 'Images/Method/Method (73).png', 'Images/Method/Method (74).png', 'Images/Method/Method (75).png', 'Images/Method/Method (76).png', 'Images/Method/Method (77).png', 'Images/Method/Method (78).png', 'Images/Method/Method (79).png', 'Images/Method/Method (80).png', 'Images/Method/Method (81).png', 'Images/Method/Method (82).png', 'Images/Method/Method (83).png', 'Images/Method/Method (84).png', 'Images/Method/Method (85).png', 'Images/Method/Method (86).png', 'Images/Method/Method (87).png', 'Images/Method/Method (88).png', 'Images/Method/Method (89).png', 'Images/Method/Method (90).png', 'Images/Method/Method (91).png', 'Images/Method/Method (92).png', 'Images/Method/Method (93).png', 'Images/Method/Method (94).png', 'Images/Method/Method (95).png', 'Images/Method/Method (96).png', 'Images/Method/Method (97).png', 'Images/Method/Method (98).png', 'Images/Method/Method (99).png', 'Images/Method/Method (100).png', 'Images/Method/Method (101).png', 'Images/Method/Method (102).png', 'Images/Method/Method (103).png', 'Images/Method/Method (104).png', 'Images/Method/Method (105).png', 'Images/Method/Method (106).png', 'Images/Method/Method (107).png', 'Images/Method/Method (108).png', 'Images/Method/Method (109).png', 'Images/Method/Method (110).png', 'Images/Method/Method (111).png', 'Images/Method/Method (112).png', 'Images/Method/Method (113).png', 'Images/Method/Method (114).png', 'Images/Method/Method (115).png', 'Images/Method/Method (116).png', 'Images/Method/Method (117).png', 'Images/Method/Method (118).png', 'Images/Method/Method (119).png', 'Images/Method/Method (120).png', 'Images/Method/Method (121).png', 'Images/Method/Method (122).png', 'Images/Method/Method (123).png', 'Images/Method/Method (124).png', 'Images/Method/Method (125).png', 'Images/Method/Method (126).png', 'Images/Method/Method (127).png', 'Images/Method/Method (128).png', 'Images/Method/Method (129).png', 'Images/Method/Method (130).png', 'Images/Method/Method (131).png', 'Images/Method/Method (132).png', 'Images/Method/Method (133).png', 'Images/Method/Method (134).png', ]
-	FidelityArray = ['Images/Fidelity/fidelity (1).png', 'Images/Fidelity/fidelity (2).png', 'Images/Fidelity/fidelity (3).png', 'Images/Fidelity/fidelity (4).png', 'Images/Fidelity/fidelity (5).png', 'Images/Fidelity/fidelity (6).png', 'Images/Fidelity/fidelity (7).png', 'Images/Fidelity/fidelity (8).png', 'Images/Fidelity/fidelity (9).png', 'Images/Fidelity/fidelity (10).png', 'Images/Fidelity/fidelity (11).png', 'Images/Fidelity/fidelity (12).png', 'Images/Fidelity/fidelity (13).png', 'Images/Fidelity/fidelity (14).png', 'Images/Fidelity/fidelity (15).png', 'Images/Fidelity/fidelity (16).png', 'Images/Fidelity/fidelity (17).png', 'Images/Fidelity/fidelity (18).png', 'Images/Fidelity/fidelity (19).png', 'Images/Fidelity/fidelity (20).png', 'Images/Fidelity/fidelity (21).png', 'Images/Fidelity/fidelity (22).png', 'Images/Fidelity/fidelity (23).png', 'Images/Fidelity/fidelity (24).png', 'Images/Fidelity/fidelity (25).png', 'Images/Fidelity/fidelity (26).png', 'Images/Fidelity/fidelity (27).png', 'Images/Fidelity/fidelity (28).png', 'Images/Fidelity/fidelity (29).png', 'Images/Fidelity/fidelity (30).png', 'Images/Fidelity/fidelity (31).png', 'Images/Fidelity/fidelity (32).png', 'Images/Fidelity/fidelity (33).png', 'Images/Fidelity/fidelity (34).png', 'Images/Fidelity/fidelity (35).png', 'Images/Fidelity/fidelity (36).png', 'Images/Fidelity/fidelity (37).png', 'Images/Fidelity/fidelity (38).png', 'Images/Fidelity/fidelity (39).png', 'Images/Fidelity/fidelity (40).png', 'Images/Fidelity/fidelity (41).png', 'Images/Fidelity/fidelity (42).png', 'Images/Fidelity/fidelity (43).png', 'Images/Fidelity/fidelity (44).png', 'Images/Fidelity/fidelity (45).png', 'Images/Fidelity/fidelity (46).png', 'Images/Fidelity/fidelity (47).png', 'Images/Fidelity/fidelity (48).png', 'Images/Fidelity/fidelity (49).png', 'Images/Fidelity/fidelity (50).png', 'Images/Fidelity/fidelity (51).png', 'Images/Fidelity/fidelity (52).png', 'Images/Fidelity/fidelity (53).png', 'Images/Fidelity/fidelity (54).png', 'Images/Fidelity/fidelity (55).png', 'Images/Fidelity/fidelity (56).png', 'Images/Fidelity/fidelity (57).png', 'Images/Fidelity/fidelity (58).png', 'Images/Fidelity/fidelity (59).png', 'Images/Fidelity/fidelity (60).png', 'Images/Fidelity/fidelity (61).png', 'Images/Fidelity/fidelity (62).png', 'Images/Fidelity/fidelity (63).png', 'Images/Fidelity/fidelity (64).png', 'Images/Fidelity/fidelity (65).png', 'Images/Fidelity/fidelity (66).png', 'Images/Fidelity/fidelity (67).png', 'Images/Fidelity/fidelity (68).png', 'Images/Fidelity/fidelity (69).png', 'Images/Fidelity/fidelity (70).png', 'Images/Fidelity/fidelity (71).png', 'Images/Fidelity/fidelity (72).png', 'Images/Fidelity/fidelity (73).png', 'Images/Fidelity/fidelity (74).png', 'Images/Fidelity/fidelity (75).png', 'Images/Fidelity/fidelity (76).png', 'Images/Fidelity/fidelity (77).png', 'Images/Fidelity/fidelity (78).png', 'Images/Fidelity/fidelity (79).png', 'Images/Fidelity/fidelity (80).png', 'Images/Fidelity/fidelity (81).png', 'Images/Fidelity/fidelity (82).png', 'Images/Fidelity/fidelity (83).png', 'Images/Fidelity/fidelity (84).png', 'Images/Fidelity/fidelity (85).png', 'Images/Fidelity/fidelity (86).png', 'Images/Fidelity/fidelity (87).png', 'Images/Fidelity/fidelity (88).png', 'Images/Fidelity/fidelity (89).png', 'Images/Fidelity/fidelity (90).png', 'Images/Fidelity/fidelity (91).png', 'Images/Fidelity/fidelity (92).png', 'Images/Fidelity/fidelity (93).png', 'Images/Fidelity/fidelity (94).png', 'Images/Fidelity/fidelity (95).png', 'Images/Fidelity/fidelity (96).png', 'Images/Fidelity/fidelity (97).png', 'Images/Fidelity/fidelity (98).png', 'Images/Fidelity/fidelity (99).png', 'Images/Fidelity/fidelity (100).png', 'Images/Fidelity/fidelity (101).png', 'Images/Fidelity/fidelity (102).png', 'Images/Fidelity/fidelity (103).png', 'Images/Fidelity/fidelity (104).png', 'Images/Fidelity/fidelity (105).png', 'Images/Fidelity/fidelity (106).png', 'Images/Fidelity/fidelity (107).png', 'Images/Fidelity/fidelity (108).png', 'Images/Fidelity/fidelity (109).png', 'Images/Fidelity/fidelity (110).png', 'Images/Fidelity/fidelity (111).png', 'Images/Fidelity/fidelity (112).png', 'Images/Fidelity/fidelity (113).png', 'Images/Fidelity/fidelity (114).png', 'Images/Fidelity/fidelity (115).png', 'Images/Fidelity/fidelity (116).png', 'Images/Fidelity/fidelity (117).png', 'Images/Fidelity/fidelity (118).png', 'Images/Fidelity/fidelity (119).png', 'Images/Fidelity/fidelity (120).png', 'Images/Fidelity/fidelity (121).png', 'Images/Fidelity/fidelity (122).png', 'Images/Fidelity/fidelity (123).png', 'Images/Fidelity/fidelity (124).png', 'Images/Fidelity/fidelity (125).png', 'Images/Fidelity/fidelity (126).png', 'Images/Fidelity/fidelity (127).png', 'Images/Fidelity/fidelity (128).png', 'Images/Fidelity/fidelity (129).png', 'Images/Fidelity/fidelity (130).png', 'Images/Fidelity/fidelity (131).png', 'Images/Fidelity/fidelity (132).png', 'Images/Fidelity/fidelity (133).png', 'Images/Fidelity/fidelity (134).png', 'Images/Fidelity/fidelity (135).png', 'Images/Fidelity/fidelity (136).png', 'Images/Fidelity/fidelity (137).png', 'Images/Fidelity/fidelity (138).png', 'Images/Fidelity/fidelity (139).png', 'Images/Fidelity/fidelity (140).png', 'Images/Fidelity/fidelity (141).png', 'Images/Fidelity/fidelity (142).png', 'Images/Fidelity/fidelity (143).png', 'Images/Fidelity/fidelity (144).png', 'Images/Fidelity/fidelity (145).png', 'Images/Fidelity/fidelity (146).png', 'Images/Fidelity/fidelity (147).png', 'Images/Fidelity/fidelity (148).png', 'Images/Fidelity/fidelity (149).png', 'Images/Fidelity/fidelity (150).png', 'Images/Fidelity/fidelity (151).png', 'Images/Fidelity/fidelity (152).png', 'Images/Fidelity/fidelity (153).png', 'Images/Fidelity/fidelity (154).png', 'Images/Fidelity/fidelity (155).png', 'Images/Fidelity/fidelity (156).png', 'Images/Fidelity/fidelity (157).png', 'Images/Fidelity/fidelity (158).png', 'Images/Fidelity/fidelity (159).png', 'Images/Fidelity/fidelity (160).png', 'Images/Fidelity/fidelity (161).png', 'Images/Fidelity/fidelity (162).png', 'Images/Fidelity/fidelity (163).png', 'Images/Fidelity/fidelity (164).png', 'Images/Fidelity/fidelity (165).png', 'Images/Fidelity/fidelity (166).png', 'Images/Fidelity/fidelity (167).png', 'Images/Fidelity/fidelity (168).png', 'Images/Fidelity/fidelity (169).png', 'Images/Fidelity/fidelity (170).png', 'Images/Fidelity/fidelity (171).png', 'Images/Fidelity/fidelity (172).png', 'Images/Fidelity/fidelity (173).png', 'Images/Fidelity/fidelity (174).png', 'Images/Fidelity/fidelity (175).png', 'Images/Fidelity/fidelity (176).png', 'Images/Fidelity/fidelity (177).png', 'Images/Fidelity/fidelity (178).png', 'Images/Fidelity/fidelity (179).png', 'Images/Fidelity/fidelity (180).png', 'Images/Fidelity/fidelity (181).png', 'Images/Fidelity/fidelity (182).png', 'Images/Fidelity/fidelity (183).png', 'Images/Fidelity/fidelity (184).png', 'Images/Fidelity/fidelity (185).png', 'Images/Fidelity/fidelity (186).png', 'Images/Fidelity/fidelity (187).png', 'Images/Fidelity/fidelity (188).png', 'Images/Fidelity/fidelity (189).png', 'Images/Fidelity/fidelity (190).png', 'Images/Fidelity/fidelity (191).png', 'Images/Fidelity/fidelity (192).png', 'Images/Fidelity/fidelity (193).png', 'Images/Fidelity/fidelity (194).png', 'Images/Fidelity/fidelity (195).png', 'Images/Fidelity/fidelity (196).png', 'Images/Fidelity/fidelity (197).png', 'Images/Fidelity/fidelity (198).png', 'Images/Fidelity/fidelity (199).png', 'Images/Fidelity/fidelity (200).png',] 
-	PoisonArray = ['Images/Poison/Poison (1).png',  'Images/Poison/Poison (2).png',  'Images/Poison/Poison (3).png',  'Images/Poison/Poison (4).png',  'Images/Poison/Poison (5).png',  'Images/Poison/Poison (6).png',  'Images/Poison/Poison (7).png',  'Images/Poison/Poison (8).png',  'Images/Poison/Poison (9).png',  'Images/Poison/Poison (10).png',  'Images/Poison/Poison (11).png',  'Images/Poison/Poison (12).png',  'Images/Poison/Poison (13).png',  'Images/Poison/Poison (14).png',  'Images/Poison/Poison (15).png',  'Images/Poison/Poison (16).png',  'Images/Poison/Poison (17).png',  'Images/Poison/Poison (18).png',  'Images/Poison/Poison (19).png',  'Images/Poison/Poison (20).png',  'Images/Poison/Poison (21).png',  'Images/Poison/Poison (22).png',  'Images/Poison/Poison (23).png',  'Images/Poison/Poison (24).png',  'Images/Poison/Poison (25).png',  'Images/Poison/Poison (26).png',  'Images/Poison/Poison (27).png',  'Images/Poison/Poison (28).png',  'Images/Poison/Poison (29).png',  'Images/Poison/Poison (30).png',  'Images/Poison/Poison (31).png',  'Images/Poison/Poison (32).png',  'Images/Poison/Poison (33).png',  'Images/Poison/Poison (34).png',  'Images/Poison/Poison (35).png',  'Images/Poison/Poison (36).png',  'Images/Poison/Poison (37).png',  'Images/Poison/Poison (38).png',  'Images/Poison/Poison (39).png',  'Images/Poison/Poison (40).png',  'Images/Poison/Poison (41).png',  'Images/Poison/Poison (42).png',  'Images/Poison/Poison (43).png',  'Images/Poison/Poison (44).png',  'Images/Poison/Poison (45).png',  'Images/Poison/Poison (46).png',  'Images/Poison/Poison (47).png',  'Images/Poison/Poison (48).png',  'Images/Poison/Poison (49).png',  'Images/Poison/Poison (50).png',  'Images/Poison/Poison (51).png',  'Images/Poison/Poison (52).png',  'Images/Poison/Poison (53).png',  'Images/Poison/Poison (54).png',  'Images/Poison/Poison (55).png',  'Images/Poison/Poison (56).png',  'Images/Poison/Poison (57).png',  'Images/Poison/Poison (58).png',  'Images/Poison/Poison (59).png',  'Images/Poison/Poison (60).png',  'Images/Poison/Poison (61).png',  'Images/Poison/Poison (62).png',  'Images/Poison/Poison (63).png',  'Images/Poison/Poison (64).png',  'Images/Poison/Poison (65).png',  'Images/Poison/Poison (66).png',  'Images/Poison/Poison (67).png',  'Images/Poison/Poison (68).png',  'Images/Poison/Poison (69).png',  'Images/Poison/Poison (70).png',  'Images/Poison/Poison (71).png',  'Images/Poison/Poison (72).png',  'Images/Poison/Poison (73).png',  'Images/Poison/Poison (74).png',  'Images/Poison/Poison (75).png',  'Images/Poison/Poison (76).png',  'Images/Poison/Poison (77).png',  'Images/Poison/Poison (78).png',  'Images/Poison/Poison (79).png',  'Images/Poison/Poison (80).png',  'Images/Poison/Poison (81).png',  'Images/Poison/Poison (82).png',  'Images/Poison/Poison (83).png',  'Images/Poison/Poison (84).png',  'Images/Poison/Poison (85).png',  'Images/Poison/Poison (86).png',  'Images/Poison/Poison (87).png',  'Images/Poison/Poison (88).png',  'Images/Poison/Poison (89).png',  'Images/Poison/Poison (90).png',  'Images/Poison/Poison (91).png',  'Images/Poison/Poison (92).png',  'Images/Poison/Poison (93).png',  'Images/Poison/Poison (94).png',  'Images/Poison/Poison (95).png',  'Images/Poison/Poison (96).png',  'Images/Poison/Poison (97).png',  'Images/Poison/Poison (98).png',  'Images/Poison/Poison (99).png',  'Images/Poison/Poison (100).png',  'Images/Poison/Poison (101).png',  'Images/Poison/Poison (102).png',  'Images/Poison/Poison (103).png',  'Images/Poison/Poison (104).png',  'Images/Poison/Poison (105).png',  'Images/Poison/Poison (106).png',  'Images/Poison/Poison (107).png',  'Images/Poison/Poison (108).png',  'Images/Poison/Poison (109).png',  'Images/Poison/Poison (110).png',  'Images/Poison/Poison (111).png',  'Images/Poison/Poison (112).png',  'Images/Poison/Poison (113).png',  'Images/Poison/Poison (114).png',  'Images/Poison/Poison (115).png',  'Images/Poison/Poison (116).png',  'Images/Poison/Poison (117).png',  'Images/Poison/Poison (118).png',  'Images/Poison/Poison (119).png',  'Images/Poison/Poison (120).png',  'Images/Poison/Poison (121).png',  'Images/Poison/Poison (122).png',  'Images/Poison/Poison (123).png',  'Images/Poison/Poison (124).png',  'Images/Poison/Poison (125).png',  'Images/Poison/Poison (126).png',  'Images/Poison/Poison (127).png',  'Images/Poison/Poison (128).png',  'Images/Poison/Poison (129).png',  'Images/Poison/Poison (130).png',  'Images/Poison/Poison (131).png',  'Images/Poison/Poison (132).png',  'Images/Poison/Poison (133).png',  'Images/Poison/Poison (134).png',  'Images/Poison/Poison (135).png',  'Images/Poison/Poison (136).png',  'Images/Poison/Poison (137).png',  'Images/Poison/Poison (138).png',  'Images/Poison/Poison (139).png',  'Images/Poison/Poison (140).png',  'Images/Poison/Poison (141).png',  'Images/Poison/Poison (142).png',  'Images/Poison/Poison (143).png',  'Images/Poison/Poison (144).png',  'Images/Poison/Poison (145).png',  'Images/Poison/Poison (146).png',  'Images/Poison/Poison (147).png',  'Images/Poison/Poison (148).png',  'Images/Poison/Poison (149).png',  'Images/Poison/Poison (150).png',  'Images/Poison/Poison (151).png',  'Images/Poison/Poison (152).png',  'Images/Poison/Poison (153).png',  'Images/Poison/Poison (154).png',  'Images/Poison/Poison (155).png',  'Images/Poison/Poison (156).png',  'Images/Poison/Poison (157).png',  'Images/Poison/Poison (158).png',  'Images/Poison/Poison (159).png',  'Images/Poison/Poison (160).png',  'Images/Poison/Poison (161).png',  'Images/Poison/Poison (162).png',   'Images/Poison/Poison (163).png',  'Images/Poison/Poison (164).png',  'Images/Poison/Poison (165).png',  'Images/Poison/Poison (166).png',  'Images/Poison/Poison (167).png',  'Images/Poison/Poison (168).png',  'Images/Poison/Poison (169).png',  'Images/Poison/Poison (170).png',  'Images/Poison/Poison (171).png',  'Images/Poison/Poison (172).png',  'Images/Poison/Poison (173).png',  'Images/Poison/Poison (174).png',  'Images/Poison/Poison (175).png',  'Images/Poison/Poison (176).png',  'Images/Poison/Poison (177).png',  'Images/Poison/Poison (178).png',  'Images/Poison/Poison (179).png',  'Images/Poison/Poison (180).png',  'Images/Poison/Poison (181).png',  'Images/Poison/Poison (182).png',  'Images/Poison/Poison (183).png',  'Images/Poison/Poison (184).png',  'Images/Poison/Poison (185).png',  'Images/Poison/Poison (186).png',  'Images/Poison/Poison (187).png',  'Images/Poison/Poison (188).png',  'Images/Poison/Poison (189).png',  'Images/Poison/Poison (190).png',  'Images/Poison/Poison (191).png',  'Images/Poison/Poison (192).png',  'Images/Poison/Poison (193).png',  'Images/Poison/Poison (194).png',  'Images/Poison/Poison (195).png',  'Images/Poison/Poison (196).png',  'Images/Poison/Poison (197).png',  'Images/Poison/Poison (198).png',  'Images/Poison/Poison (199).png',  'Images/Poison/Poison (200).png',  'Images/Poison/Poison (201).png',  'Images/Poison/Poison (202).png',  'Images/Poison/Poison (203).png',  'Images/Poison/Poison (204).png',  'Images/Poison/Poison (205).png',  'Images/Poison/Poison (206).png',  'Images/Poison/Poison (207).png',  'Images/Poison/Poison (208).png',  'Images/Poison/Poison (209).png',  'Images/Poison/Poison (210).png',  'Images/Poison/Poison (211).png',  'Images/Poison/Poison (212).png',  'Images/Poison/Poison (213).png',  'Images/Poison/Poison (214).png',  'Images/Poison/Poison (215).png',  'Images/Poison/Poison (216).png',  'Images/Poison/Poison (217).png',  'Images/Poison/Poison (218).png',  'Images/Poison/Poison (219).png',  'Images/Poison/Poison (220).png',  'Images/Poison/Poison (221).png',  ]
-	DNRArray = ['Images/DNR/DNR (1).png', 'Images/DNR/DNR (2).png', 'Images/DNR/DNR (3).png', 'Images/DNR/DNR (4).png', 'Images/DNR/DNR (5).png', 'Images/DNR/DNR (6).png', 'Images/DNR/DNR (7).png', 'Images/DNR/DNR (8).png', 'Images/DNR/DNR (9).png', 'Images/DNR/DNR (10).png', 'Images/DNR/DNR (11).png', 'Images/DNR/DNR (12).png', 'Images/DNR/DNR (13).png', 'Images/DNR/DNR (14).png', 'Images/DNR/DNR (15).png', 'Images/DNR/DNR (16).png', 'Images/DNR/DNR (17).png', 'Images/DNR/DNR (18).png', 'Images/DNR/DNR (19).png', 'Images/DNR/DNR (20).png', 'Images/DNR/DNR (21).png', 'Images/DNR/DNR (22).png', 'Images/DNR/DNR (23).png', 'Images/DNR/DNR (24).png', 'Images/DNR/DNR (25).png', 'Images/DNR/DNR (26).png', 'Images/DNR/DNR (27).png', 'Images/DNR/DNR (28).png', 'Images/DNR/DNR (29).png', 'Images/DNR/DNR (30).png', 'Images/DNR/DNR (31).png', 'Images/DNR/DNR (32).png', 'Images/DNR/DNR (33).png', 'Images/DNR/DNR (34).png', 'Images/DNR/DNR (35).png', 'Images/DNR/DNR (36).png', 'Images/DNR/DNR (37).png', 'Images/DNR/DNR (38).png', 'Images/DNR/DNR (39).png', 'Images/DNR/DNR (40).png', 'Images/DNR/DNR (41).png', 'Images/DNR/DNR (42).png', 'Images/DNR/DNR (43).png', 'Images/DNR/DNR (44).png', 'Images/DNR/DNR (45).png', 'Images/DNR/DNR (46).png', 'Images/DNR/DNR (47).png', 'Images/DNR/DNR (48).png', 'Images/DNR/DNR (49).png', 'Images/DNR/DNR (50).png', 'Images/DNR/DNR (51).png', 'Images/DNR/DNR (52).png', 'Images/DNR/DNR (53).png', 'Images/DNR/DNR (54).png', 'Images/DNR/DNR (55).png', 'Images/DNR/DNR (56).png', 'Images/DNR/DNR (57).png', 'Images/DNR/DNR (58).png', 'Images/DNR/DNR (59).png', 'Images/DNR/DNR (60).png', 'Images/DNR/DNR (61).png', 'Images/DNR/DNR (62).png', 'Images/DNR/DNR (63).png', 'Images/DNR/DNR (64).png', 'Images/DNR/DNR (65).png', 'Images/DNR/DNR (66).png', 'Images/DNR/DNR (67).png', 'Images/DNR/DNR (68).png', 'Images/DNR/DNR (69).png', 'Images/DNR/DNR (70).png', 'Images/DNR/DNR (71).png', 'Images/DNR/DNR (72).png', 'Images/DNR/DNR (73).png', 'Images/DNR/DNR (74).png', 'Images/DNR/DNR (75).png', 'Images/DNR/DNR (76).png', 'Images/DNR/DNR (77).png', 'Images/DNR/DNR (78).png', 'Images/DNR/DNR (79).png', 'Images/DNR/DNR (80).png', 'Images/DNR/DNR (81).png', 'Images/DNR/DNR (82).png', 'Images/DNR/DNR (83).png', 'Images/DNR/DNR (84).png', 'Images/DNR/DNR (85).png', 'Images/DNR/DNR (86).png', 'Images/DNR/DNR (87).png', 'Images/DNR/DNR (88).png', 'Images/DNR/DNR (89).png', 'Images/DNR/DNR (90).png', 'Images/DNR/DNR (91).png', 'Images/DNR/DNR (92).png', 'Images/DNR/DNR (93).png', 'Images/DNR/DNR (94).png', 'Images/DNR/DNR (95).png', 'Images/DNR/DNR (96).png', 'Images/DNR/DNR (97).png', 'Images/DNR/DNR (98).png', 'Images/DNR/DNR (99).png', 'Images/DNR/DNR (100).png', 'Images/DNR/DNR (101).png', 'Images/DNR/DNR (102).png', 'Images/DNR/DNR (103).png', 'Images/DNR/DNR (104).png', 'Images/DNR/DNR (105).png', 'Images/DNR/DNR (106).png', 'Images/DNR/DNR (107).png', 'Images/DNR/DNR (108).png', 'Images/DNR/DNR (109).png', 'Images/DNR/DNR (110).png', 'Images/DNR/DNR (111).png', 'Images/DNR/DNR (112).png', 'Images/DNR/DNR (113).png', 'Images/DNR/DNR (114).png', 'Images/DNR/DNR (115).png', 'Images/DNR/DNR (116).png', 'Images/DNR/DNR (117).png', 'Images/DNR/DNR (118).png', 'Images/DNR/DNR (119).png', 'Images/DNR/DNR (120).png', 'Images/DNR/DNR (121).png', 'Images/DNR/DNR (122).png', 'Images/DNR/DNR (123).png', 'Images/DNR/DNR (124).png', 'Images/DNR/DNR (125).png', 'Images/DNR/DNR (126).png', 'Images/DNR/DNR (127).png', 'Images/DNR/DNR (128).png', 'Images/DNR/DNR (129).png', 'Images/DNR/DNR (130).png', 'Images/DNR/DNR (131).png', 'Images/DNR/DNR (132).png', 'Images/DNR/DNR (133).png', 'Images/DNR/DNR (134).png', 'Images/DNR/DNR (135).png', 'Images/DNR/DNR (136).png', 'Images/DNR/DNR (137).png', 'Images/DNR/DNR (138).png', 'Images/DNR/DNR (139).png', 'Images/DNR/DNR (140).png', 'Images/DNR/DNR (141).png', 'Images/DNR/DNR (142).png', 'Images/DNR/DNR (143).png', 'Images/DNR/DNR (144).png', 'Images/DNR/DNR (145).png', 'Images/DNR/DNR (146).png', 'Images/DNR/DNR (147).png', 'Images/DNR/DNR (148).png', 'Images/DNR/DNR (149).png', 'Images/DNR/DNR (150).png', 'Images/DNR/DNR (151).png', 'Images/DNR/DNR (152).png', 'Images/DNR/DNR (153).png', 'Images/DNR/DNR (154).png', 'Images/DNR/DNR (155).png', 'Images/DNR/DNR (156).png', 'Images/DNR/DNR (157).png', 'Images/DNR/DNR (158).png', 'Images/DNR/DNR (159).png', 'Images/DNR/DNR (160).png', 'Images/DNR/DNR (161).png', 'Images/DNR/DNR (162).png', 'Images/DNR/DNR (163).png', 'Images/DNR/DNR (164).png', 'Images/DNR/DNR (165).png', 'Images/DNR/DNR (166).png', 'Images/DNR/DNR (167).png', 'Images/DNR/DNR (168).png', 'Images/DNR/DNR (169).png', 'Images/DNR/DNR (170).png', 'Images/DNR/DNR (171).png', 'Images/DNR/DNR (172).png', 'Images/DNR/DNR (173).png', 'Images/DNR/DNR (174).png', 'Images/DNR/DNR (175).png', 'Images/DNR/DNR (176).png', 'Images/DNR/DNR (177).png', 'Images/DNR/DNR (178).png', 'Images/DNR/DNR (179).png', 'Images/DNR/DNR (180).png', 'Images/DNR/DNR (181).png', 'Images/DNR/DNR (182).png', 'Images/DNR/DNR (183).png', 'Images/DNR/DNR (184).png', 'Images/DNR/DNR (185).png', 'Images/DNR/DNR (186).png', 'Images/DNR/DNR (187).png', 'Images/DNR/DNR (188).png', 'Images/DNR/DNR (189).png', 'Images/DNR/DNR (190).png', 'Images/DNR/DNR (191).png', 'Images/DNR/DNR (192).png', 'Images/DNR/DNR (193).png', 'Images/DNR/DNR (194).png', 'Images/DNR/DNR (195).png', 'Images/DNR/DNR (196).png', ]
-	HistoriesArray = ['Images/Histories/Histories (1).png',  'Images/Histories/Histories (2).png',  'Images/Histories/Histories (3).png',  'Images/Histories/Histories (4).png',  'Images/Histories/Histories (5).png',  'Images/Histories/Histories (6).png',  'Images/Histories/Histories (7).png',  'Images/Histories/Histories (8).png',  'Images/Histories/Histories (9).png',  'Images/Histories/Histories (10).png',  'Images/Histories/Histories (11).png',  'Images/Histories/Histories (12).png',  'Images/Histories/Histories (13).png',  'Images/Histories/Histories (14).png',  'Images/Histories/Histories (15).png',  'Images/Histories/Histories (16).png',  'Images/Histories/Histories (17).png',  'Images/Histories/Histories (18).png',  'Images/Histories/Histories (19).png',  'Images/Histories/Histories (20).png',  'Images/Histories/Histories (21).png',  'Images/Histories/Histories (22).png',  'Images/Histories/Histories (23).png',  'Images/Histories/Histories (24).png',  'Images/Histories/Histories (25).png',  'Images/Histories/Histories (26).png',  'Images/Histories/Histories (27).png',  'Images/Histories/Histories (28).png',  'Images/Histories/Histories (29).png',  'Images/Histories/Histories (30).png',  'Images/Histories/Histories (31).png',  'Images/Histories/Histories (32).png',  'Images/Histories/Histories (33).png',  'Images/Histories/Histories (34).png',  'Images/Histories/Histories (35).png',  'Images/Histories/Histories (36).png',  'Images/Histories/Histories (37).png',  'Images/Histories/Histories (38).png',  'Images/Histories/Histories (39).png',  'Images/Histories/Histories (40).png',  'Images/Histories/Histories (41).png',  'Images/Histories/Histories (42).png',  'Images/Histories/Histories (43).png',  'Images/Histories/Histories (44).png',  'Images/Histories/Histories (45).png',  'Images/Histories/Histories (46).png',  'Images/Histories/Histories (47).png',  'Images/Histories/Histories (48).png',  'Images/Histories/Histories (49).png',  'Images/Histories/Histories (50).png',  'Images/Histories/Histories (51).png',  'Images/Histories/Histories (52).png',  'Images/Histories/Histories (53).png',  'Images/Histories/Histories (54).png',  'Images/Histories/Histories (55).png',  'Images/Histories/Histories (56).png',  'Images/Histories/Histories (57).png',  'Images/Histories/Histories (58).png',  'Images/Histories/Histories (59).png',  'Images/Histories/Histories (60).png',  'Images/Histories/Histories (61).png',  'Images/Histories/Histories (62).png',  'Images/Histories/Histories (63).png',  'Images/Histories/Histories (64).png',  'Images/Histories/Histories (65).png',  'Images/Histories/Histories (66).png',  'Images/Histories/Histories (67).png',  'Images/Histories/Histories (68).png',  'Images/Histories/Histories (69).png',  'Images/Histories/Histories (70).png',  'Images/Histories/Histories (71).png',  'Images/Histories/Histories (72).png',  'Images/Histories/Histories (73).png',  'Images/Histories/Histories (74).png',  'Images/Histories/Histories (75).png',  'Images/Histories/Histories (76).png',  'Images/Histories/Histories (77).png',  'Images/Histories/Histories (78).png',  'Images/Histories/Histories (79).png',  'Images/Histories/Histories (80).png',  'Images/Histories/Histories (81).png',  'Images/Histories/Histories (82).png',  'Images/Histories/Histories (83).png',  'Images/Histories/Histories (84).png',  'Images/Histories/Histories (85).png',  'Images/Histories/Histories (86).png',  'Images/Histories/Histories (87).png',  'Images/Histories/Histories (88).png',  'Images/Histories/Histories (89).png',  'Images/Histories/Histories (90).png',  'Images/Histories/Histories (91).png',  'Images/Histories/Histories (92).png',  'Images/Histories/Histories (93).png',  'Images/Histories/Histories (94).png',  'Images/Histories/Histories (95).png',  'Images/Histories/Histories (96).png',  'Images/Histories/Histories (97).png',  'Images/Histories/Histories (98).png',  'Images/Histories/Histories (99).png',  'Images/Histories/Histories (100).png',  'Images/Histories/Histories (101).png',  'Images/Histories/Histories (102).png',  'Images/Histories/Histories (103).png',  'Images/Histories/Histories (104).png',  'Images/Histories/Histories (105).png',  'Images/Histories/Histories (106).png',  'Images/Histories/Histories (107).png',  'Images/Histories/Histories (108).png',  'Images/Histories/Histories (109).png',  'Images/Histories/Histories (110).png',  'Images/Histories/Histories (111).png',  'Images/Histories/Histories (112).png',  'Images/Histories/Histories (113).png',  'Images/Histories/Histories (114).png',  'Images/Histories/Histories (115).png',  'Images/Histories/Histories (116).png',  'Images/Histories/Histories (117).png',  'Images/Histories/Histories (118).png',  'Images/Histories/Histories (119).png',  'Images/Histories/Histories (120).png',  'Images/Histories/Histories (121).png',  'Images/Histories/Histories (122).png',  'Images/Histories/Histories (123).png',  'Images/Histories/Histories (124).png',  'Images/Histories/Histories (125).png',  'Images/Histories/Histories (126).png',  'Images/Histories/Histories (127).png',  'Images/Histories/Histories (128).png',  'Images/Histories/Histories (129).png',  'Images/Histories/Histories (130).png',  'Images/Histories/Histories (131).png',  'Images/Histories/Histories (132).png',  'Images/Histories/Histories (133).png',  'Images/Histories/Histories (134).png',  'Images/Histories/Histories (135).png',  'Images/Histories/Histories (136).png',  'Images/Histories/Histories (137).png',  'Images/Histories/Histories (138).png',  'Images/Histories/Histories (139).png',  'Images/Histories/Histories (140).png',  'Images/Histories/Histories (141).png',  'Images/Histories/Histories (142).png',  'Images/Histories/Histories (143).png',  'Images/Histories/Histories (144).png',  'Images/Histories/Histories (145).png',  'Images/Histories/Histories (146).png',  'Images/Histories/Histories (147).png',  'Images/Histories/Histories (148).png',  'Images/Histories/Histories (149).png',  'Images/Histories/Histories (150).png',  'Images/Histories/Histories (151).png',  'Images/Histories/Histories (152).png',  'Images/Histories/Histories (153).png',  'Images/Histories/Histories (154).png',  'Images/Histories/Histories (155).png',  'Images/Histories/Histories (156).png',  'Images/Histories/Histories (157).png',  'Images/Histories/Histories (158).png',  'Images/Histories/Histories (159).png',  'Images/Histories/Histories (160).png',  'Images/Histories/Histories (161).png',  'Images/Histories/Histories (162).png',   'Images/Histories/Histories (163).png',  'Images/Histories/Histories (164).png',  'Images/Histories/Histories (165).png',  'Images/Histories/Histories (166).png',  'Images/Histories/Histories (167).png',  'Images/Histories/Histories (168).png',  'Images/Histories/Histories (169).png',  'Images/Histories/Histories (170).png',  'Images/Histories/Histories (171).png',  'Images/Histories/Histories (172).png',  'Images/Histories/Histories (173).png',  'Images/Histories/Histories (174).png',  'Images/Histories/Histories (175).png',  'Images/Histories/Histories (176).png',  'Images/Histories/Histories (177).png',  'Images/Histories/Histories (178).png',  'Images/Histories/Histories (179).png',  'Images/Histories/Histories (180).png',  'Images/Histories/Histories (181).png',  'Images/Histories/Histories (182).png',  'Images/Histories/Histories (183).png',  'Images/Histories/Histories (184).png',  'Images/Histories/Histories (185).png',  'Images/Histories/Histories (186).png',  'Images/Histories/Histories (187).png',  'Images/Histories/Histories (188).png',  'Images/Histories/Histories (189).png',  'Images/Histories/Histories (190).png',  'Images/Histories/Histories (191).png',  'Images/Histories/Histories (192).png',  'Images/Histories/Histories (193).png',  'Images/Histories/Histories (194).png',  'Images/Histories/Histories (195).png',  'Images/Histories/Histories (196).png',  'Images/Histories/Histories (197).png',  'Images/Histories/Histories (198).png',  'Images/Histories/Histories (199).png',  'Images/Histories/Histories (200).png',  'Images/Histories/Histories (201).png',  'Images/Histories/Histories (202).png',  'Images/Histories/Histories (203).png',  'Images/Histories/Histories (204).png',  'Images/Histories/Histories (205).png',  'Images/Histories/Histories (206).png', ]  
+    FidelityArray = ['Images/Fidelity/fidelity (1).png', 'Images/Fidelity/fidelity (2).png', 'Images/Fidelity/fidelity (3).png', 'Images/Fidelity/fidelity (4).png', 'Images/Fidelity/fidelity (5).png', 'Images/Fidelity/fidelity (6).png', 'Images/Fidelity/fidelity (7).png', 'Images/Fidelity/fidelity (8).png', 'Images/Fidelity/fidelity (9).png', 'Images/Fidelity/fidelity (10).png', 'Images/Fidelity/fidelity (11).png', 'Images/Fidelity/fidelity (12).png', 'Images/Fidelity/fidelity (13).png', 'Images/Fidelity/fidelity (14).png', 'Images/Fidelity/fidelity (15).png', 'Images/Fidelity/fidelity (16).png', 'Images/Fidelity/fidelity (17).png', 'Images/Fidelity/fidelity (18).png', 'Images/Fidelity/fidelity (19).png', 'Images/Fidelity/fidelity (20).png', 'Images/Fidelity/fidelity (21).png', 'Images/Fidelity/fidelity (22).png', 'Images/Fidelity/fidelity (23).png', 'Images/Fidelity/fidelity (24).png', 'Images/Fidelity/fidelity (25).png', 'Images/Fidelity/fidelity (26).png', 'Images/Fidelity/fidelity (27).png', 'Images/Fidelity/fidelity (28).png', 'Images/Fidelity/fidelity (29).png', 'Images/Fidelity/fidelity (30).png', 'Images/Fidelity/fidelity (31).png', 'Images/Fidelity/fidelity (32).png', 'Images/Fidelity/fidelity (33).png', 'Images/Fidelity/fidelity (34).png', 'Images/Fidelity/fidelity (35).png', 'Images/Fidelity/fidelity (36).png', 'Images/Fidelity/fidelity (37).png', 'Images/Fidelity/fidelity (38).png', 'Images/Fidelity/fidelity (39).png', 'Images/Fidelity/fidelity (40).png', 'Images/Fidelity/fidelity (41).png', 'Images/Fidelity/fidelity (42).png', 'Images/Fidelity/fidelity (43).png', 'Images/Fidelity/fidelity (44).png', 'Images/Fidelity/fidelity (45).png', 'Images/Fidelity/fidelity (46).png', 'Images/Fidelity/fidelity (47).png', 'Images/Fidelity/fidelity (48).png', 'Images/Fidelity/fidelity (49).png', 'Images/Fidelity/fidelity (50).png', 'Images/Fidelity/fidelity (51).png', 'Images/Fidelity/fidelity (52).png', 'Images/Fidelity/fidelity (53).png', 'Images/Fidelity/fidelity (54).png', 'Images/Fidelity/fidelity (55).png', 'Images/Fidelity/fidelity (56).png', 'Images/Fidelity/fidelity (57).png', 'Images/Fidelity/fidelity (58).png', 'Images/Fidelity/fidelity (59).png', 'Images/Fidelity/fidelity (60).png', 'Images/Fidelity/fidelity (61).png', 'Images/Fidelity/fidelity (62).png', 'Images/Fidelity/fidelity (63).png', 'Images/Fidelity/fidelity (64).png', 'Images/Fidelity/fidelity (65).png', 'Images/Fidelity/fidelity (66).png', 'Images/Fidelity/fidelity (67).png', 'Images/Fidelity/fidelity (68).png', 'Images/Fidelity/fidelity (69).png', 'Images/Fidelity/fidelity (70).png', 'Images/Fidelity/fidelity (71).png', 'Images/Fidelity/fidelity (72).png', 'Images/Fidelity/fidelity (73).png', 'Images/Fidelity/fidelity (74).png', 'Images/Fidelity/fidelity (75).png', 'Images/Fidelity/fidelity (76).png', 'Images/Fidelity/fidelity (77).png', 'Images/Fidelity/fidelity (78).png', 'Images/Fidelity/fidelity (79).png', 'Images/Fidelity/fidelity (80).png', 'Images/Fidelity/fidelity (81).png', 'Images/Fidelity/fidelity (82).png', 'Images/Fidelity/fidelity (83).png', 'Images/Fidelity/fidelity (84).png', 'Images/Fidelity/fidelity (85).png', 'Images/Fidelity/fidelity (86).png', 'Images/Fidelity/fidelity (87).png', 'Images/Fidelity/fidelity (88).png', 'Images/Fidelity/fidelity (89).png', 'Images/Fidelity/fidelity (90).png', 'Images/Fidelity/fidelity (91).png', 'Images/Fidelity/fidelity (92).png', 'Images/Fidelity/fidelity (93).png', 'Images/Fidelity/fidelity (94).png', 'Images/Fidelity/fidelity (95).png', 'Images/Fidelity/fidelity (96).png', 'Images/Fidelity/fidelity (97).png', 'Images/Fidelity/fidelity (98).png', 'Images/Fidelity/fidelity (99).png', 'Images/Fidelity/fidelity (100).png', 'Images/Fidelity/fidelity (101).png', 'Images/Fidelity/fidelity (102).png', 'Images/Fidelity/fidelity (103).png', 'Images/Fidelity/fidelity (104).png', 'Images/Fidelity/fidelity (105).png', 'Images/Fidelity/fidelity (106).png', 'Images/Fidelity/fidelity (107).png', 'Images/Fidelity/fidelity (108).png', 'Images/Fidelity/fidelity (109).png', 'Images/Fidelity/fidelity (110).png', 'Images/Fidelity/fidelity (111).png', 'Images/Fidelity/fidelity (112).png', 'Images/Fidelity/fidelity (113).png', 'Images/Fidelity/fidelity (114).png', 'Images/Fidelity/fidelity (115).png', 'Images/Fidelity/fidelity (116).png', 'Images/Fidelity/fidelity (117).png', 'Images/Fidelity/fidelity (118).png', 'Images/Fidelity/fidelity (119).png', 'Images/Fidelity/fidelity (120).png', 'Images/Fidelity/fidelity (121).png', 'Images/Fidelity/fidelity (122).png', 'Images/Fidelity/fidelity (123).png', 'Images/Fidelity/fidelity (124).png', 'Images/Fidelity/fidelity (125).png', 'Images/Fidelity/fidelity (126).png', 'Images/Fidelity/fidelity (127).png', 'Images/Fidelity/fidelity (128).png', 'Images/Fidelity/fidelity (129).png', 'Images/Fidelity/fidelity (130).png', 'Images/Fidelity/fidelity (131).png', 'Images/Fidelity/fidelity (132).png', 'Images/Fidelity/fidelity (133).png', 'Images/Fidelity/fidelity (134).png', 'Images/Fidelity/fidelity (135).png', 'Images/Fidelity/fidelity (136).png', 'Images/Fidelity/fidelity (137).png', 'Images/Fidelity/fidelity (138).png', 'Images/Fidelity/fidelity (139).png', 'Images/Fidelity/fidelity (140).png', 'Images/Fidelity/fidelity (141).png', 'Images/Fidelity/fidelity (142).png', 'Images/Fidelity/fidelity (143).png', 'Images/Fidelity/fidelity (144).png', 'Images/Fidelity/fidelity (145).png', 'Images/Fidelity/fidelity (146).png', 'Images/Fidelity/fidelity (147).png', 'Images/Fidelity/fidelity (148).png', 'Images/Fidelity/fidelity (149).png', 'Images/Fidelity/fidelity (150).png', 'Images/Fidelity/fidelity (151).png', 'Images/Fidelity/fidelity (152).png', 'Images/Fidelity/fidelity (153).png', 'Images/Fidelity/fidelity (154).png', 'Images/Fidelity/fidelity (155).png', 'Images/Fidelity/fidelity (156).png', 'Images/Fidelity/fidelity (157).png', 'Images/Fidelity/fidelity (158).png', 'Images/Fidelity/fidelity (159).png', 'Images/Fidelity/fidelity (160).png', 'Images/Fidelity/fidelity (161).png', 'Images/Fidelity/fidelity (162).png', 'Images/Fidelity/fidelity (163).png', 'Images/Fidelity/fidelity (164).png', 'Images/Fidelity/fidelity (165).png', 'Images/Fidelity/fidelity (166).png', 'Images/Fidelity/fidelity (167).png', 'Images/Fidelity/fidelity (168).png', 'Images/Fidelity/fidelity (169).png', 'Images/Fidelity/fidelity (170).png', 'Images/Fidelity/fidelity (171).png', 'Images/Fidelity/fidelity (172).png', 'Images/Fidelity/fidelity (173).png', 'Images/Fidelity/fidelity (174).png', 'Images/Fidelity/fidelity (175).png', 'Images/Fidelity/fidelity (176).png', 'Images/Fidelity/fidelity (177).png', 'Images/Fidelity/fidelity (178).png', 'Images/Fidelity/fidelity (179).png', 'Images/Fidelity/fidelity (180).png', 'Images/Fidelity/fidelity (181).png', 'Images/Fidelity/fidelity (182).png', 'Images/Fidelity/fidelity (183).png', 'Images/Fidelity/fidelity (184).png', 'Images/Fidelity/fidelity (185).png', 'Images/Fidelity/fidelity (186).png', 'Images/Fidelity/fidelity (187).png', 'Images/Fidelity/fidelity (188).png', 'Images/Fidelity/fidelity (189).png', 'Images/Fidelity/fidelity (190).png', 'Images/Fidelity/fidelity (191).png', 'Images/Fidelity/fidelity (192).png', 'Images/Fidelity/fidelity (193).png', 'Images/Fidelity/fidelity (194).png', 'Images/Fidelity/fidelity (195).png', 'Images/Fidelity/fidelity (196).png', 'Images/Fidelity/fidelity (197).png', 'Images/Fidelity/fidelity (198).png', 'Images/Fidelity/fidelity (199).png', 'Images/Fidelity/fidelity (200).png', ]
+    PoisonArray = ['Images/Poison/Poison (1).png', 'Images/Poison/Poison (2).png', 'Images/Poison/Poison (3).png', 'Images/Poison/Poison (4).png', 'Images/Poison/Poison (5).png', 'Images/Poison/Poison (6).png', 'Images/Poison/Poison (7).png', 'Images/Poison/Poison (8).png', 'Images/Poison/Poison (9).png', 'Images/Poison/Poison (10).png', 'Images/Poison/Poison (11).png', 'Images/Poison/Poison (12).png', 'Images/Poison/Poison (13).png', 'Images/Poison/Poison (14).png', 'Images/Poison/Poison (15).png', 'Images/Poison/Poison (16).png', 'Images/Poison/Poison (17).png', 'Images/Poison/Poison (18).png', 'Images/Poison/Poison (19).png', 'Images/Poison/Poison (20).png', 'Images/Poison/Poison (21).png', 'Images/Poison/Poison (22).png', 'Images/Poison/Poison (23).png', 'Images/Poison/Poison (24).png', 'Images/Poison/Poison (25).png', 'Images/Poison/Poison (26).png', 'Images/Poison/Poison (27).png', 'Images/Poison/Poison (28).png', 'Images/Poison/Poison (29).png', 'Images/Poison/Poison (30).png', 'Images/Poison/Poison (31).png', 'Images/Poison/Poison (32).png', 'Images/Poison/Poison (33).png', 'Images/Poison/Poison (34).png', 'Images/Poison/Poison (35).png', 'Images/Poison/Poison (36).png', 'Images/Poison/Poison (37).png', 'Images/Poison/Poison (38).png', 'Images/Poison/Poison (39).png', 'Images/Poison/Poison (40).png', 'Images/Poison/Poison (41).png', 'Images/Poison/Poison (42).png', 'Images/Poison/Poison (43).png', 'Images/Poison/Poison (44).png', 'Images/Poison/Poison (45).png', 'Images/Poison/Poison (46).png', 'Images/Poison/Poison (47).png', 'Images/Poison/Poison (48).png', 'Images/Poison/Poison (49).png', 'Images/Poison/Poison (50).png', 'Images/Poison/Poison (51).png', 'Images/Poison/Poison (52).png', 'Images/Poison/Poison (53).png', 'Images/Poison/Poison (54).png', 'Images/Poison/Poison (55).png', 'Images/Poison/Poison (56).png', 'Images/Poison/Poison (57).png', 'Images/Poison/Poison (58).png', 'Images/Poison/Poison (59).png', 'Images/Poison/Poison (60).png', 'Images/Poison/Poison (61).png', 'Images/Poison/Poison (62).png', 'Images/Poison/Poison (63).png', 'Images/Poison/Poison (64).png', 'Images/Poison/Poison (65).png', 'Images/Poison/Poison (66).png', 'Images/Poison/Poison (67).png', 'Images/Poison/Poison (68).png', 'Images/Poison/Poison (69).png', 'Images/Poison/Poison (70).png', 'Images/Poison/Poison (71).png', 'Images/Poison/Poison (72).png', 'Images/Poison/Poison (73).png', 'Images/Poison/Poison (74).png', 'Images/Poison/Poison (75).png', 'Images/Poison/Poison (76).png', 'Images/Poison/Poison (77).png', 'Images/Poison/Poison (78).png', 'Images/Poison/Poison (79).png', 'Images/Poison/Poison (80).png', 'Images/Poison/Poison (81).png', 'Images/Poison/Poison (82).png', 'Images/Poison/Poison (83).png', 'Images/Poison/Poison (84).png', 'Images/Poison/Poison (85).png', 'Images/Poison/Poison (86).png', 'Images/Poison/Poison (87).png', 'Images/Poison/Poison (88).png', 'Images/Poison/Poison (89).png', 'Images/Poison/Poison (90).png', 'Images/Poison/Poison (91).png', 'Images/Poison/Poison (92).png', 'Images/Poison/Poison (93).png', 'Images/Poison/Poison (94).png', 'Images/Poison/Poison (95).png', 'Images/Poison/Poison (96).png', 'Images/Poison/Poison (97).png', 'Images/Poison/Poison (98).png', 'Images/Poison/Poison (99).png', 'Images/Poison/Poison (100).png', 'Images/Poison/Poison (101).png', 'Images/Poison/Poison (102).png', 'Images/Poison/Poison (103).png', 'Images/Poison/Poison (104).png', 'Images/Poison/Poison (105).png', 'Images/Poison/Poison (106).png', 'Images/Poison/Poison (107).png', 'Images/Poison/Poison (108).png', 'Images/Poison/Poison (109).png', 'Images/Poison/Poison (110).png', 'Images/Poison/Poison (111).png', 'Images/Poison/Poison (112).png', 'Images/Poison/Poison (113).png', 'Images/Poison/Poison (114).png', 'Images/Poison/Poison (115).png', 'Images/Poison/Poison (116).png', 'Images/Poison/Poison (117).png', 'Images/Poison/Poison (118).png', 'Images/Poison/Poison (119).png', 'Images/Poison/Poison (120).png', 'Images/Poison/Poison (121).png', 'Images/Poison/Poison (122).png', 'Images/Poison/Poison (123).png', 'Images/Poison/Poison (124).png', 'Images/Poison/Poison (125).png', 'Images/Poison/Poison (126).png', 'Images/Poison/Poison (127).png', 'Images/Poison/Poison (128).png', 'Images/Poison/Poison (129).png', 'Images/Poison/Poison (130).png', 'Images/Poison/Poison (131).png', 'Images/Poison/Poison (132).png', 'Images/Poison/Poison (133).png', 'Images/Poison/Poison (134).png', 'Images/Poison/Poison (135).png', 'Images/Poison/Poison (136).png', 'Images/Poison/Poison (137).png', 'Images/Poison/Poison (138).png', 'Images/Poison/Poison (139).png', 'Images/Poison/Poison (140).png', 'Images/Poison/Poison (141).png', 'Images/Poison/Poison (142).png', 'Images/Poison/Poison (143).png', 'Images/Poison/Poison (144).png', 'Images/Poison/Poison (145).png', 'Images/Poison/Poison (146).png', 'Images/Poison/Poison (147).png', 'Images/Poison/Poison (148).png', 'Images/Poison/Poison (149).png', 'Images/Poison/Poison (150).png', 'Images/Poison/Poison (151).png', 'Images/Poison/Poison (152).png', 'Images/Poison/Poison (153).png', 'Images/Poison/Poison (154).png', 'Images/Poison/Poison (155).png', 'Images/Poison/Poison (156).png', 'Images/Poison/Poison (157).png', 'Images/Poison/Poison (158).png', 'Images/Poison/Poison (159).png', 'Images/Poison/Poison (160).png', 'Images/Poison/Poison (161).png', 'Images/Poison/Poison (162).png', 'Images/Poison/Poison (163).png', 'Images/Poison/Poison (164).png', 'Images/Poison/Poison (165).png', 'Images/Poison/Poison (166).png', 'Images/Poison/Poison (167).png', 'Images/Poison/Poison (168).png', 'Images/Poison/Poison (169).png', 'Images/Poison/Poison (170).png', 'Images/Poison/Poison (171).png', 'Images/Poison/Poison (172).png', 'Images/Poison/Poison (173).png', 'Images/Poison/Poison (174).png', 'Images/Poison/Poison (175).png', 'Images/Poison/Poison (176).png', 'Images/Poison/Poison (177).png', 'Images/Poison/Poison (178).png', 'Images/Poison/Poison (179).png', 'Images/Poison/Poison (180).png', 'Images/Poison/Poison (181).png', 'Images/Poison/Poison (182).png', 'Images/Poison/Poison (183).png', 'Images/Poison/Poison (184).png', 'Images/Poison/Poison (185).png', 'Images/Poison/Poison (186).png', 'Images/Poison/Poison (187).png', 'Images/Poison/Poison (188).png', 'Images/Poison/Poison (189).png', 'Images/Poison/Poison (190).png', 'Images/Poison/Poison (191).png', 'Images/Poison/Poison (192).png', 'Images/Poison/Poison (193).png', 'Images/Poison/Poison (194).png', 'Images/Poison/Poison (195).png', 'Images/Poison/Poison (196).png', 'Images/Poison/Poison (197).png', 'Images/Poison/Poison (198).png', 'Images/Poison/Poison (199).png', 'Images/Poison/Poison (200).png', 'Images/Poison/Poison (201).png', 'Images/Poison/Poison (202).png', 'Images/Poison/Poison (203).png', 'Images/Poison/Poison (204).png', 'Images/Poison/Poison (205).png', 'Images/Poison/Poison (206).png', 'Images/Poison/Poison (207).png', 'Images/Poison/Poison (208).png', 'Images/Poison/Poison (209).png', 'Images/Poison/Poison (210).png', 'Images/Poison/Poison (211).png', 'Images/Poison/Poison (212).png', 'Images/Poison/Poison (213).png', 'Images/Poison/Poison (214).png', 'Images/Poison/Poison (215).png', 'Images/Poison/Poison (216).png', 'Images/Poison/Poison (217).png', 'Images/Poison/Poison (218).png', 'Images/Poison/Poison (219).png', 'Images/Poison/Poison (220).png', 'Images/Poison/Poison (221).png', ]
+    DNRArray = ['Images/DNR/DNR (1).png', 'Images/DNR/DNR (2).png', 'Images/DNR/DNR (3).png', 'Images/DNR/DNR (4).png', 'Images/DNR/DNR (5).png', 'Images/DNR/DNR (6).png', 'Images/DNR/DNR (7).png', 'Images/DNR/DNR (8).png', 'Images/DNR/DNR (9).png', 'Images/DNR/DNR (10).png', 'Images/DNR/DNR (11).png', 'Images/DNR/DNR (12).png', 'Images/DNR/DNR (13).png', 'Images/DNR/DNR (14).png', 'Images/DNR/DNR (15).png', 'Images/DNR/DNR (16).png', 'Images/DNR/DNR (17).png', 'Images/DNR/DNR (18).png', 'Images/DNR/DNR (19).png', 'Images/DNR/DNR (20).png', 'Images/DNR/DNR (21).png', 'Images/DNR/DNR (22).png', 'Images/DNR/DNR (23).png', 'Images/DNR/DNR (24).png', 'Images/DNR/DNR (25).png', 'Images/DNR/DNR (26).png', 'Images/DNR/DNR (27).png', 'Images/DNR/DNR (28).png', 'Images/DNR/DNR (29).png', 'Images/DNR/DNR (30).png', 'Images/DNR/DNR (31).png', 'Images/DNR/DNR (32).png', 'Images/DNR/DNR (33).png', 'Images/DNR/DNR (34).png', 'Images/DNR/DNR (35).png', 'Images/DNR/DNR (36).png', 'Images/DNR/DNR (37).png', 'Images/DNR/DNR (38).png', 'Images/DNR/DNR (39).png', 'Images/DNR/DNR (40).png', 'Images/DNR/DNR (41).png', 'Images/DNR/DNR (42).png', 'Images/DNR/DNR (43).png', 'Images/DNR/DNR (44).png', 'Images/DNR/DNR (45).png', 'Images/DNR/DNR (46).png', 'Images/DNR/DNR (47).png', 'Images/DNR/DNR (48).png', 'Images/DNR/DNR (49).png', 'Images/DNR/DNR (50).png', 'Images/DNR/DNR (51).png', 'Images/DNR/DNR (52).png', 'Images/DNR/DNR (53).png', 'Images/DNR/DNR (54).png', 'Images/DNR/DNR (55).png', 'Images/DNR/DNR (56).png', 'Images/DNR/DNR (57).png', 'Images/DNR/DNR (58).png', 'Images/DNR/DNR (59).png', 'Images/DNR/DNR (60).png', 'Images/DNR/DNR (61).png', 'Images/DNR/DNR (62).png', 'Images/DNR/DNR (63).png', 'Images/DNR/DNR (64).png', 'Images/DNR/DNR (65).png', 'Images/DNR/DNR (66).png', 'Images/DNR/DNR (67).png', 'Images/DNR/DNR (68).png', 'Images/DNR/DNR (69).png', 'Images/DNR/DNR (70).png', 'Images/DNR/DNR (71).png', 'Images/DNR/DNR (72).png', 'Images/DNR/DNR (73).png', 'Images/DNR/DNR (74).png', 'Images/DNR/DNR (75).png', 'Images/DNR/DNR (76).png', 'Images/DNR/DNR (77).png', 'Images/DNR/DNR (78).png', 'Images/DNR/DNR (79).png', 'Images/DNR/DNR (80).png', 'Images/DNR/DNR (81).png', 'Images/DNR/DNR (82).png', 'Images/DNR/DNR (83).png', 'Images/DNR/DNR (84).png', 'Images/DNR/DNR (85).png', 'Images/DNR/DNR (86).png', 'Images/DNR/DNR (87).png', 'Images/DNR/DNR (88).png', 'Images/DNR/DNR (89).png', 'Images/DNR/DNR (90).png', 'Images/DNR/DNR (91).png', 'Images/DNR/DNR (92).png', 'Images/DNR/DNR (93).png', 'Images/DNR/DNR (94).png', 'Images/DNR/DNR (95).png', 'Images/DNR/DNR (96).png', 'Images/DNR/DNR (97).png', 'Images/DNR/DNR (98).png', 'Images/DNR/DNR (99).png', 'Images/DNR/DNR (100).png', 'Images/DNR/DNR (101).png', 'Images/DNR/DNR (102).png', 'Images/DNR/DNR (103).png', 'Images/DNR/DNR (104).png', 'Images/DNR/DNR (105).png', 'Images/DNR/DNR (106).png', 'Images/DNR/DNR (107).png', 'Images/DNR/DNR (108).png', 'Images/DNR/DNR (109).png', 'Images/DNR/DNR (110).png', 'Images/DNR/DNR (111).png', 'Images/DNR/DNR (112).png', 'Images/DNR/DNR (113).png', 'Images/DNR/DNR (114).png', 'Images/DNR/DNR (115).png', 'Images/DNR/DNR (116).png', 'Images/DNR/DNR (117).png', 'Images/DNR/DNR (118).png', 'Images/DNR/DNR (119).png', 'Images/DNR/DNR (120).png', 'Images/DNR/DNR (121).png', 'Images/DNR/DNR (122).png', 'Images/DNR/DNR (123).png', 'Images/DNR/DNR (124).png', 'Images/DNR/DNR (125).png', 'Images/DNR/DNR (126).png', 'Images/DNR/DNR (127).png', 'Images/DNR/DNR (128).png', 'Images/DNR/DNR (129).png', 'Images/DNR/DNR (130).png', 'Images/DNR/DNR (131).png', 'Images/DNR/DNR (132).png', 'Images/DNR/DNR (133).png', 'Images/DNR/DNR (134).png', 'Images/DNR/DNR (135).png', 'Images/DNR/DNR (136).png', 'Images/DNR/DNR (137).png', 'Images/DNR/DNR (138).png', 'Images/DNR/DNR (139).png', 'Images/DNR/DNR (140).png', 'Images/DNR/DNR (141).png', 'Images/DNR/DNR (142).png', 'Images/DNR/DNR (143).png', 'Images/DNR/DNR (144).png', 'Images/DNR/DNR (145).png', 'Images/DNR/DNR (146).png', 'Images/DNR/DNR (147).png', 'Images/DNR/DNR (148).png', 'Images/DNR/DNR (149).png', 'Images/DNR/DNR (150).png', 'Images/DNR/DNR (151).png', 'Images/DNR/DNR (152).png', 'Images/DNR/DNR (153).png', 'Images/DNR/DNR (154).png', 'Images/DNR/DNR (155).png', 'Images/DNR/DNR (156).png', 'Images/DNR/DNR (157).png', 'Images/DNR/DNR (158).png', 'Images/DNR/DNR (159).png', 'Images/DNR/DNR (160).png', 'Images/DNR/DNR (161).png', 'Images/DNR/DNR (162).png', 'Images/DNR/DNR (163).png', 'Images/DNR/DNR (164).png', 'Images/DNR/DNR (165).png', 'Images/DNR/DNR (166).png', 'Images/DNR/DNR (167).png', 'Images/DNR/DNR (168).png', 'Images/DNR/DNR (169).png', 'Images/DNR/DNR (170).png', 'Images/DNR/DNR (171).png', 'Images/DNR/DNR (172).png', 'Images/DNR/DNR (173).png', 'Images/DNR/DNR (174).png', 'Images/DNR/DNR (175).png', 'Images/DNR/DNR (176).png', 'Images/DNR/DNR (177).png', 'Images/DNR/DNR (178).png', 'Images/DNR/DNR (179).png', 'Images/DNR/DNR (180).png', 'Images/DNR/DNR (181).png', 'Images/DNR/DNR (182).png', 'Images/DNR/DNR (183).png', 'Images/DNR/DNR (184).png', 'Images/DNR/DNR (185).png', 'Images/DNR/DNR (186).png', 'Images/DNR/DNR (187).png', 'Images/DNR/DNR (188).png', 'Images/DNR/DNR (189).png', 'Images/DNR/DNR (190).png', 'Images/DNR/DNR (191).png', 'Images/DNR/DNR (192).png', 'Images/DNR/DNR (193).png', 'Images/DNR/DNR (194).png', 'Images/DNR/DNR (195).png', 'Images/DNR/DNR (196).png', ]
+    HistoriesArray = ['Images/Histories/Histories (1).png', 'Images/Histories/Histories (2).png', 'Images/Histories/Histories (3).png', 'Images/Histories/Histories (4).png', 'Images/Histories/Histories (5).png', 'Images/Histories/Histories (6).png', 'Images/Histories/Histories (7).png', 'Images/Histories/Histories (8).png', 'Images/Histories/Histories (9).png', 'Images/Histories/Histories (10).png', 'Images/Histories/Histories (11).png', 'Images/Histories/Histories (12).png', 'Images/Histories/Histories (13).png', 'Images/Histories/Histories (14).png', 'Images/Histories/Histories (15).png', 'Images/Histories/Histories (16).png', 'Images/Histories/Histories (17).png', 'Images/Histories/Histories (18).png', 'Images/Histories/Histories (19).png', 'Images/Histories/Histories (20).png', 'Images/Histories/Histories (21).png', 'Images/Histories/Histories (22).png', 'Images/Histories/Histories (23).png', 'Images/Histories/Histories (24).png', 'Images/Histories/Histories (25).png', 'Images/Histories/Histories (26).png', 'Images/Histories/Histories (27).png', 'Images/Histories/Histories (28).png', 'Images/Histories/Histories (29).png', 'Images/Histories/Histories (30).png', 'Images/Histories/Histories (31).png', 'Images/Histories/Histories (32).png', 'Images/Histories/Histories (33).png', 'Images/Histories/Histories (34).png', 'Images/Histories/Histories (35).png', 'Images/Histories/Histories (36).png', 'Images/Histories/Histories (37).png', 'Images/Histories/Histories (38).png', 'Images/Histories/Histories (39).png', 'Images/Histories/Histories (40).png', 'Images/Histories/Histories (41).png', 'Images/Histories/Histories (42).png', 'Images/Histories/Histories (43).png', 'Images/Histories/Histories (44).png', 'Images/Histories/Histories (45).png', 'Images/Histories/Histories (46).png', 'Images/Histories/Histories (47).png', 'Images/Histories/Histories (48).png', 'Images/Histories/Histories (49).png', 'Images/Histories/Histories (50).png', 'Images/Histories/Histories (51).png', 'Images/Histories/Histories (52).png', 'Images/Histories/Histories (53).png', 'Images/Histories/Histories (54).png', 'Images/Histories/Histories (55).png', 'Images/Histories/Histories (56).png', 'Images/Histories/Histories (57).png', 'Images/Histories/Histories (58).png', 'Images/Histories/Histories (59).png', 'Images/Histories/Histories (60).png', 'Images/Histories/Histories (61).png', 'Images/Histories/Histories (62).png', 'Images/Histories/Histories (63).png', 'Images/Histories/Histories (64).png', 'Images/Histories/Histories (65).png', 'Images/Histories/Histories (66).png', 'Images/Histories/Histories (67).png', 'Images/Histories/Histories (68).png', 'Images/Histories/Histories (69).png', 'Images/Histories/Histories (70).png', 'Images/Histories/Histories (71).png', 'Images/Histories/Histories (72).png', 'Images/Histories/Histories (73).png', 'Images/Histories/Histories (74).png', 'Images/Histories/Histories (75).png', 'Images/Histories/Histories (76).png', 'Images/Histories/Histories (77).png', 'Images/Histories/Histories (78).png', 'Images/Histories/Histories (79).png', 'Images/Histories/Histories (80).png', 'Images/Histories/Histories (81).png', 'Images/Histories/Histories (82).png', 'Images/Histories/Histories (83).png', 'Images/Histories/Histories (84).png', 'Images/Histories/Histories (85).png', 'Images/Histories/Histories (86).png', 'Images/Histories/Histories (87).png', 'Images/Histories/Histories (88).png', 'Images/Histories/Histories (89).png', 'Images/Histories/Histories (90).png', 'Images/Histories/Histories (91).png', 'Images/Histories/Histories (92).png', 'Images/Histories/Histories (93).png', 'Images/Histories/Histories (94).png', 'Images/Histories/Histories (95).png', 'Images/Histories/Histories (96).png', 'Images/Histories/Histories (97).png', 'Images/Histories/Histories (98).png', 'Images/Histories/Histories (99).png', 'Images/Histories/Histories (100).png', 'Images/Histories/Histories (101).png', 'Images/Histories/Histories (102).png', 'Images/Histories/Histories (103).png', 'Images/Histories/Histories (104).png', 'Images/Histories/Histories (105).png', 'Images/Histories/Histories (106).png', 'Images/Histories/Histories (107).png', 'Images/Histories/Histories (108).png', 'Images/Histories/Histories (109).png', 'Images/Histories/Histories (110).png', 'Images/Histories/Histories (111).png', 'Images/Histories/Histories (112).png', 'Images/Histories/Histories (113).png', 'Images/Histories/Histories (114).png', 'Images/Histories/Histories (115).png', 'Images/Histories/Histories (116).png', 'Images/Histories/Histories (117).png', 'Images/Histories/Histories (118).png', 'Images/Histories/Histories (119).png', 'Images/Histories/Histories (120).png', 'Images/Histories/Histories (121).png', 'Images/Histories/Histories (122).png', 'Images/Histories/Histories (123).png', 'Images/Histories/Histories (124).png', 'Images/Histories/Histories (125).png', 'Images/Histories/Histories (126).png', 'Images/Histories/Histories (127).png', 'Images/Histories/Histories (128).png', 'Images/Histories/Histories (129).png', 'Images/Histories/Histories (130).png', 'Images/Histories/Histories (131).png', 'Images/Histories/Histories (132).png', 'Images/Histories/Histories (133).png', 'Images/Histories/Histories (134).png', 'Images/Histories/Histories (135).png', 'Images/Histories/Histories (136).png', 'Images/Histories/Histories (137).png', 'Images/Histories/Histories (138).png', 'Images/Histories/Histories (139).png', 'Images/Histories/Histories (140).png', 'Images/Histories/Histories (141).png', 'Images/Histories/Histories (142).png', 'Images/Histories/Histories (143).png', 'Images/Histories/Histories (144).png', 'Images/Histories/Histories (145).png', 'Images/Histories/Histories (146).png', 'Images/Histories/Histories (147).png', 'Images/Histories/Histories (148).png', 'Images/Histories/Histories (149).png', 'Images/Histories/Histories (150).png', 'Images/Histories/Histories (151).png', 'Images/Histories/Histories (152).png', 'Images/Histories/Histories (153).png', 'Images/Histories/Histories (154).png', 'Images/Histories/Histories (155).png', 'Images/Histories/Histories (156).png', 'Images/Histories/Histories (157).png', 'Images/Histories/Histories (158).png', 'Images/Histories/Histories (159).png', 'Images/Histories/Histories (160).png', 'Images/Histories/Histories (161).png', 'Images/Histories/Histories (162).png', 'Images/Histories/Histories (163).png', 'Images/Histories/Histories (164).png', 'Images/Histories/Histories (165).png', 'Images/Histories/Histories (166).png', 'Images/Histories/Histories (167).png', 'Images/Histories/Histories (168).png', 'Images/Histories/Histories (169).png', 'Images/Histories/Histories (170).png', 'Images/Histories/Histories (171).png', 'Images/Histories/Histories (172).png', 'Images/Histories/Histories (173).png', 'Images/Histories/Histories (174).png', 'Images/Histories/Histories (175).png', 'Images/Histories/Histories (176).png', 'Images/Histories/Histories (177).png', 'Images/Histories/Histories (178).png', 'Images/Histories/Histories (179).png', 'Images/Histories/Histories (180).png', 'Images/Histories/Histories (181).png', 'Images/Histories/Histories (182).png', 'Images/Histories/Histories (183).png', 'Images/Histories/Histories (184).png', 'Images/Histories/Histories (185).png', 'Images/Histories/Histories (186).png', 'Images/Histories/Histories (187).png', 'Images/Histories/Histories (188).png', 'Images/Histories/Histories (189).png', 'Images/Histories/Histories (190).png', 'Images/Histories/Histories (191).png', 'Images/Histories/Histories (192).png', 'Images/Histories/Histories (193).png', 'Images/Histories/Histories (194).png', 'Images/Histories/Histories (195).png', 'Images/Histories/Histories (196).png', 'Images/Histories/Histories (197).png', 'Images/Histories/Histories (198).png', 'Images/Histories/Histories (199).png', 'Images/Histories/Histories (200).png', 'Images/Histories/Histories (201).png', 'Images/Histories/Histories (202).png', 'Images/Histories/Histories (203).png', 'Images/Histories/Histories (204).png', 'Images/Histories/Histories (205).png', 'Images/Histories/Histories (206).png', ]
 }
 
 function tryAgain() {
     episodeX = randomValueFromArray(episodes);
-   // episodeX = 'Season 1 Episode 9';
+    // episodeX = 'Season 1 Episode 9';
     updateImg();
     wrongOrRight.textContent = '';
     document.getElementById('housePNG').src = "houseNet.png";
@@ -92,357 +104,155 @@ function tryAgain() {
 }
 function updateImg() {
     if (episodeX == 'Season 1 Episode 1') {
-        S1E1Img();
+        var episodeImg = randomValueFromArray(pilotArray);
+        document.getElementById('episodePNG').src = episodeImg;
+        if (noRepeatButt == true) {
+            episodePreDelete = pilotArray.indexOf(episodeImg);
+            episodeDelete = pilotArray.splice(episodePreDelete, 1);
+        }
+        if (pilotArray.length == 0) {
+            if (noRepeatButt == true) {
+                episodePreDelete = episodes.indexOf('Season 1 Episode 1');
+                episodeDelete = episodes.splice(episodePreDelete, 1);
+            }
+        }
+
     } else if (episodeX == 'Season 1 Episode 2') {
-        S1E2Img();
+        var episodeImg = randomValueFromArray(paternityArray);
+        document.getElementById('episodePNG').src = episodeImg;
+        if (noRepeatButt == true) {
+            episodePreDelete = paternityArray.indexOf(episodeImg);
+            episodeDelete = paternityArray.splice(episodePreDelete, 1);
+        }
+        if (paternityArray.length == 0) {
+            if (noRepeatButt == true) {
+                episodePreDelete = episodes.indexOf('Season 1 Episode 2');
+                episodeDelete = episodes.splice(episodePreDelete, 1);
+            }
+        }
+
     } else if (episodeX == 'Season 1 Episode 3') {
-        S1E3Img();
+        var episodeImg = randomValueFromArray(occamArray);
+        document.getElementById('episodePNG').src = episodeImg;
+        if (noRepeatButt == true) {
+            episodePreDelete = occamArray.indexOf(episodeImg);
+            episodeDelete = occamArray.splice(episodePreDelete, 1);
+        }
+        if (occamArray.length == 0) {
+            if (noRepeatButt == true) {
+                episodePreDelete = episodes.indexOf('Season 1 Episode 3');
+                episodeDelete = episodes.splice(episodePreDelete, 1);
+            }
+        }
+
     } else if (episodeX == 'Season 1 Episode 4') {
-        S1E4Img();
+        var episodeImg = randomValueFromArray(MaternityArray);
+
+        document.getElementById('episodePNG').src = episodeImg;
+        if (noRepeatButt == true) {
+            episodePreDelete = MaternityArray.indexOf(episodeImg);
+            episodeDelete = MaternityArray.splice(episodePreDelete, 1);
+        }
+        if (MaternityArray.length == 0) {
+            if (noRepeatButt == true) {
+                episodePreDelete = episodes.indexOf('Season 1 Episode 4');
+                episodeDelete = episodes.splice(episodePreDelete, 1);
+            }
+        }
+
     } else if (episodeX == 'Season 1 Episode 5') {
-        S1E5Img();
+        var episodeImg = randomValueFromArray(DamnedArray);
+
+        document.getElementById('episodePNG').src = episodeImg;
+        if (noRepeatButt == true) {
+            episodePreDelete = DamnedArray.indexOf(episodeImg);
+            episodeDelete = DamnedArray.splice(episodePreDelete, 1);
+        }
+        if (DamnedArray.length == 0) {
+            if (noRepeatButt == true) {
+                episodePreDelete = episodes.indexOf('Season 1 Episode 5');
+                episodeDelete = episodes.splice(episodePreDelete, 1);
+            }
+        }
+
     } else if (episodeX == 'Season 1 Episode 6') {
-        S1E6Img();
+        var episodeImg = randomValueFromArray(MethodArray);
+
+        document.getElementById('episodePNG').src = episodeImg;
+        if (noRepeatButt == true) {
+            episodePreDelete = MethodArray.indexOf(episodeImg);
+            episodeDelete = MethodArray.splice(episodePreDelete, 1);
+        }
+        if (MethodArray.length == 0) {
+            if (noRepeatButt == true) {
+                episodePreDelete = episodes.indexOf('Season 1 Episode 6');
+                episodeDelete = episodes.splice(episodePreDelete, 1);
+            }
+        }
+
     } else if (episodeX == 'Season 1 Episode 7') {
-        S1E7Img();
+        var episodeImg = randomValueFromArray(FidelityArray);
+
+        document.getElementById('episodePNG').src = episodeImg;
+        if (noRepeatButt == true) {
+            episodePreDelete = FidelityArray.indexOf(episodeImg);
+            episodeDelete = FidelityArray.splice(episodePreDelete, 1);
+        }
+        if (FidelityArray.length == 0) {
+            if (noRepeatButt == true) {
+                episodePreDelete = episodes.indexOf('Season 1 Episode 7');
+                episodeDelete = episodes.splice(episodePreDelete, 1);
+            }
+        }
+
     } else if (episodeX == 'Season 1 Episode 8') {
-        S1E8Img();
+        var episodeImg = randomValueFromArray(PoisonArray);
+
+        document.getElementById('episodePNG').src = episodeImg;
+        if (noRepeatButt == true) {
+            episodePreDelete = PoisonArray.indexOf(episodeImg);
+            episodeDelete = PoisonArray.splice(episodePreDelete, 1);
+        }
+        if (PoisonArray.length == 0) {
+            if (noRepeatButt == true) {
+                episodePreDelete = episodes.indexOf('Season 1 Episode 8');
+                episodeDelete = episodes.splice(episodePreDelete, 1);
+            }
+        }
+
     } else if (episodeX == 'Season 1 Episode 9') {
-        S1E9Img();
+        var episodeImg = randomValueFromArray(DNRArray);
+
+        document.getElementById('episodePNG').src = episodeImg;
+        if (noRepeatButt == true) {
+            episodePreDelete = DNRArray.indexOf(episodeImg);
+            episodeDelete = DNRArray.splice(episodePreDelete, 1);
+        }
+        if (DNRArray.length == 0) {
+            if (noRepeatButt == true) {
+                episodePreDelete = episodes.indexOf('Season 1 Episode 9');
+                episodeDelete = episodes.splice(episodePreDelete, 1);
+            }
+        }
+
     } else if (episodeX == 'Season 1 Episode 10') {
-        S1E10Img();
-    } else if (episodeX == 'Season 1 Episode 11') {
-        S1E11Img();
-    } else if (episodeX == 'Season 1 Episode 12') {
-        S1E12Img();
-    } else if (episodeX == 'Season 1 Episode 13') {
-        S1E13Img();
-    } else if (episodeX == 'Season 1 Episode 14') {
-        S1E14Img();
-    } else if (episodeX == 'Season 1 Episode 15') {
-        S1E15Img();
-    } else if (episodeX == 'Season 1 Episode 16') {
-        S1E16Img();
-    } else if (episodeX == 'Season 1 Episode 17') {
-        S1E17Img();
-    } else if (episodeX == 'Season 1 Episode 18') {
-        S1E18Img();
-    } else if (episodeX == 'Season 1 Episode 19') {
-        S1E19Img();
-    } else if (episodeX == 'Season 1 Episode 20') {
-        S1E20Img();
-    } else if (episodeX == 'Season 1 Episode 21') {
-        S1E21Img();
-    } else if (episodeX == 'Season 2 Episode 1') {
-        S2E1Img();
-    } else if (episodeX == 'Season 2 Episode 2') {
-        S2E2Img();
-    } else if (episodeX == 'Season 2 Episode 3') {
-        S2E3Img();
-    } else if (episodeX == 'Season 2 Episode 4') {
-        S2E4Img();
-    } else if (episodeX == 'Season 2 Episode 5') {
-        S2E5Img();
-    } else if (episodeX == 'Season 2 Episode 6') {
-        S2E6Img();
-    } else if (episodeX == 'Season 2 Episode 7') {
-        S2E7Img();
-    } else if (episodeX == 'Season 2 Episode 8') {
-        S2E8Img();
-    } else if (episodeX == 'Season 2 Episode 9') {
-        S2E9Img();
-    } else if (episodeX == 'Season 2 Episode 10') {
-        S2E10Img();
-    } else if (episodeX == 'Season 2 Episode 11') {
-        S2E11Img();
-    } else if (episodeX == 'Season 2 Episode 12') {
-        S2E12Img();
-    } else if (episodeX == 'Season 2 Episode 13') {
-        S2E13Img();
-    } else if (episodeX == 'Season 2 Episode 14') {
-        S2E14Img();
-    } else if (episodeX == 'Season 2 Episode 15') {
-        S2E15Img();
-    } else if (episodeX == 'Season 2 Episode 16') {
-        S2E16Img();
-    } else if (episodeX == 'Season 2 Episode 17') {
-        S2E17Img();
-    } else if (episodeX == 'Season 2 Episode 18') {
-        S2E18Img();
-    } else if (episodeX == 'Season 2 Episode 19') {
-        S2E19Img();
-    } else if (episodeX == 'Season 2 Episode 20') {
-        S2E20Img();
-    } else if (episodeX == 'Season 2 Episode 21') {
-        S2E21Img();
-    } else if (episodeX == 'Season 2 Episode 22') {
-        S2E22Img();
-    } else if (episodeX == 'Season 2 Episode 23') {
-        S2E23Img();
-    } else if (episodeX == 'Season 2 Episode 24') {
-        S2E24Img();
-    } else if (episodeX == 'Season 3 Episode 1') {
-        S3E1Img();
-    } else if (episodeX == 'Season 3 Episode 2') {
-        S3E2Img();
-    } else if (episodeX == 'Season 3 Episode 3') {
-        S3E3Img();
-    } else if (episodeX == 'Season 3 Episode 4') {
-        S3E4Img();
-    } else if (episodeX == 'Season 3 Episode 5') {
-        S3E5Img();
-    } else if (episodeX == 'Season 3 Episode 6') {
-        S3E6Img();
-    } else if (episodeX == 'Season 3 Episode 7') {
-        S3E7Img();
-    } else if (episodeX == 'Season 3 Episode 8') {
-        S3E8Img();
-    } else if (episodeX == 'Season 3 Episode 9') {
-        S3E9Img();
-    } else if (episodeX == 'Season 3 Episode 10') {
-        S3E10Img();
-    } else if (episodeX == 'Season 3 Episode 11') {
-        S3E11Img();
-    } else if (episodeX == 'Season 3 Episode 12') {
-        S3E12Img();
-    } else if (episodeX == 'Season 3 Episode 13') {
-        S3E13Img();
-    } else if (episodeX == 'Season 3 Episode 14') {
-        S3E14Img();
-    } else if (episodeX == 'Season 3 Episode 15') {
-        S3E15Img();
-    } else if (episodeX == 'Season 3 Episode 16') {
-        S3E16Img();
-    } else if (episodeX == 'Season 3 Episode 17') {
-        S3E17Img();
-    } else if (episodeX == 'Season 3 Episode 18') {
-        S3E18Img();
-    } else if (episodeX == 'Season 3 Episode 19') {
-        S3E19Img();
-    } else if (episodeX == 'Season 3 Episode 20') {
-        S3E20Img();
-    } else if (episodeX == 'Season 3 Episode 21') {
-        S3E21Img();
-    } else if (episodeX == 'Season 3 Episode 22') {
-        S3E22Img();
-    } else if (episodeX == 'Season 3 Episode 23') {
-        S3E23Img();
-    } else if (episodeX == 'Season 3 Episode 24') {
-        S3E24Img();
-    } else if (episodeX == 'Season 4 Episode 1') {
-        S4E1Img();
-    } else if (episodeX == 'Season 4 Episode 2') {
-        S4E2Img();
-    } else if (episodeX == 'Season 4 Episode 3') {
-        S4E3Img();
-    } else if (episodeX == 'Season 4 Episode 4') {
-        S4E4Img();
-    } else if (episodeX == 'Season 4 Episode 5') {
-        S4E5Img();
-    } else if (episodeX == 'Season 4 Episode 6') {
-        S4E6Img();
-    } else if (episodeX == 'Season 4 Episode 7') {
-        S4E7Img();
-    } else if (episodeX == 'Season 4 Episode 8') {
-        S4E8Img();
-    } else if (episodeX == 'Season 4 Episode 9') {
-        S4E9Img();
-    } else if (episodeX == 'Season 4 Episode 10') {
-        S4E10Img();
-    } else if (episodeX == 'Season 4 Episode 11') {
-        S4E11Img();
-    } else if (episodeX == 'Season 4 Episode 12') {
-        S4E12Img();
-    } else if (episodeX == 'Season 4 Episode 13') {
-        S4E13Img();
-    } else if (episodeX == 'Season 4 Episode 14') {
-        S4E14Img();
-    } else if (episodeX == 'Season 4 Episode 15') {
-        S4E15Img();
-    } else if (episodeX == 'Season 4 Episode 16') {
-        S4E16Img();
-    } else if (episodeX == 'Season 5 Episode 1') {
-        S5E1Img();
-    } else if (episodeX == 'Season 5 Episode 2') {
-        S5E2Img();
-    } else if (episodeX == 'Season 5 Episode 3') {
-        S5E3Img();
-    } else if (episodeX == 'Season 5 Episode 4') {
-        S5E4Img();
-    } else if (episodeX == 'Season 5 Episode 5') {
-        S5E5Img();
-    } else if (episodeX == 'Season 5 Episode 6') {
-        S5E6Img();
-    } else if (episodeX == 'Season 5 Episode 7') {
-        S5E7Img();
-    } else if (episodeX == 'Season 5 Episode 8') {
-        S5E8Img();
-    } else if (episodeX == 'Season 5 Episode 9') {
-        S5E9Img();
-    } else if (episodeX == 'Season 5 Episode 10') {
-        S5E10Img();
-    } else if (episodeX == 'Season 5 Episode 11') {
-        S5E11Img();
-    } else if (episodeX == 'Season 5 Episode 12') {
-        S5E12Img();
-    } else if (episodeX == 'Season 5 Episode 13') {
-        S5E13Img();
-    }
-}
+        var episodeImg = randomValueFromArray(HistoriesArray);
 
-function S1E1Img() {
-    var episodeImg = randomValueFromArray(pilotArray);
-    document.getElementById('episodePNG').src = episodeImg;
-    if (noRepeatButt == true) {
-        episodePreDelete = pilotArray.indexOf(episodeImg);
-        episodeDelete = pilotArray.splice(episodePreDelete, 1);
-    }
-    if (pilotArray.length == 0) {
+        document.getElementById('episodePNG').src = episodeImg;
         if (noRepeatButt == true) {
-            episodePreDelete = episodes.indexOf('Season 1 Episode 1');
-            episodeDelete = episodes.splice(episodePreDelete, 1);
+            episodePreDelete = HistoriesArray.indexOf(episodeImg);
+            episodeDelete = HistoriesArray.splice(episodePreDelete, 1);
         }
-    }
-}
-function S1E2Img() {
-    var episodeImg = randomValueFromArray(paternityArray);
-    document.getElementById('episodePNG').src = episodeImg;
-    if (noRepeatButt == true) {
-        episodePreDelete = paternityArray.indexOf(episodeImg);
-        episodeDelete = paternityArray.splice(episodePreDelete, 1);
-    }
-    if (paternityArray.length == 0) {
-        if (noRepeatButt == true) {
-            episodePreDelete = episodes.indexOf('Season 1 Episode 2');
-            episodeDelete = episodes.splice(episodePreDelete, 1);
+        if (HistoriesArray.length == 0) {
+            if (noRepeatButt == true) {
+                episodePreDelete = episodes.indexOf('Season 1 Episode 10');
+                episodeDelete = episodes.splice(episodePreDelete, 1);
+            }
         }
-    }
-}
-function S1E3Img() {
-    var episodeImg = randomValueFromArray(occamArray);
-    document.getElementById('episodePNG').src = episodeImg;
-    if (noRepeatButt == true) {
-        episodePreDelete = occamArray.indexOf(episodeImg);
-        episodeDelete = occamArray.splice(episodePreDelete, 1);
-    }
-    if (occamArray.length == 0) {
-        if (noRepeatButt == true) {
-            episodePreDelete = episodes.indexOf('Season 1 Episode 3');
-            episodeDelete = episodes.splice(episodePreDelete, 1);
-        }
-    }
-}
-function S1E4Img() {
-    episodeImg = randomValueFromArray(MaternityArray);
 
-    document.getElementById('episodePNG').src = episodeImg;
-    if (noRepeatButt == true) {
-        episodePreDelete = MaternityArray.indexOf(episodeImg);
-        episodeDelete = MaternityArray.splice(episodePreDelete, 1);
-    }
-    if (MaternityArray.length == 0) {
-        if (noRepeatButt == true) {
-            episodePreDelete = episodes.indexOf('Season 1 Episode 4');
-            episodeDelete = episodes.splice(episodePreDelete, 1);
-        }
     }
 }
 
-function S1E5Img() {
-    episodeImg = randomValueFromArray(DamnedArray);
-
-    document.getElementById('episodePNG').src = episodeImg;
-    if (noRepeatButt == true) {
-        episodePreDelete = DamnedArray.indexOf(episodeImg);
-        episodeDelete = DamnedArray.splice(episodePreDelete, 1);
-    }
-    if (DamnedArray.length == 0) {
-        if (noRepeatButt == true) {
-            episodePreDelete = episodes.indexOf('Season 1 Episode 5');
-            episodeDelete = episodes.splice(episodePreDelete, 1);
-        }
-    }
-}
-function S1E6Img() {
-
-    episodeImg = randomValueFromArray(MethodArray);
-
-    document.getElementById('episodePNG').src = episodeImg;
-    if (noRepeatButt == true) {
-        episodePreDelete = MethodArray.indexOf(episodeImg);
-        episodeDelete = MethodArray.splice(episodePreDelete, 1);
-    }
-    if (MethodArray.length == 0) {
-        if (noRepeatButt == true) {
-            episodePreDelete = episodes.indexOf('Season 1 Episode 6');
-            episodeDelete = episodes.splice(episodePreDelete, 1);
-        }
-    }
-}
-function S1E7Img() {
-
-    episodeImg = randomValueFromArray(FidelityArray);
-
-    document.getElementById('episodePNG').src = episodeImg;
-    if (noRepeatButt == true) {
-        episodePreDelete = FidelityArray.indexOf(episodeImg);
-        episodeDelete = FidelityArray.splice(episodePreDelete, 1);
-    }
-    if (FidelityArray.length == 0) {
-        if (noRepeatButt == true) {
-            episodePreDelete = episodes.indexOf('Season 1 Episode 7');
-            episodeDelete = episodes.splice(episodePreDelete, 1);
-        }
-    }
-}
-function S1E8Img() {
-
-    episodeImg = randomValueFromArray(PoisonArray);
-
-    document.getElementById('episodePNG').src = episodeImg;
-    if (noRepeatButt == true) {
-        episodePreDelete = PoisonArray.indexOf(episodeImg);
-        episodeDelete = PoisonArray.splice(episodePreDelete, 1);
-    }
-    if (PoisonArray.length == 0) {
-        if (noRepeatButt == true) {
-            episodePreDelete = episodes.indexOf('Season 1 Episode 8');
-            episodeDelete = episodes.splice(episodePreDelete, 1);
-        }
-    }
-}
-function S1E9Img() {
-
-    episodeImg = randomValueFromArray(DNRArray);
-
-    document.getElementById('episodePNG').src = episodeImg;
-    if (noRepeatButt == true) {
-        episodePreDelete = DNRArray.indexOf(episodeImg);
-        episodeDelete = DNRArray.splice(episodePreDelete, 1);
-    }
-    if (DNRArray.length == 0) {
-        if (noRepeatButt == true) {
-            episodePreDelete = episodes.indexOf('Season 1 Episode 9');
-            episodeDelete = episodes.splice(episodePreDelete, 1);
-        }
-    }
-}
-function S1E10Img() {
-
-    episodeImg = randomValueFromArray(HistoriesArray);
-
-    document.getElementById('episodePNG').src = episodeImg;
-    if (noRepeatButt == true) {
-        episodePreDelete = HistoriesArray.indexOf(episodeImg);
-        episodeDelete = HistoriesArray.splice(episodePreDelete, 1);
-    }
-    if (HistoriesArray.length == 0) {
-        if (noRepeatButt == true) {
-            episodePreDelete = episodes.indexOf('Season 1 Episode 10');
-            episodeDelete = episodes.splice(episodePreDelete, 1);
-        }
-    }
-}
 function check() {
     if (alreadyGussed == false) {
         check2();
@@ -454,1495 +264,1851 @@ function check() {
 }
 
 function check2() {
+
+    if (easyMode == true) {
+        episodeGuessEasy = episodeGuess.value.toLowerCase();
+        console.log(episodeGuessEasy);
+    }
     if (episodeX == 'Season 1 Episode 1') {
-        S1E1();
-    } else if (episodeX == 'Season 1 Episode 2') {
-        S1E2();
-    } else if (episodeX == 'Season 1 Episode 3') {
-        S1E3();
-    } else if (episodeX == 'Season 1 Episode 4') {
-        S1E4();
-    } else if (episodeX == 'Season 1 Episode 5') {
-        S1E5();
-    } else if (episodeX == 'Season 1 Episode 6') {
-        S1E6();
-    } else if (episodeX == 'Season 1 Episode 7') {
-        S1E7();
-    } else if (episodeX == 'Season 1 Episode 8') {
-        S1E8();
-    } else if (episodeX == 'Season 1 Episode 9') {
-        S1E9();
-    } else if (episodeX == 'Season 1 Episode 10') {
-        S1E10();
-    } else if (episodeX == 'Season 1 Episode 11') {
-        S1E11();
-    } else if (episodeX == 'Season 1 Episode 12') {
-        S1E12();
-    } else if (episodeX == 'Season 1 Episode 13') {
-        S1E13();
-    } else if (episodeX == 'Season 1 Episode 14') {
-        S1E14();
-    } else if (episodeX == 'Season 1 Episode 15') {
-        S1E15();
-    } else if (episodeX == 'Season 1 Episode 16') {
-        S1E16();
-    } else if (episodeX == 'Season 1 Episode 17') {
-        S1E17();
-    } else if (episodeX == 'Season 1 Episode 18') {
-        S1E18();
-    } else if (episodeX == 'Season 1 Episode 19') {
-        S1E19();
-    } else if (episodeX == 'Season 1 Episode 20') {
-        S1E20();
-    } else if (episodeX == 'Season 1 Episode 21') {
-        S1E21();
-    } else if (episodeX == 'Season 2 Episode 1') {
-        S2E1();
-    } else if (episodeX == 'Season 2 Episode 2') {
-        S2E2();
-    } else if (episodeX == 'Season 2 Episode 3') {
-        S2E3();
-    } else if (episodeX == 'Season 2 Episode 4') {
-        S2E4();
-    } else if (episodeX == 'Season 2 Episode 5') {
-        S2E5();
-    } else if (episodeX == 'Season 2 Episode 6') {
-        S2E6();
-    } else if (episodeX == 'Season 2 Episode 7') {
-        S2E7();
-    } else if (episodeX == 'Season 2 Episode 8') {
-        S2E8();
-    } else if (episodeX == 'Season 2 Episode 9') {
-        S2E9();
-    } else if (episodeX == 'Season 2 Episode 10') {
-        S2E10();
-    } else if (episodeX == 'Season 2 Episode 11') {
-        S2E11();
-    } else if (episodeX == 'Season 2 Episode 12') {
-        S2E12();
-    } else if (episodeX == 'Season 2 Episode 13') {
-        S2E13();
-    } else if (episodeX == 'Season 2 Episode 14') {
-        S2E14();
-    } else if (episodeX == 'Season 2 Episode 15') {
-        S2E15();
-    } else if (episodeX == 'Season 2 Episode 16') {
-        S2E16();
-    } else if (episodeX == 'Season 2 Episode 17') {
-        S2E17();
-    } else if (episodeX == 'Season 2 Episode 18') {
-        S2E18();
-    } else if (episodeX == 'Season 2 Episode 19') {
-        S2E19();
-    } else if (episodeX == 'Season 2 Episode 20') {
-        S2E20();
-    } else if (episodeX == 'Season 2 Episode 21') {
-        S2E21();
-    } else if (episodeX == 'Season 2 Episode 22') {
-        S2E22();
-    } else if (episodeX == 'Season 2 Episode 23') {
-        S2E23();
-    } else if (episodeX == 'Season 2 Episode 24') {
-        S2E24();
-    } else if (episodeX == 'Season 3 Episode 1') {
-        S3E1();
-    } else if (episodeX == 'Season 3 Episode 2') {
-        S3E2();
-    } else if (episodeX == 'Season 3 Episode 3') {
-        S3E3();
-    } else if (episodeX == 'Season 3 Episode 4') {
-        S3E4();
-    } else if (episodeX == 'Season 3 Episode 5') {
-        S3E5();
-    } else if (episodeX == 'Season 3 Episode 6') {
-        S3E6();
-    } else if (episodeX == 'Season 3 Episode 7') {
-        S3E7();
-    } else if (episodeX == 'Season 3 Episode 8') {
-        S3E8();
-    } else if (episodeX == 'Season 3 Episode 9') {
-        S3E9();
-    } else if (episodeX == 'Season 3 Episode 10') {
-        S3E10();
-    } else if (episodeX == 'Season 3 Episode 11') {
-        S3E11();
-    } else if (episodeX == 'Season 3 Episode 12') {
-        S3E12();
-    } else if (episodeX == 'Season 3 Episode 13') {
-        S3E13();
-    } else if (episodeX == 'Season 3 Episode 14') {
-        S3E14();
-    } else if (episodeX == 'Season 3 Episode 15') {
-        S3E15();
-    } else if (episodeX == 'Season 3 Episode 16') {
-        S3E16();
-    } else if (episodeX == 'Season 3 Episode 17') {
-        S3E17();
-    } else if (episodeX == 'Season 3 Episode 18') {
-        S3E18();
-    } else if (episodeX == 'Season 3 Episode 19') {
-        S3E19();
-    } else if (episodeX == 'Season 3 Episode 20') {
-        S3E20();
-    } else if (episodeX == 'Season 3 Episode 21') {
-        S3E21();
-    } else if (episodeX == 'Season 3 Episode 22') {
-        S3E22();
-    } else if (episodeX == 'Season 3 Episode 23') {
-        S3E23();
-    } else if (episodeX == 'Season 3 Episode 24') {
-        S3E24();
-    } else if (episodeX == 'Season 4 Episode 1') {
-        S4E1();
-    } else if (episodeX == 'Season 4 Episode 2') {
-        S4E2();
-    } else if (episodeX == 'Season 4 Episode 3') {
-        S4E3();
-    } else if (episodeX == 'Season 4 Episode 4') {
-        S4E4();
-    } else if (episodeX == 'Season 4 Episode 5') {
-        S4E5();
-    } else if (episodeX == 'Season 4 Episode 6') {
-        S4E6();
-    } else if (episodeX == 'Season 4 Episode 7') {
-        S4E7();
-    } else if (episodeX == 'Season 4 Episode 8') {
-        S4E8();
-    } else if (episodeX == 'Season 4 Episode 9') {
-        S4E9();
-    } else if (episodeX == 'Season 4 Episode 10') {
-        S4E10();
-    } else if (episodeX == 'Season 4 Episode 11') {
-        S4E11();
-    } else if (episodeX == 'Season 4 Episode 12') {
-        S4E12();
-    } else if (episodeX == 'Season 4 Episode 13') {
-        S4E13();
-    } else if (episodeX == 'Season 4 Episode 14') {
-        S4E14();
-    } else if (episodeX == 'Season 4 Episode 15') {
-        S4E15();
-    } else if (episodeX == 'Season 4 Episode 16') {
-        S4E16();
-    } else if (episodeX == 'Season 5 Episode 1') {
-        S5E1();
-    } else if (episodeX == 'Season 5 Episode 2') {
-        S5E2();
-    } else if (episodeX == 'Season 5 Episode 3') {
-        S5E3();
-    } else if (episodeX == 'Season 5 Episode 4') {
-        S5E4();
-    } else if (episodeX == 'Season 5 Episode 5') {
-        S5E5();
-    } else if (episodeX == 'Season 5 Episode 6') {
-        S5E6();
-    } else if (episodeX == 'Season 5 Episode 7') {
-        S5E7();
-    } else if (episodeX == 'Season 5 Episode 8') {
-        S5E8();
-    } else if (episodeX == 'Season 5 Episode 9') {
-        S5E9();
-    } else if (episodeX == 'Season 5 Episode 10') {
-        S5E10();
-    } else if (episodeX == 'Season 5 Episode 11') {
-        S5E11();
-    } else if (episodeX == 'Season 5 Episode 12') {
-        S5E12();
-    } else if (episodeX == 'Season 5 Episode 13') {
-        S5E13();
-    }
-}
-
-function S1E1() {
-    if (episodeGuess.value == 'Pilot') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Pilot') {
-        wrongOrRight.textContent = 'wrong - Pilot';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S1E2() {
-    if (episodeGuess.value == 'Paternity') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-
-    } else if (episodeGuess.value !== 'Paternity') {
-        wrongOrRight.textContent = 'wrong - Paternity';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S1E3() {
-    if (episodeGuess.value == "Occam's Razor") {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== "Occam's Razor") {
-        wrongOrRight.textContent = "Wrong - Occam's Razor";
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S1E4() {
-    if (episodeGuess.value == 'Maternity') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Maternity') {
-        wrongOrRight.textContent = 'wrong - Maternity';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S1E5() {
-    if (episodeGuess.value == 'Damned If You Do') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Damned If You Do') {
-        wrongOrRight.textContent = 'wrong - Damned If You Do';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S1E6() {
-    if (episodeGuess.value == 'The Socratic Method') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'The Socratic Method') {
-        wrongOrRight.textContent = 'wrong - The Socratic Method';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S1E7() {
-    if (episodeGuess.value == 'Fidelity') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Fidelity') {
-        wrongOrRight.textContent = 'wrong - Fidelity';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S1E8() {
-    if (episodeGuess.value == 'Poison') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Poison') {
-        wrongOrRight.textContent = 'wrong - Poison';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S1E9() {
-    if (episodeGuess.value == 'DNR') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'DNR') {
-        wrongOrRight.textContent = 'wrong - DNR';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S1E10() {
-    if (episodeGuess.value == 'Histories') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Histories') {
-        wrongOrRight.textContent = 'wrong - Histories';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
+        episodeName = 'Pilot';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
         updateStat();
-    }
-}
-function S1E11() {
-    if (episodeGuess.value == 'Detox') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Detox') {
-        wrongOrRight.textContent = 'wrong - Detox';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S1E12() {
-    if (episodeGuess.value == 'Sports Medicine') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Sports Medicine') {
-        wrongOrRight.textContent = 'wrong - Sports Medicine';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S1E13() {
-    if (episodeGuess.value == 'Cursed') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Cursed') {
-        wrongOrRight.textContent = 'wrong - Cursed';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S1E14() {
-    if (episodeGuess.value == 'Control') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Control') {
-        wrongOrRight.textContent = 'wrong - Control';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S1E15() {
-    if (episodeGuess.value == 'Mob Rules') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Mob Rules') {
-        wrongOrRight.textContent = 'wrong - Mob Rules';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S1E16() {
-    if (episodeGuess.value == 'Heavy') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Heavy') {
-        wrongOrRight.textContent = 'wrong - Heavy';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S1E17() {
-    if (episodeGuess.value == 'Role Model') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Role Model') {
-        wrongOrRight.textContent = 'wrong - Role Model';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S1E18() {
-    if (episodeGuess.value == 'Babies & Bathwater') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Babies & Bathwater') {
-        wrongOrRight.textContent = 'wrong - Babies & Bathwater';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S1E19() {
-    if (episodeGuess.value == 'Kids') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Kids') {
-        wrongOrRight.textContent = 'wrong - Kids';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S1E20() {
-    if (episodeGuess.value == 'Love Hurts') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Love Hurts') {
-        wrongOrRight.textContent = 'wrong - Love Hurts';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S1E21() {
-    if (episodeGuess.value == 'Three Stories') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Three Stories') {
-        wrongOrRight.textContent = 'wrong - Three Stories';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S1E22() {
-    if (episodeGuess.value == 'Honeymoon') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Honeymoon') {
-        wrongOrRight.textContent = 'wrong - Honeymoon';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S2E1() {
-    if (episodeGuess.value == 'Acceptance') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Acceptance') {
-        wrongOrRight.textContent = 'wrong - Acceptance';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S2E2() {
-    if (episodeGuess.value == 'Autopsy') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Autopsy') {
-        wrongOrRight.textContent = 'wrong - Autopsy';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S2E3() {
-    if (episodeGuess.value == 'Humpty Dumpty') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Humpty Dumpty') {
-        wrongOrRight.textContent = 'wrong - Humpty Dumpty';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S2E4() {
-    if (episodeGuess.value == 'TB or Not TB') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'TB or Not TB') {
-        wrongOrRight.textContent = 'wrong - TB or Not TB';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S2E5() {
-    if (episodeGuess.value == "Daddy's Boy") {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== "Daddy's Boy") {
-        wrongOrRight.textContent = "wrong - Daddy's Boy";
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S2E6() {
-    if (episodeGuess.value == 'Spin') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Spin') {
-        wrongOrRight.textContent = 'wrong - Spin';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S2E7() {
-    if (episodeGuess.value == 'Hunting') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Hunting') {
-        wrongOrRight.textContent = 'wrong - Hunting';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S2E8() {
-    if (episodeGuess.value == 'The Mistake') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'The Mistake') {
-        wrongOrRight.textContent = 'wrong - The Mistake';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S2E9() {
-    if (episodeGuess.value == 'Deception') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Deception') {
-        wrongOrRight.textContent = 'wrong - Deception';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S2E10() {
-    if (episodeGuess.value == 'Failure to Communicate') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Failure to Communicate') {
-        wrongOrRight.textContent = 'wrong - Failure to Communicate';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S2E11() {
-    if (episodeGuess.value == 'Need to Know') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Need to Know') {
-        wrongOrRight.textContent = 'wrong - Need to Know';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S2E12() {
-    if (episodeGuess.value == 'Distractions') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Distractions') {
-        wrongOrRight.textContent = 'wrong - Distractions';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S2E13() {
-    if (episodeGuess.value == 'Skin Deep') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Skin Deep') {
-        wrongOrRight.textContent = 'wrong - Skin Deep';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S2E14() {
-    if (episodeGuess.value == 'Sex Kills') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Sex Kills') {
-        wrongOrRight.textContent = 'wrong - Sex Kills';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S2E15() {
-    if (episodeGuess.value == 'Clueless') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Clueless') {
-        wrongOrRight.textContent = 'wrong - Clueless';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S2E16() {
-    if (episodeGuess.value == 'Safe') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Safe') {
-        wrongOrRight.textContent = 'wrong - Safe';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S2E17() {
-    if (episodeGuess.value == 'All In') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'All In') {
-        wrongOrRight.textContent = 'wrong - All In';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S2E18() {
-    if (episodeGuess.value == 'Sleeping Dogs Lie') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Sleeping Dogs Lie') {
-        wrongOrRight.textContent = 'wrong - Sleeping Dogs Lie';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S2E19() {
-    if (episodeGuess.value == 'House vs. God') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'House vs. God') {
-        wrongOrRight.textContent = 'wrong - House vs. God';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S2E20() {
-    if (episodeGuess.value == 'Euphoria: part 1') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Euphoria: part 1') {
-        wrongOrRight.textContent = 'wrong - Euphoria: part 1';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S2E21() {
-    if (episodeGuess.value == 'Euphoria: part 2') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Euphoria: part 2') {
-        wrongOrRight.textContent = 'wrong - Euphoria: part 2';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S2E22() {
-    if (episodeGuess.value == 'Forever') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Forever') {
-        wrongOrRight.textContent = 'wrong - Forever';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S2E23() {
-    if (episodeGuess.value == "Who's Your Daddy?") {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== "Who's Your Daddy?") {
-        wrongOrRight.textContent = "wrong - Who's Your Daddy?";
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S2E24() {
-    if (episodeGuess.value == 'No Reason') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'No Reason') {
-        wrongOrRight.textContent = 'wrong - No Reason';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S3E1() {
-    if (episodeGuess.value == 'Meaning') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Meaning') {
-        wrongOrRight.textContent = 'wrong - Meaning';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S3E2() {
-    if (episodeGuess.value == 'Cane and Able') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Cane and Able') {
-        wrongOrRight.textContent = 'wrong - Cane and Able';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S3E3() {
-    if (episodeGuess.value == 'Informed Consent') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Informed Consent') {
-        wrongOrRight.textContent = 'wrong - Informed Consent';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S3E4() {
-    if (episodeGuess.value == 'Lines in the Sand') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Lines in the Sand') {
-        wrongOrRight.textContent = 'wrong - Lines in the Sand';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S3E5() {
-    if (episodeGuess.value == 'Fools for Love') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Fools for Love') {
-        wrongOrRight.textContent = 'wrong - Fools for Love';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S3E6() {
-    if (episodeGuess.value == 'Que Sera Sera') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.value == 'Que Será Será') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Que Sera Sera') {
-        wrongOrRight.textContent = 'wrong - Que Sera Sera';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S3E7() {
-    if (episodeGuess.value == 'Son of Coma Guy') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Son of Coma Guy') {
-        wrongOrRight.textContent = 'wrong - Son of Coma Guy';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S3E8() {
-    if (episodeGuess.value == 'Whac-A-Mole') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Whac-A-Mole') {
-        wrongOrRight.textContent = 'wrong - Whac-A-Mole';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S3E9() {
-    if (episodeGuess.value == 'Finding Judas') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Finding Judas') {
-        wrongOrRight.textContent = 'wrong - Finding Judas';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S3E10() {
-    if (episodeGuess.value == 'Merry Little Christmas') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Merry Little Christmas') {
-        wrongOrRight.textContent = 'wrong - Merry Little Christmas';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S3E11() {
-    if (episodeGuess.value == 'Words and Deeds') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Words and Deeds') {
-        wrongOrRight.textContent = 'wrong - Words and Deeds';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S3E12() {
-    if (episodeGuess.value == 'One Day, One Room') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'One Day, One Room') {
-        wrongOrRight.textContent = 'wrong - One Day, One Room';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S3E13() {
-    if (episodeGuess.value == 'Needle in a Haystack') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Needle in a Haystack') {
-        wrongOrRight.textContent = 'wrong - Needle in a Haystack';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S3E14() {
-    if (episodeGuess.value == 'Insensitive') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Insensitive') {
-        wrongOrRight.textContent = 'wrong - Insensitive';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S3E15() {
-    if (episodeGuess.value == 'Half-wit') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Half-wit') {
-        wrongOrRight.textContent = 'wrong - Half-wit';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S3E16() {
-    if (episodeGuess.value == 'Top Secret') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Top Secret') {
-        wrongOrRight.textContent = 'wrong - Top Secret';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S3E17() {
-    if (episodeGuess.value == 'Fetal Position') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Fetal Position') {
-        wrongOrRight.textContent = 'wrong - Fetal Position';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S3E18() {
-    if (episodeGuess.value == 'Airborne') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Airborne') {
-        wrongOrRight.textContent = 'wrong - Airborne';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S3E19() {
-    if (episodeGuess.value == 'Act Your Age') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Act Your Age') {
-        wrongOrRight.textContent = 'wrong - Act Your Age';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S3E20() {
-    if (episodeGuess.value == 'House Training') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'House Training') {
-        wrongOrRight.textContent = 'wrong - House Training';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S3E21() {
-    if (episodeGuess.value == 'Family') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Family') {
-        wrongOrRight.textContent = 'wrong - Family';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S3E22() {
-    if (episodeGuess.value == 'Resignation') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Resignation') {
-        wrongOrRight.textContent = 'wrong - Resignation';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S3E23() {
-    if (episodeGuess.value == 'The Jerk') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'The Jerk') {
-        wrongOrRight.textContent = 'wrong - The Jerk';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S3E24() {
-    if (episodeGuess.value == 'Human Error') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Human Error') {
-        wrongOrRight.textContent = 'wrong - Human Error';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S4E1() {
-    if (episodeGuess.value == 'Alone') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Alone') {
-        wrongOrRight.textContent = 'wrong - Alone';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S4E2() {
-    if (episodeGuess.value == 'The Right Stuff') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'The Right Stuff') {
-        wrongOrRight.textContent = 'wrong - The Right Stuff';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S4E3() {
-    if (episodeGuess.value == '97 Seconds') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== '97 Seconds') {
-        wrongOrRight.textContent = 'wrong - 97 Seconds';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S4E4() {
-    if (episodeGuess.value == 'Guardian Angels') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Guardian Angels') {
-        wrongOrRight.textContent = 'wrong - Guardian Angels';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S4E5() {
-    if (episodeGuess.value == 'Mirror Mirror') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Mirror Mirror') {
-        wrongOrRight.textContent = 'wrong - Mirror Mirror';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S4E6() {
-    if (episodeGuess.value == 'Whatever It Takes') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Whatever It Takes') {
-        wrongOrRight.textContent = 'wrong - Whatever It Takes';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S4E7() {
-    if (episodeGuess.value == 'Ugly') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Ugly') {
-        wrongOrRight.textContent = 'wrong - Ugly';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S4E8() {
-    if (episodeGuess.value == "You Don't Want to Know") {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== "You Don't Want to Know") {
-        wrongOrRight.textContent = "wrong - You Don't Want to Know";
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S4E9() {
-    if (episodeGuess.value == 'Games') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Games') {
-        wrongOrRight.textContent = 'wrong - Games';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S4E10() {
-    if (episodeGuess.value == "It's a Wonderful Lie") {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== "It's a Wonderful Lie") {
-        wrongOrRight.textContent = "wrong - It's a Wonderful Lie";
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S4E11() {
-    if (episodeGuess.value == 'Frozen') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Frozen') {
-        wrongOrRight.textContent = 'wrong - Frozen';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S4E12() {
-    if (episodeGuess.value == "Don't Ever Change") {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== "Don't Ever Change") {
-        wrongOrRight.textContent = "wrong - Don't Ever Change";
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S4E13() {
-    if (episodeGuess.value == 'No More Mr. Nice Guy') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'No More Mr. Nice Guy') {
-        wrongOrRight.textContent = 'wrong - No More Mr. Nice Guy';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S4E14() {
-    if (episodeGuess.value == 'Living the Dream') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Living the Dream') {
-        wrongOrRight.textContent = 'wrong - Living the Dream';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S4E15() {
-    if (episodeGuess.value == "House's Head") {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== "House's Head") {
-        wrongOrRight.textContent = "wrong - House's Head";
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S4E16() {
-    if (episodeGuess.value == "Wilson's Heart") {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== "Wilson's Heart") {
-        wrongOrRight.textContent = "wrong - Wilson's Heart";
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S5E1() {
-    if (episodeGuess.value == 'Dying Changes Everything') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Dying Changes Everything') {
-        wrongOrRight.textContent = 'wrong - Dying Changes Everything';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S5E2() {
-    if (episodeGuess.value == 'Not Cancer') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Not Cancer') {
-        wrongOrRight.textContent = 'wrong - Not Cancer';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S5E3() {
-    if (episodeGuess.value == 'Adverse Events') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Adverse Events') {
-        wrongOrRight.textContent = 'wrong - Adverse Events';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S5E4() {
-    if (episodeGuess.value == 'Birthmarks') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Birthmarks') {
-        wrongOrRight.textContent = 'wrong - Birthmarks';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S5E5() {
-    if (episodeGuess.value == 'Lucky Thirteen') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Lucky Thirteen') {
-        wrongOrRight.textContent = 'wrong - Lucky Thirteen';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S5E6() {
-    if (episodeGuess.value == 'Joy') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Joy') {
-        wrongOrRight.textContent = 'wrong - Joy';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S5E7() {
-    if (episodeGuess.value == 'The Itch') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'The Itch') {
-        wrongOrRight.textContent = 'wrong - The Itch';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S5E8() {
-    if (episodeGuess.value == 'Emancipation') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Emancipation') {
-        wrongOrRight.textContent = 'wrong - Emancipation';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S5E9() {
-    if (episodeGuess.value == 'Last Resort') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Last Resort') {
-        wrongOrRight.textContent = 'wrong - Last Resort';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S5E10() {
-    if (episodeGuess.value == 'Let Them Eat Cake') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Let Them Eat Cake') {
-        wrongOrRight.textContent = 'wrong - Let Them Eat Cake';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S5E11() {
-    if (episodeGuess.value == 'Joy to the World') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Joy to the World') {
-        wrongOrRight.textContent = 'wrong - Joy to the World';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S5E12() {
-    if (episodeGuess.value == 'Painless') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Painless') {
-        wrongOrRight.textContent = 'wrong - Painless';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
-}
-function S5E13() {
-    if (episodeGuess.value == 'Big Baby') {
-        wrongOrRight.textContent = 'Right';
-        wrongOrRight.style.color = 'green';
-        document.getElementById('housePNG').src = "houseHappy.png";
-        ++totCorrect;
-    } else if (episodeGuess.Value !== 'Big Baby') {
-        wrongOrRight.textContent = 'wrong - Big Baby';
-        wrongOrRight.style.color = 'red';
-        document.getElementById('housePNG').src = "houseSad.png";
-    }
-    updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 1 Episode 1');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+
+    } else if (episodeX == 'Season 1 Episode 2') {
+        episodeName = 'Paternity';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 1 Episode 2');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+
+    } else if (episodeX == 'Season 1 Episode 3') {
+        episodeName = "Occam's Razor";
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 1 Episode 3');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+
+    } else if (episodeX == 'Season 1 Episode 4') {
+        episodeName = 'Maternity';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 1 Episode 4');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+
+    } else if (episodeX == 'Season 1 Episode 5') {
+        episodeName = 'Damned If You Do';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 1 Episode 5');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+
+    } else if (episodeX == 'Season 1 Episode 6') {
+        episodeName = 'The Socratic Method';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 1 Episode 6');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 1 Episode 7') {
+        episodeName = 'Fidelity';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 1 Episode 7');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 1 Episode 8') {
+        episodeName = 'Poison';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 1 Episode 8');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 1 Episode 9') {
+        episodeName = 'DNR';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 1 Episode 9');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 1 Episode 10') {
+        episodeName = 'Histories';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 1 Episode 10');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 1 Episode 11') {
+        episodeName = 'Detox';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 1 Episode 11');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 1 Episode 12') {
+        episodeName = 'Sports Medicine';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 1 Episode 12');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 1 Episode 13') {
+        episodeName = 'Cursed';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 1 Episode 13');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 1 Episode 14') {
+        episodeName = 'Control';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 1 Episode 14');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 1 Episode 15') {
+        episodeName = 'Mob Rules';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 1 Episode 15');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 1 Episode 16') {
+        episodeName = 'Heavy';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 1 Episode 16');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 1 Episode 17') {
+        episodeName = 'Role Model';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 1 Episode 17');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 1 Episode 18') {
+        episodeName = 'Babies & Bathwater';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 1 Episode 18');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 1 Episode 19') {
+        episodeName = 'Kids';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 1 Episode 19');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 1 Episode 20') {
+        episodeName = 'Love Hurts';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 1 Episode 20');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 1 Episode 21') {
+        episodeName = 'Three Stories';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 1 Episode 21');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 1 Episode 22') {
+        episodeName = 'Honeymoon';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 1 Episode 22');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 2 Episode 1') {
+        episodeName = 'Acceptance';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 2 Episode 1');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 2 Episode 2') {
+        episodeName = 'Autopsy';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 2 Episode 2');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 2 Episode 3') {
+        episodeName = 'Humpty Dumpty';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 2 Episode 3');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 2 Episode 4') {
+        episodeName = 'TB or Not TB';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 2 Episode 4');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 2 Episode 5') {
+        episodeName = "Daddy's Boy";
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 2 Episode 5');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 2 Episode 6') {
+        episodeName = 'Spin';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 2 Episode 6');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 2 Episode 7') {
+        episodeName = 'Hunting';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 2 Episode 7');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 2 Episode 8') {
+        episodeName = 'The Mistake';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 2 Episode 8');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 2 Episode 9') {
+        episodeName = 'Deception';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 2 Episode 9');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 2 Episode 10') {
+        episodeName = 'Failure to Communicate';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 2 Episode 10');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 2 Episode 11') {
+        episodeName = 'Need to Know';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 2 Episode 11');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 2 Episode 12') {
+        episodeName = 'Distractions';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 2 Episode 12');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 2 Episode 13') {
+        episodeName = 'Skin Deep';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 2 Episode 13');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 2 Episode 14') {
+        episodeName = 'Sex Kills';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 2 Episode 14');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 2 Episode 15') {
+        episodeName = 'Clueless';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 2 Episode 15');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 2 Episode 16') {
+        episodeName = 'Safe';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 2 Episode 16');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 2 Episode 17') {
+        episodeName = 'All In';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 2 Episode 17');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 2 Episode 18') {
+        episodeName = 'Sleeping Dogs Lie';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 2 Episode 18');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+
+    } else if (episodeX == 'Season 2 Episode 19') {
+        episodeName = 'House vs. God';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 2 Episode 19');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 2 Episode 20') {
+        episodeName = 'Euphoria: part 1';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 2 Episode 20');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 2 Episode 21') {
+        episodeName = 'Euphoria: part 2';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 2 Episode 21');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 2 Episode 22') {
+        episodeName = 'Forever';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 2 Episode 22');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 2 Episode 23') {
+        episodeName = "Who's Your Daddy?";
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 2 Episode 23');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 2 Episode 24') {
+        episodeName = 'No Reason';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 2 Episode 24');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 3 Episode 1') {
+        episodeName = 'Meaning';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 3 Episode 1');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 3 Episode 2') {
+        episodeName = 'Cane and Able';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 3 Episode 2');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 3 Episode 3') {
+        episodeName = 'Informed Consent';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 3 Episode 3');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 3 Episode 4') {
+        episodeName = 'Lines in the Sand';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 3 Episode 4');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 3 Episode 5') {
+        episodeName = 'Fools for Love';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 3 Episode 5');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 3 Episode 6') {
+        episodeName = 'Que Será Será';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase() || episodeGuess.value == 'Que Sera Sera') {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 3 Episode 6');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 3 Episode 7') {
+        episodeName = 'Son of Coma Guy';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 3 Episode 7');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 3 Episode 8') {
+        episodeName = 'Whac-A-Mole';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 3 Episode 8');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 3 Episode 9') {
+        episodeName = 'Finding Judas';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 3 Episode 9');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 3 Episode 10') {
+        episodeName = 'Merry Little Christmas';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 3 Episode 10');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 3 Episode 11') {
+        episodeName = 'Words and Deeds';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 3 Episode 11');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 3 Episode 12') {
+        episodeName = 'One Day, One Room';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 3 Episode 12');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 3 Episode 13') {
+        episodeName = 'Needle in a Haystack';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 3 Episode 13');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 3 Episode 14') {
+        episodeName = 'Insensitive';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 3 Episode 14');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 3 Episode 15') {
+        episodeName = 'Half-wit';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 3 Episode 15');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 3 Episode 16') {
+        episodeName = 'Top Secret';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 3 Episode 16');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 3 Episode 17') {
+        episodeName = 'Fetal Position';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 3 Episode 17');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 3 Episode 18') {
+        episodeName = 'Airborne';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 3 Episode 18');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 3 Episode 19') {
+        episodeName = 'Act Your Age';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 3 Episode 19');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 3 Episode 20') {
+        episodeName = 'House Training';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 3 Episode 20');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 3 Episode 21') {
+        episodeName = 'Family';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 3 Episode 21');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 3 Episode 22') {
+        episodeName = 'Resignation';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 3 Episode 22');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 3 Episode 23') {
+        episodeName = 'The Jerk';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 3 Episode 23');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 3 Episode 24') {
+        episodeName = 'Human Error';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 3 Episode 24');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 4 Episode 1') {
+        episodeName = 'Alone';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 4 Episode 1');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 4 Episode 2') {
+        episodeName = 'The Right Stuff';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 4 Episode 2');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 4 Episode 3') {
+        episodeName = '97 Seconds';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 4 Episode 3');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 4 Episode 4') {
+        episodeName = 'Guardian Angels';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 4 Episode 4');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 4 Episode 5') {
+        episodeName = 'Mirror Mirror';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 4 Episode 5');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 4 Episode 6') {
+        episodeName = 'Whatever It Takes';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 4 Episode 6');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 4 Episode 7') {
+        episodeName = 'Ugly';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 4 Episode 7');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 4 Episode 8') {
+        episodeName = "You Don't Want to Know";
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 4 Episode 8');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 4 Episode 9') {
+        episodeName = 'Games';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 4 Episode 9');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 4 Episode 10') {
+        episodeName = "It's a Wonderful Lie";
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 4 Episode 10');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 4 Episode 11') {
+        episodeName = 'Frozen';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 4 Episode 11');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 4 Episode 12') {
+        episodeName = "Don't Ever Change";
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 4 Episode 12');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 4 Episode 13') {
+        episodeName = 'No More Mr. Nice Guy';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 4 Episode 13');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 4 Episode 14') {
+        episodeName = 'Living the Dream';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 4 Episode 14');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 4 Episode 15') {
+        episodeName = "House's Head";
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 4 Episode 15');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 4 Episode 16') {
+        episodeName = "Wilson's Heart";
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 4 Episode 16');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 5 Episode 1') {
+        episodeName = 'Dying Changes Everything';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 5 Episode 1');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 5 Episode 2') {
+        episodeName = 'Not Cancer';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 5 Episode 2');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 5 Episode 3') {
+        episodeName = 'Adverse Events';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 5 Episode 3');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 5 Episode 4') {
+        episodeName = 'Birthmarks';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 5 Episode 4');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 5 Episode 5') {
+        episodeName = 'Lucky Thirteen';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 5 Episode 5');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 5 Episode 6') {
+        episodeName = 'Joy';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 5 Episode 6');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 5 Episode 7') {
+        episodeName = 'The Itch';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 5 Episode 7');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 5 Episode 8') {
+        episodeName = 'Emancipation';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 5 Episode 8');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 5 Episode 9') {
+        episodeName = 'Last Resort';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 5 Episode 9');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 5 Episode 10') {
+        episodeName = 'Let Them Eat Cake';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 5 Episode 10');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 5 Episode 11') {
+        episodeName = 'Joy to the World';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 5 Episode 11');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 5 Episode 12') {
+        episodeName = 'Painless';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 5 Episode 12');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 5 Episode 13') {
+        episodeName = 'Big Baby';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 5 Episode 13');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 5 Episode 14') {
+        episodeName = 'The Greater Good';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 5 Episode 14');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 5 Episode 15') {
+        episodeName = 'Unfaithful';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 5 Episode 15');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 5 Episode 16') {
+        episodeName = 'The Softer Side';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 5 Episode 16');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 5 Episode 17') {
+        episodeName = 'The Social Contract';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 5 Episode 17');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 5 Episode 18') {
+        episodeName = 'Here Kitty';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 5 Episode 18');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 5 Episode 19') {
+        episodeName = 'Locked In';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 5 Episode 19');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 5 Episode 20') {
+        episodeName = 'Simple Explanation';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 5 Episode 20');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 5 Episode 21') {
+        episodeName = 'Saviors';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 5 Episode 21');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 5 Episode 22') {
+        episodeName = 'House Divided';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 5 Episode 22');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 5 Episode 23') {
+        episodeName = 'Under My Skin';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 5 Episode 23');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 5 Episode 24') {
+        episodeName = 'Both Sides Now';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 5 Episode 24');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 6 Episode 1') {
+        episodeName = 'Broken';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 6 Episode 1');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 6 Episode 2') {
+        episodeName = 'Epic Fail';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 6 Episode 2');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 6 Episode 3') {
+        episodeName = 'The Tyrant';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 6 Episode 3');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 6 Episode 4') {
+        episodeName = 'Instant Karma';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 6 Episode 4');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 6 Episode 5') {
+        episodeName = 'Brave Heart';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 6 Episode 5');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 6 Episode 6') {
+        episodeName = 'Known Unknows';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 6 Episode 6');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 6 Episode 7') {
+        episodeName = 'Teamwork';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 6 Episode 7');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 6 Episode 8') {
+        episodeName = 'Ignorance Is Bliss';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 6 Episode 8');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 6 Episode 9') {
+        episodeName = 'Wilson';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 6 Episode 9');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 6 Episode 10') {
+        episodeName = 'The Down Low';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 6 Episode 10');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 6 Episode 11') {
+        episodeName = 'Remorse';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 6 Episode 11');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 6 Episode 12') {
+        episodeName = 'Moving the Chains';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 6 Episode 12');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 6 Episode 13') {
+        episodeName = '5 to 9';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 6 Episode 13');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 6 Episode 14') {
+        episodeName = 'Private Lives';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 6 Episode 14');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 6 Episode 15') {
+        episodeName = 'Black Hole';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 6 Episode 15');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 6 Episode 16') {
+        episodeName = 'Lockdown';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 6 Episode 16');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 6 Episode 17') {
+        episodeName = 'Knight Fall';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 6 Episode 17');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 6 Episode 18') {
+        episodeName = 'Open and Shut';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 6 Episode 18');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 6 Episode 19') {
+        episodeName = 'The Choice';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 6 Episode 19');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 6 Episode 20') {
+        episodeName = 'Baggage';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 6 Episode 20');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 6 Episode 21') {
+        episodeName = 'Help Me';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 6 Episode 21');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 7 Episode 1') {
+        episodeName = 'Now What?';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 7 Episode 1');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 7 Episode 2') {
+        episodeName = 'Selfish';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 7 Episode 2');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 7 Episode 3') {
+        episodeName = 'Unwritten';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 7 Episode 3');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 7 Episode 4') {
+        episodeName = 'Massage Therapy';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 7 Episode 4');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 7 Episode 5') {
+        episodeName = 'Unplanned Parenthood';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 7 Episode 5');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 7 Episode 6') {
+        episodeName = 'Office Politics';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 7 Episode 6');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 7 Episode 7') {
+        episodeName = 'A Pox on Our House';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 7 Episode 7');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 7 Episode 8') {
+        episodeName = 'Small Sacrifices';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 7 Episode 8');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 7 Episode 9') {
+        episodeName = 'Larger than Life';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 7 Episode 9');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 7 Episode 10') {
+        episodeName = 'Carrot or Stick';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 7 Episode 10');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 7 Episode 11') {
+        episodeName = 'Family Practice';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 7 Episode 11');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 7 Episode 12') {
+        episodeName = 'You Must Remember This';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 7 Episode 12');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 7 Episode 13') {
+        episodeName = 'Two Stories';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 7 Episode 13');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 7 Episode 14') {
+        episodeName = 'Recession Proof';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 7 Episode 14');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 7 Episode 15') {
+        episodeName = 'BombShells';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 7 Episode 15');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 7 Episode 16') {
+        episodeName = 'Out of the Chute';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 7 Episode 16');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 7 Episode 17') {
+        episodeName = 'Fall from Grace';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 7 Episode 17');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 7 Episode 18') {
+        episodeName = 'The Dig';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 7 Episode 18');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 7 Episode 19') {
+        episodeName = 'Last Temptation';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 7 Episode 19');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 7 Episode 20') {
+        episodeName = 'Changes';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 7 Episode 20');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    } else if (episodeX == 'Season 7 Episode 21') {
+        episodeName = 'The Fix';
+        if (episodeGuess.value == episodeName || episodeGuessEasy.toLowerCase() == episodeName.toLowerCase()) {
+            correct();
+        } else if (episodeGuess.Value !== episodeName) {
+            incorrect();
+        }
+        updateStat();
+        if (noRepeatButt == true) {
+            episodePreDelete = episodes.indexOf('Season 7 Episode 21');
+            episodeDelete = episodes.splice(episodePreDelete, 1);
+        }
+    }
+}
+function correct() {
+    wrongOrRight.textContent = 'Right';
+    wrongOrRight.style.color = 'green';
+    document.getElementById('housePNG').src = "houseHappy.png";
+    ++totCorrect;
+}
+function incorrect() {
+    wrongOrRight.textContent = 'Wrong - ' + episodeName;
+    wrongOrRight.style.color = 'red';
+    document.getElementById('housePNG').src = "houseSad.png";
 }
