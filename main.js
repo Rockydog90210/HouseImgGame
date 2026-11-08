@@ -1,23 +1,23 @@
 placeGuess = document.getElementById('submitGuess')
-    const episodeGuess = document.getElementById('episodeGuess')
-    wrongOrRight = document.getElementById('wrongOrRight')
-    playAgain = document.getElementById('playAgain')
-    noRepeatFun = document.getElementById('noRepeatButtion')
-    hardModeButton = document.getElementById('hardModeEnable')
-    easyModeButton = document.getElementById('easyModeEnable')
+const episodeGuess = document.getElementById('episodeGuess')
+wrongOrRight = document.getElementById('wrongOrRight')
+playAgain = document.getElementById('playAgain')
+noRepeatFun = document.getElementById('noRepeatButtion')
+hardModeButton = document.getElementById('hardModeEnable')
+easyModeButton = document.getElementById('easyModeEnable')
 
-    Correct = document.getElementById('Right')
-    Incorrect = document.getElementById('Wrong')
-    Percent = document.getElementById('Percent')
+Correct = document.getElementById('Right')
+Incorrect = document.getElementById('Wrong')
+Percent = document.getElementById('Percent')
 
-    var totCorrect = 0;
+var totCorrect = 0;
 var totWrong = 0;
 let alreadyGussed = false
-    let noRepeatButt = false
-    let hardMode = false
-    let easyMode = false
+let noRepeatButt = false
+let hardMode = false
+let easyMode = false
 
-    window.addEventListener('load', restartArray);
+window.addEventListener('load', restartArray);
 window.addEventListener('load', tryAgain);
 noRepeatFun.addEventListener('click', toggleRepeat);
 hardModeButton.addEventListener('click', hardModeToggle);
@@ -102,6 +102,9 @@ function tryAgain() {
     episodeGuess.value = '';
     episodeGuessEasy = '';
     alreadyGussed = false;
+	if (episodes.length == 0) {
+		restartArray();
+	}
 }
 function updateImg() {
     if (episodeX == 'Season 1 Episode 1') {
@@ -422,4 +425,15 @@ function incorrect() {
     wrongOrRight.textContent = 'Wrong - ' + episodeName;
     wrongOrRight.style.color = 'red';
     document.getElementById('housePNG').src = "houseSad.png";
+}
+
+function debugMode() {
+	setInterval(debugModeStart, 500);
+}
+function debugModeStart(){
+	tryAgain();
+	check2();
+	wrongOrRight.textContent = episodeName;
+	wrongOrRight.style.color = 'black';
+	wrongOrRight.style.fontSize ='50px';
 }
