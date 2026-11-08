@@ -1,23 +1,23 @@
 placeGuess = document.getElementById('submitGuess')
-const episodeGuess = document.getElementById('episodeGuess')
-wrongOrRight = document.getElementById('wrongOrRight')
-playAgain = document.getElementById('playAgain')
-noRepeatFun = document.getElementById('noRepeatButtion')
-hardModeButton = document.getElementById('hardModeEnable')
-easyModeButton = document.getElementById('easyModeEnable')
+    const episodeGuess = document.getElementById('episodeGuess')
+    wrongOrRight = document.getElementById('wrongOrRight')
+    playAgain = document.getElementById('playAgain')
+    noRepeatFun = document.getElementById('noRepeatButtion')
+    hardModeButton = document.getElementById('hardModeEnable')
+    easyModeButton = document.getElementById('easyModeEnable')
 
-Correct = document.getElementById('Right')
-Incorrect = document.getElementById('Wrong')
-Percent = document.getElementById('Percent')
+    Correct = document.getElementById('Right')
+    Incorrect = document.getElementById('Wrong')
+    Percent = document.getElementById('Percent')
 
-var totCorrect = 0;
+    var totCorrect = 0;
 var totWrong = 0;
 let alreadyGussed = false
-let noRepeatButt = false
-let hardMode = false
-let easyMode = false
+    let noRepeatButt = false
+    let hardMode = false
+    let easyMode = false
 
-window.addEventListener('load', restartArray);
+    window.addEventListener('load', restartArray);
 window.addEventListener('load', tryAgain);
 noRepeatFun.addEventListener('click', toggleRepeat);
 hardModeButton.addEventListener('click', hardModeToggle);
@@ -95,16 +95,16 @@ function restartArray() {
 
 function tryAgain() {
     episodeX = randomValueFromArray(episodes);
-    // episodeX = 'Season 1 Episode 10';
+    //episodeX = 'Season 1 Episode 1';
     updateImg();
     wrongOrRight.textContent = '';
     document.getElementById('housePNG').src = "houseNet.png";
     episodeGuess.value = '';
     episodeGuessEasy = '';
     alreadyGussed = false;
-	if (episodes.length == 0) {
-		restartArray();
-	}
+    if (episodes.length == 0) {
+        restartArray();
+    }
 }
 function updateImg() {
     if (episodeX == 'Season 1 Episode 1') {
@@ -256,7 +256,6 @@ function updateImg() {
 
     }
 }
-
 function check() {
     if (alreadyGussed == false) {
         check2();
@@ -266,7 +265,6 @@ function check() {
         alreadyGussed = false;
     }
 }
-
 function check2() {
     if (easyMode == true) {
         episodeGuessEasy = episodeGuess.value.toLowerCase();
@@ -426,14 +424,72 @@ function incorrect() {
     wrongOrRight.style.color = 'red';
     document.getElementById('housePNG').src = "houseSad.png";
 }
-
 function debugMode() {
-	setInterval(debugModeStart, 500);
+    setInterval(debugModeStart, 500);
 }
-function debugModeStart(){
-	tryAgain();
-	check2();
-	wrongOrRight.textContent = episodeName;
-	wrongOrRight.style.color = 'black';
-	wrongOrRight.style.fontSize ='50px';
+function debugModeStart() {
+    tryAgain();
+    check2();
+    wrongOrRight.textContent = episodeName;
+    wrongOrRight.style.color = 'black';
+    wrongOrRight.style.fontSize = '50px';
+}
+
+function updateImgOrder() {
+	setInterval(updateImgOrderStart, 500);
+       
+}
+function updateImgOrderStart() {
+	if (pilotArray.length !== 0) {
+		episodex = 'Season 1 Episode 1';
+		episodeImg = pilotArray[0];
+		document.getElementById('episodePNG').src = episodeImg; 
+		pilotArray.shift();
+	} else if (paternityArray.length !== 0) {
+		episodex = 'Season 1 Episode 2';
+		episodeImg = paternityArray[0];
+		document.getElementById('episodePNG').src = episodeImg; 
+		paternityArray.shift();
+	} else if (occamArray.length !== 0) {
+		episodex = 'Season 1 Episode 3';
+		episodeImg = occamArray[0];
+		document.getElementById('episodePNG').src = episodeImg; 
+		occamArray.shift();
+	}else if (MaternityArray.length !== 0) {
+		episodex = 'Season 1 Episode 4';
+		episodeImg = MaternityArray[0];
+		document.getElementById('episodePNG').src = episodeImg; 
+		MaternityArray.shift();
+	}else if (DamnedArray.length !== 0) {
+		episodex = 'Season 1 Episode 5';
+		episodeImg = DamnedArray[0];
+		document.getElementById('episodePNG').src = episodeImg; 
+		DamnedArray.shift();
+	}else if (MethodArray.length !== 0) {
+		episodex = 'Season 1 Episode 6';
+		episodeImg = MethodArray[0];
+		document.getElementById('episodePNG').src = episodeImg; 
+		MethodArray.shift();
+	}else if (FidelityArray.length !== 0) {
+		episodex = 'Season 1 Episode 7';
+		episodeImg = FidelityArray[0];
+		document.getElementById('episodePNG').src = episodeImg; 
+		FidelityArray.shift();
+	}else if (PoisonArray.length !== 0) {
+		episodex = 'Season 1 Episode 8';
+		episodeImg = PoisonArray[0];
+		document.getElementById('episodePNG').src = episodeImg; 
+		PoisonArray.shift();
+	}else if (DNRArray.length !== 0) {
+		episodex = 'Season 1 Episode 9';
+		episodeImg = DNRArray[0];
+		document.getElementById('episodePNG').src = episodeImg; 
+		DNRArray.shift();
+	}else if (HistoriesArray.length !== 0) {
+		episodex = 'Season 1 Episode 10';
+		episodeImg = HistoriesArray[0];
+		document.getElementById('episodePNG').src = episodeImg; 
+		HistoriesArray.shift();
+	}
+	restartArray();
 }
