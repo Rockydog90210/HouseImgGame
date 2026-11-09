@@ -436,15 +436,15 @@ function debugModeStart() {
 }
 
 function updateImgOrder() {
-	setInterval(updateImgOrderStart, 500);
+	setInterval(updateImgOrderStart, 1000);
        
 }
 function updateImgOrderStart() {
 	if (pilotArray.length !== 0) {
 		episodex = 'Season 1 Episode 1';
-		episodeImg = pilotArray[0];
+		episodeImg = pilotArray[0]; 
 		document.getElementById('episodePNG').src = episodeImg; 
-		pilotArray.shift();
+		pilotArray.shift(); 
 	} else if (paternityArray.length !== 0) {
 		episodex = 'Season 1 Episode 2';
 		episodeImg = paternityArray[0];
@@ -490,6 +490,8 @@ function updateImgOrderStart() {
 		episodeImg = HistoriesArray[0];
 		document.getElementById('episodePNG').src = episodeImg; 
 		HistoriesArray.shift();
+	} else if (episodes.length !==0) {
+		restartArray();
 	}
-	restartArray();
+	
 }
