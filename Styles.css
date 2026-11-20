@@ -1,5 +1,9 @@
+html{
+	height:100%;
+}
 body{
-	background-color:#89a9b7;
+	height:100%;
+	background-color:#b1d3e2;
 	 overflow-x: hidden;
 }
 .tittle {
@@ -29,7 +33,7 @@ body{
 	width:100%;
 }
 #housePNG{
-	width:99%;
+	width:100%;
 }
 .centerPlease{
 	display: block;
@@ -41,13 +45,17 @@ body{
 	background-color:#9ec2d3;
 	
 }
+
 .guessDiv{
 	padding-bottom:5%;
 	background-color:#b1d3e2;
 	width:100vh;
+	width:100%;
 	margin:auto;
 }
 .footer{
 	background-color:#89a9b7;
-	width:100%;
+	width:100&;
+	max-height:100vh;
+	box-shadow: 0 50vh 0 50vh #89a9b7;;
 }
